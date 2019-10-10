@@ -1,0 +1,15 @@
+[Unit]
+ConditionKernelCommandLine=czechlight=%i
+Description=nghttpx reverse proxy for handling incoming HTTP requests
+Documentation=man:nghttpx
+After=network.target
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/nghttpx -f '*,80;no-tls' -b '::1,81;;proto=h2' --conf /usr/share/gammarus/nghttpx-conf/%i.conf
+ExecReload=/bin/kill --signal HUP $MAINPID
+KillSignal=SIGQUIT
+PrivateTmp=no
+ProtectHome=yes
+ProtectSystem=full
+Restart=always
