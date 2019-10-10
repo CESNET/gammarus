@@ -1,0 +1,13 @@
+- job:
+    name: czechlight-gammarus-dashboard
+    parent: run-ci-build-sh
+    success-url: docs/index.html
+
+- job:
+    name: czechlight-gammarus-sdn-roadm-line
+    parent: czechlight-gammarus-dashboard
+
+- project:
+    check:
+      jobs:
+        - czechlight-gammarus-sdn-roadm-line
