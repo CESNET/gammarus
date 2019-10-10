@@ -1,0 +1,11 @@
+[Unit]
+Description=hackishly execute the full-spectrum-scan sysrepo RPC
+ConditionKernelCommandLine=|czechlight=sdn-roadm-line
+ConditionKernelCommandLine=|czechlight=sdn-roadm-add-drop
+Requires=restconf-full-spectrum-scan.socket
+
+[Service]
+ExecStart=-/usr/bin/restconf-full-spectrum-scan.sh
+StandardInput=socket
+StandardError=journal
+Restart=no

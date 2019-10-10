@@ -1,0 +1,9 @@
+[Unit]
+Description=socket for communication w/ sysrepo RESTCONF hackish GW
+ConditionKernelCommandLine=|czechlight=sdn-roadm-line
+ConditionKernelCommandLine=|czechlight=sdn-roadm-add-drop
+PartOf=restconf-full-spectrum-scan@.service
+
+[Socket]
+ListenStream=/run/restconf-scan.sock
+Accept=yes
