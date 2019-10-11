@@ -1,0 +1,11 @@
+[Unit]
+Description=hackishly execute the full-spectrum-scan sysrepo RPC
+ConditionKernelCommandLine=|czechlight=sdn-roadm-line
+ConditionKernelCommandLine=|czechlight=sdn-roadm-add-drop
+After=network.target sysrepod.service cla-sdn-roadm-line.service cla-sdn-roadm-add-drop.service
+Before=nghttpx@.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/socat UNIX-LISTEN:/run/restconf-data.sock,unlink-early,unlink-close,fork EXEC:/usr/bin/restconf-data.sh
+Restart=always

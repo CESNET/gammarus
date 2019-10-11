@@ -10,7 +10,7 @@ restconf-full-spectrum-scan.sh: templates/restconf-wrapper-begin.sh
 
 .PHONY: install install-binaries install-services install-static-files install-nghttpx-device-specific
 
-install-binaries: restconf-full-spectrum-scan.sh
+install-binaries: restconf-full-spectrum-scan.sh restconf-data.sh
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp $^ $(DESTDIR)$(PREFIX)/bin
 
