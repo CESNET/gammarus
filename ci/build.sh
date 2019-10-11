@@ -21,3 +21,4 @@ done
 echo '</ul><hr/><pre>' >> ${HTML}
 cat tree-output >> ${HTML}
 echo '</html>' >> ${HTML}
+cp -a dummy ${WEBROOT}/
