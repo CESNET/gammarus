@@ -730,6 +730,11 @@
         "name": "61 (100GHz)",
         "lower-frequency": "196050000",
         "upper-frequency": "196150000"
+      },
+      {
+        "name": "Cisco superchannel",
+        "lower-frequency": "195575000",
+        "upper-frequency": "195825000"
       }
     ]
   },
@@ -738,26 +743,76 @@
       "channel": "C-band (OCM)",
       "description": "Whole-band overview",
       "power": {
-        "common-in": "-13.51",
-        "common-out": "5.19"
+        "common-in": "-17.12",
+        "common-out": "-6.31"
+      }
+    },
+    {
+      "channel": "Cisco superchannel",
+      "add": {
+        "port": "E8",
+        "power": "-5.0"
+      },
+      "drop": {
+        "port": "E8",
+        "power": "-12.0"
+      },
+      "description": "Cisco superchannel",
+      "power": {
+        "common-in": "-18.3",
+        "common-out": "-14.38",
+        "leaf-in": "-24.14",
+        "leaf-out": "-12.09"
       }
     },
     {
       "channel": "56.0",
-      "add": {
-        "port": "E1",
-        "attenuation": "10.0"
-      },
-      "drop": {
-        "port": "E1",
-        "attenuation": "10.0"
-      },
       "description": "lower",
       "power": {
-        "common-in": "-35.5",
-        "common-out": "-24.29",
-        "leaf-in": "-34.57",
-        "leaf-out": "-19.62"
+        "common-in": "-40.49",
+        "common-out": "-21.76",
+        "leaf-in": "-31.71",
+        "leaf-out": "-32.76"
+      }
+    },
+    {
+      "channel": "56.5",
+      "description": "Cisco 1",
+      "power": {
+        "common-in": "-23.39",
+        "common-out": "-21.2",
+        "leaf-in": "-31.16",
+        "leaf-out": "-17.21"
+      }
+    },
+    {
+      "channel": "57.0",
+      "description": "Cisco 2",
+      "power": {
+        "common-in": "-22.97",
+        "common-out": "-21.17",
+        "leaf-in": "-31.14",
+        "leaf-out": "-16.79"
+      }
+    },
+    {
+      "channel": "57.5",
+      "description": "Cisco 3",
+      "power": {
+        "common-in": "-23.19",
+        "common-out": "-21.18",
+        "leaf-in": "-30.96",
+        "leaf-out": "-16.93"
+      }
+    },
+    {
+      "channel": "58.0",
+      "description": "upper",
+      "power": {
+        "common-in": "-35.62",
+        "common-out": "-21.56",
+        "leaf-in": "-30.76",
+        "leaf-out": "-30.2"
       }
     },
     {
@@ -772,87 +827,33 @@
       },
       "description": "SFP 54",
       "power": {
-        "common-in": "-33.93",
-        "common-out": "4.64",
-        "leaf-in": "-10.31",
-        "leaf-out": "-21.79"
+        "common-in": "-41.33",
+        "common-out": "-17.68",
+        "leaf-in": "-27.87",
+        "leaf-out": "-31.75"
       }
     },
     {
-      "channel": "56.5",
+      "channel": "33.0",
       "add": {
         "port": "E1",
-        "attenuation": "10.0"
+        "attenuation": "15.0"
       },
       "drop": {
         "port": "E1",
-        "attenuation": "10.0"
+        "attenuation": "15.0"
       },
-      "description": "Cisco 1",
+      "description": "coriant",
       "power": {
-        "common-in": "-23.47",
-        "common-out": "-24.05",
-        "leaf-in": "-34.6",
-        "leaf-out": "-3.93"
-      }
-    },
-    {
-      "channel": "57.0",
-      "add": {
-        "port": "E1",
-        "attenuation": "10.0"
-      },
-      "drop": {
-        "port": "E1",
-        "attenuation": "10.0"
-      },
-      "description": "Cisco 2",
-      "power": {
-        "common-in": "-23.08",
-        "common-out": "-23.81",
-        "leaf-in": "-34.6",
-        "leaf-out": "-3.54"
-      }
-    },
-    {
-      "channel": "57.5",
-      "add": {
-        "port": "E1",
-        "attenuation": "10.0"
-      },
-      "drop": {
-        "port": "E1",
-        "attenuation": "10.0"
-      },
-      "description": "Cisco 3",
-      "power": {
-        "common-in": "-23.33",
-        "common-out": "-23.71",
-        "leaf-in": "-34.51",
-        "leaf-out": "-3.7"
-      }
-    },
-    {
-      "channel": "58.0",
-      "add": {
-        "port": "E1",
-        "attenuation": "10.0"
-      },
-      "drop": {
-        "port": "E1",
-        "attenuation": "10.0"
-      },
-      "description": "upper",
-      "power": {
-        "common-in": "-34.17",
-        "common-out": "-23.68",
-        "leaf-in": "-34.41",
-        "leaf-out": "-17.96"
+        "common-in": "-43.42",
+        "common-out": "-27.06",
+        "leaf-in": "-19.46",
+        "leaf-out": "-40.0"
       }
     }
   ],
   "czechlight-roadm-device:aggregate-power": {
-    "common-in": "-20.78",
-    "common-out": "4.03"
+    "common-in": "-21.6",
+    "common-out": "-6.11"
   }
 }
