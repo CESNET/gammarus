@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f5b2d788_f45af5d4",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-10-17T17:14:26Z",
+      "side": 1,
+      "message": "myslim si, ze by to s tim window.location.href + ... nefungovalo, pokud by URL obsahovala index.html",
+      "revId": "93fe4bd394c67dffdcc84067535828bddcac2eac",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6c9ca7dc_9adedfd1",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-10-17T17:14:26Z",
+      "side": 1,
+      "message": "jeste prosim popisky -- na osu x neco jako \"Frequency [THz]\", na osy y neco jako \"Power [dBm]\"",
+      "revId": "93fe4bd394c67dffdcc84067535828bddcac2eac",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b667355f_95966620",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-10-17T17:14:26Z",
+      "side": 1,
+      "message": "idealne a v budoucnu :) by bylo fajn, aby tenhle skript byl spolecny i pro Add/Drop s nejakym predkonfigurovanim labelu -- ale to pocka.",
+      "revId": "93fe4bd394c67dffdcc84067535828bddcac2eac",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c4dfdde5_83ef38a2",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-10-17T17:14:26Z",
+      "side": 1,
+      "message": "slo by nejak zajistit, aby ten panning nesel mimo oblast dat?",
+      "revId": "93fe4bd394c67dffdcc84067535828bddcac2eac",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e88696ae_86467118",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-10-17T17:14:26Z",
+      "side": 1,
+      "message": "A jeste dalsi vec, kdyz ten graf posouvam treba smerem doleva, a blizi se okamzik, kdy se label na ose X potkava s osou Y, tak se ten label otoci o 45° , aby nekolidoval s pocatkem souradnic, a v tomhle okamziku se cely graf posune. Tak takovy maly wishlist, jestli se to da vypnout.",
+      "revId": "93fe4bd394c67dffdcc84067535828bddcac2eac",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": true
+    }
+  ]
+}
