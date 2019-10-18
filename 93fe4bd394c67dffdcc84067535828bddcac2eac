@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "1d4fb21e_cc9db7d1",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000056
+      },
+      "writtenOn": "2019-10-18T13:24:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6c9ca7dc_9adedfd1",
+      "revId": "93fe4bd394c67dffdcc84067535828bddcac2eac",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b667355f_95966620",
         "filename": "sdn-roadm-line/graphs.js",
         "patchSetId": 2
@@ -70,6 +88,24 @@
     },
     {
       "key": {
+        "uuid": "a14a35e9_32239648",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000056
+      },
+      "writtenOn": "2019-10-18T13:24:09Z",
+      "side": 1,
+      "message": "Nějak jsem to udělal, mrkni, jestli ti to přijde dobrý",
+      "parentUuid": "c4dfdde5_83ef38a2",
+      "revId": "93fe4bd394c67dffdcc84067535828bddcac2eac",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e88696ae_86467118",
         "filename": "sdn-roadm-line/graphs.js",
         "patchSetId": 2
@@ -84,6 +120,24 @@
       "revId": "93fe4bd394c67dffdcc84067535828bddcac2eac",
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3e1d3417_2cb1d434",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1000056
+      },
+      "writtenOn": "2019-10-18T13:24:09Z",
+      "side": 1,
+      "message": "Vypnul jsem to",
+      "parentUuid": "e88696ae_86467118",
+      "revId": "93fe4bd394c67dffdcc84067535828bddcac2eac",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": false
     }
   ]
 }
