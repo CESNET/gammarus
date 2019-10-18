@@ -106,6 +106,24 @@
     },
     {
       "key": {
+        "uuid": "202a2d37_7362b4b9",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000056
+      },
+      "writtenOn": "2019-10-18T13:57:26Z",
+      "side": 1,
+      "message": "Ještě jsem to vylepšil, teď si myslim, že to je dobrý",
+      "parentUuid": "a14a35e9_32239648",
+      "revId": "93fe4bd394c67dffdcc84067535828bddcac2eac",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e88696ae_86467118",
         "filename": "sdn-roadm-line/graphs.js",
         "patchSetId": 2
