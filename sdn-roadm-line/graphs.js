@@ -32,6 +32,9 @@ const getData = async () => {
 }
 
 
+/** @param {Value[]} data */
+const transformData = (data) => data.map((value) => { return {x: value.frequency / 1000000, y: value.power}; }).sort((a, b) => a.x - b.x);
+
 const main = async () => {
     let oldXmin;
     let oldXmax;
@@ -44,11 +47,11 @@ const main = async () => {
     /** @type {Data} */
     const innerData = data['czechlight-roadm-device:full-spectrum-scan'];
 
-    let commonInData = innerData['common-in'].map((value) => { return {x: value.frequency / 1000000, y: value.power}; }).sort((a, b) => a.x - b.x);
-    let commonOutData = innerData['common-out'].map((value) => { return {x: value.frequency / 1000000, y: value.power}; }).sort((a, b) => a.x - b.x);
+    let commonInData = transformData(innerData['common-in']);
+    let commonOutData = transformData(innerData['common-out']);
 
 
-    new Chart(ctx, {
+    let myChart = new Chart(ctx, {
         type: 'scatter',
         data: {
             datasets: [
@@ -173,6 +176,23 @@ const main = async () => {
             }
         }
     });
+
+    const refreshFunction = async () => {
+        /** @type Input */
+        const data = await getData();
+
+        /** @type {Data} */
+        const innerData = data['czechlight-roadm-device:full-spectrum-scan'];
+
+        let commonInData = transformData(innerData['common-in']);
+        let commonOutData = transformData(innerData['common-out']);
+
+        myChart.data.datasets[0].data = commonInData;
+        myChart.data.datasets[1].data = commonOutData;
+        myChart.update();
+        setTimeout(refreshFunction, 500)
+    }
+    setTimeout(refreshFunction, 500);
 }
 
 
