@@ -27,34 +27,73 @@ const getData = async () => {
         url = "/+restconf/operations/czechlight-roadm-device:full-spectrum-scan";
     }
     const response = await fetch(url);
+    if (!response.ok) {
+        throw Error(`Data request didn't get a proper response (status=${response.status})`);
+    }
     const data = await response.json();
     return data;
 }
 
 
+/** @param {Value[]} data */
+const transformData = (data) => data.map((value) => { return {x: value.frequency / 1000000, y: value.power}; }).sort((a, b) => a.x - b.x);
+
+let ctx = document.getElementById('myChart');
+let errorElement = document.getElementById('error');
+
+/** @param {Chart} chart */
+const refreshFunction = async (chart) => {
+    if (!document.hasFocus()) {
+        setTimeout(refreshFunction, 500, chart);
+        return;
+    }
+
+    try {
+        /** @type Input */
+        const data = await getData();
+
+        /** @type {Data} */
+        const innerData = data['czechlight-roadm-device:full-spectrum-scan'];
+
+        let commonInData = transformData(innerData['common-in']);
+        let commonOutData = transformData(innerData['common-out']);
+
+        chart.options.plugins.zoom.zoom.rangeMin = {x: Math.floor(commonInData[0].x)};
+        chart.options.plugins.zoom.zoom.rangeMax = {x: Math.ceil(commonInData[commonInData.length - 1].x)};
+
+        chart.options.plugins.zoom.pan.rangeMin = {x: Math.floor(commonInData[0].x)};
+        chart.options.plugins.zoom.pan.rangeMax = {x: Math.ceil(commonInData[commonInData.length - 1].x)};
+
+        // If the user pans the chart before the first update comes in, the chart
+        // no longer automatically sets min/max of X (probably because
+        // the pan plugin sets it manually), so I have to set it manually too.
+        if (chart.data.datasets[0].data.length == 0) {
+            chart.options.scales.xAxes[0].ticks.min = chart.options.plugins.zoom.pan.rangeMin.x;
+            chart.options.scales.xAxes[0].ticks.max = chart.options.plugins.zoom.pan.rangeMax.x;
+        }
+
+        chart.data.datasets[0].data = commonInData;
+        chart.data.datasets[1].data = commonOutData;
+        chart.update();
+        ctx.style.backgroundColor = 'rgba(255,0,0,0)';
+        errorElement.innerText = "";
+    } catch (err) {
+        ctx.style.backgroundColor = 'rgba(255,224,224,255)';
+        errorElement.innerText = "Error: " + err.message;
+    }
+    setTimeout(refreshFunction, 500, chart)
+}
+
 const main = async () => {
     let oldXmin;
     let oldXmax;
 
-    let ctx = document.getElementById('myChart');
-
-    /** @type Input */
-    const data = await getData();
-
-    /** @type {Data} */
-    const innerData = data['czechlight-roadm-device:full-spectrum-scan'];
-
-    let commonInData = innerData['common-in'].map((value) => { return {x: value.frequency / 1000000, y: value.power}; }).sort((a, b) => a.x - b.x);
-    let commonOutData = innerData['common-out'].map((value) => { return {x: value.frequency / 1000000, y: value.power}; }).sort((a, b) => a.x - b.x);
-
-
-    new Chart(ctx, {
+    let myChart = new Chart(ctx, {
         type: 'scatter',
         data: {
             datasets: [
                 {
                     label: "Line IN",
-                    data: commonInData,
                     showLine: true,
                     lineTension: 0,
                     fill: false,
@@ -65,7 +104,6 @@ const main = async () => {
                 },
                 {
                     label: "Line OUT",
-                    data: commonOutData,
                     showLine: true,
                     lineTension: 0,
                     fill: false,
@@ -106,14 +144,12 @@ const main = async () => {
             plugins: {
                 zoom: {
                     pan: {
-                        rangeMin: {
-                            x: Math.floor(commonInData[0].x)
-                        },
-                        rangeMax: {
-                            x: Math.ceil(commonInData[commonInData.length - 1].x)
-                        },
                         enabled: true,
                         mode: 'x',
+                        rangeMin: {
+                        },
+                        rangeMax: {
+                        },
 
                         /**
                          * @param {{chart: Chart}} chart - An object, where the `chart` property is the actual Chart
@@ -124,12 +160,6 @@ const main = async () => {
                         }
                     },
                     zoom: {
-                        rangeMin: {
-                            x: Math.floor(commonInData[0].x)
-                        },
-                        rangeMax: {
-                            x: Math.ceil(commonInData[commonInData.length - 1].x)
-                        },
                         enabled: true,
                         mode: 'x',
 
@@ -150,8 +180,8 @@ const main = async () => {
                             }
 
                             let newRangeOffset = (chart.options.scales.xAxes[0].ticks.max - chart.options.scales.xAxes[0].ticks.min) / 10;
-                            chart.options.plugins.zoom.pan.rangeMin.x = commonInData[0].x - newRangeOffset;
-                            chart.options.plugins.zoom.pan.rangeMax.x = commonInData[commonInData.length - 1].x + newRangeOffset;
+                            chart.options.plugins.zoom.pan.rangeMin.x = chart.config.data.datasets[0].data[0].x - newRangeOffset;
+                            chart.options.plugins.zoom.pan.rangeMax.x = chart.config.data.datasets[0].data[chart.config.data.datasets[0].data.length - 1].x + newRangeOffset;
 
                             // The pan plugin doesn't react to changes of
                             // rangeMin and rangeMax immediately, so I have to
@@ -173,6 +203,8 @@ const main = async () => {
             }
         }
     });
+
+    refreshFunction(myChart);
 }
 
 
