@@ -46,13 +46,7 @@ let ctx = document.getElementById('myChart');
 let errorElement = document.getElementById('error');
 
 /** @param {Chart} chart */
-const refreshFunction = async (chart) => {
-    if (document.hidden) {
-        setTimeout(refreshFunction, 500, chart);
-        return;
-    }
-
-    try {
+const plotScan = async (chart) => {
         const data = await getData();
 
         /** @type {Data} */
@@ -80,6 +74,17 @@ const refreshFunction = async (chart) => {
         chart.update();
         ctx.style.backgroundColor = 'rgba(255,0,0,0)';
         errorElement.innerText = "";
+}
+
+/** @param {Chart} chart */
+const refreshFunction = async (chart) => {
+    if (document.hidden) {
+        setTimeout(refreshFunction, 500, chart);
+        return;
+    }
+
+    try {
+        plotScan(chart);
     } catch (err) {
         ctx.style.backgroundColor = 'rgba(255,224,224,255)';
         errorElement.innerText = "Error: " + err.message;
