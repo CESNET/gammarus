@@ -19,6 +19,8 @@
  * @property {Data} czechlight-roadm-device:full-spectrum-scan
  */
 
+
+/** @returns {Promise<Input>} */
 const getData = async () => {
     let url;
     if (window.location.href.match("logs")) {
@@ -38,6 +40,8 @@ const getData = async () => {
 /** @param {Value[]} data */
 const transformData = (data) => data.map((value) => { return {x: value.frequency / 1000000, y: value.power}; }).sort((a, b) => a.x - b.x);
 
+/** @type {HTMLCanvasElement} */
+// @ts-ignore - getElementById returns HTMLElement and I can't do type assertions (`as`) in JS.
 let ctx = document.getElementById('myChart');
 let errorElement = document.getElementById('error');
 
@@ -49,7 +53,6 @@ const refreshFunction = async (chart) => {
     }
 
     try {
-        /** @type Input */
         const data = await getData();
 
         /** @type {Data} */
@@ -116,7 +119,9 @@ const main = async () => {
             ],
         },
         options: {
-            animation: false,
+            animation: {
+                duration: 0
+            },
             scales: {
                 xAxes: [
                     {
@@ -151,9 +156,7 @@ const main = async () => {
                         rangeMax: {
                         },
 
-                        /**
-                         * @param {{chart: Chart}} chart - An object, where the `chart` property is the actual Chart
-                         */
+                        /** @param {{chart: Chart}} chart - An object, where the `chart` property is the actual Chart */
                         onPan: ({chart}) => {
                             oldXmin = chart.options.scales.xAxes[0].ticks.min;
                             oldXmax = chart.options.scales.xAxes[0].ticks.max;
@@ -163,9 +166,7 @@ const main = async () => {
                         enabled: true,
                         mode: 'x',
 
-                        /**
-                         * @param {{chart: Chart}} chart - An object, where the `chart` property is the actual Chart
-                         */
+                        /** @param {{chart: Chart}} chart - An object, where the `chart` property is the actual Chart */
                         onZoom: ({chart}) => {
                             let xmin = chart.options.scales.xAxes[0].ticks.min;
                             let xmax = chart.options.scales.xAxes[0].ticks.max;
@@ -180,7 +181,10 @@ const main = async () => {
                             }
 
                             let newRangeOffset = (chart.options.scales.xAxes[0].ticks.max - chart.options.scales.xAxes[0].ticks.min) / 10;
+
+                            // @ts-ignore - can't do type assertions (`as`) in JS.
                             chart.options.plugins.zoom.pan.rangeMin.x = chart.config.data.datasets[0].data[0].x - newRangeOffset;
+                            // @ts-ignore - can't do type assertions (`as`) in JS.
                             chart.options.plugins.zoom.pan.rangeMax.x = chart.config.data.datasets[0].data[chart.config.data.datasets[0].data.length - 1].x + newRangeOffset;
 
                             // The pan plugin doesn't react to changes of
