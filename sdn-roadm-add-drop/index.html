@@ -1,9 +1,29 @@
 <html>
-<head>
-<title>Add/Drop</title>
-</title>
-</head>
-<body>
-<h1>Add/Drop ROADM</h1>
-</body>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.4"></script>
+        <title>Add/Drop</title>
+        </title>
+        <style>
+            .error-message {
+                display: block;
+                transform: translate(-50%, -50%);
+                position: absolute;
+                top: 35%;
+                left: 50%;
+                text-align: center;
+                color: red;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Add/Drop ROADM</h1>
+        <div style="position: relative; width: 100%;">
+            <span class="error-message" id="error"></span>
+            <canvas id="myChart"></canvas>
+        </div>
+        <script src="graphs.js"></script>
+    </body>
 </html>
