@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8dea34d5_7df5a930",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-10-25T15:15:10Z",
+      "side": 1,
+      "message": "udelal bych si na to `bool showDummyData()`",
+      "revId": "ff17f111d07fc915e6c83f4c1156de94756be3d9",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "712f69b4_c19c4229",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-10-25T15:15:10Z",
+      "side": 1,
+      "message": "tohle neni dobre URL",
+      "revId": "ff17f111d07fc915e6c83f4c1156de94756be3d9",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "84dd5b26_22485d91",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-10-25T15:15:10Z",
+      "side": 1,
+      "message": "nevim, jak to ma JS, ale mame velky monitory, ja bych se \u003e80 znaku na radek nebal",
+      "range": {
+        "startLine": 149,
+        "startChar": 0,
+        "endLine": 150,
+        "endChar": 44
+      },
+      "revId": "ff17f111d07fc915e6c83f4c1156de94756be3d9",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": true
+    }
+  ]
+}
