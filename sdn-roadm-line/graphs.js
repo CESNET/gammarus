@@ -141,7 +141,9 @@ const main = async () => {
                             labelString: "Power [dBm]"
                         },
                         ticks: {
-                            maxRotation: 0
+                            maxRotation: 0,
+                            suggestedMin: -45.0,
+                            suggestedMax: 0.0,
                         }
                     }
                 ]
