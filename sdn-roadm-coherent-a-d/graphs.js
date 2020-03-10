@@ -79,9 +79,8 @@ const refreshFunction = async (chart) => {
             chart.data.datasets[3].data[port][1] = aggData['drop'];
             const leaf = leafData.filter((value) => { return value['port'] == port; })[0];
             chart.data.datasets[2].data[port][1] = leaf['input-power'];
-            try {
-                chart.data.labels[port] = leaf['description'];
-            } catch (err) {
+            chart.data.labels[port] = leaf['description'];
+            if (chart.data.labels[port] === undefined) {
                 chart.data.labels[port] = 'Client ' + port;
             }
         }
