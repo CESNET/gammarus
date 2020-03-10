@@ -52,21 +52,6 @@ const refreshFunction = async (chart) => {
         return;
     }
 
-    /*
-    if (false) {
-        chart.data.datasets[0].data[0][1] = -9.8; // express out
-        chart.data.datasets[1].data[0][1] = -12.0; // express in
-        for (port = 1; port <= 8; port++) {
-            chart.data.datasets[2].data[port][1] = -10 + port; // client in
-            chart.data.datasets[3].data[port][1] = -5.6; // client out
-        }
-        chart.update();
-        ctx.style.backgroundColor = 'rgba(255,0,0,0)';
-        errorElement.innerText = "";
-        setTimeout(refreshFunction, 500, chart)
-        return;
-    }*/
-
     try {
         const data = await getData();
 
