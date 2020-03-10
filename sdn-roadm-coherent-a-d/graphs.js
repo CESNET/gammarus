@@ -23,7 +23,7 @@
 /** @returns {Promise<Input>} */
 const getData = async () => {
     let url;
-    if (window.location.href.match("logs") || window.location.hostname == 'localhost') {
+    if (window.location.pathname.match("/ci-logs-CzechLight-internal/")) {
         url = window.location.href + "../../../dummy/sdn-roadm-coherent-a-d/dummy-data-czechlight-coherent-add-drop.json";
     } else {
         url = "/+restconf/data/czechlight-coherent-add-drop:*";

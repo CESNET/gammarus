@@ -23,7 +23,7 @@
 /** @returns {Promise<Input>} */
 const getData = async () => {
     let url;
-    if (window.location.href.match("logs")) {
+    if (window.location.href.match("/ci-logs-CzechLight-internal/")) {
         url = window.location.href + "../../../dummy/sdn-roadm-line/dummy-rpc-full-spectrum-scan.json";
     } else {
         url = "/+restconf/operations/czechlight-roadm-device:full-spectrum-scan";
