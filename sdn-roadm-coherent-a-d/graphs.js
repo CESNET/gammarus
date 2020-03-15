@@ -104,22 +104,26 @@ const main = async () => {
                     label: "Express OUT",
                     backgroundColor: "orange",
                     data: [[LOW, LOW], ],
+                    stack: 'ADD',
                 },
                 {
                     type: 'bar',
                     label: "Express IN",
                     backgroundColor: "teal",
                     data: [[LOW, LOW], ],
+                    stack: 'DROP',
                 },
                 {
                     label: "Client IN",
                     backgroundColor: "pink",
                     data: [[LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], ],
+                    stack: 'ADD',
                 },
                 {
                     label: "Client OUT",
                     backgroundColor: "brown",
                     data: [[LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], ],
+                    stack: 'DROP',
                 },
 
             ],
@@ -150,7 +154,8 @@ const main = async () => {
                             min: -40.0,
                             suggestedMax: 0.0,
                             beginAtZero: false,
-                        }
+                        },
+                        stacked: true,
                     },
                 ],
             },
