@@ -16,7 +16,7 @@
  */
 
 /** @typedef Input
- * @property {Data} czechlight-coherent-add-drop:*
+ * @property {Data} czechlight-inline-amp:*
  */
 
 
@@ -42,8 +42,8 @@ const transformData = (data) => data.map((value) => { return {x: value.frequency
 
 /** @type {HTMLCanvasElement} */
 // @ts-ignore - getElementById returns HTMLElement and I can't do type assertions (`as`) in JS.
-let ctx = document.getElementById('myChart');
-let errorElement = document.getElementById('error');
+let ctx = document.getElementById("myChart");
+let errorElement = document.getElementById("error");
 
 /** @param {Chart} chart */
 const refreshFunction = async (chart) => {
@@ -68,7 +68,7 @@ const refreshFunction = async (chart) => {
         errorElement.innerText = "";
     } catch (err) {
         ctx.style.backgroundColor = "rgba(255,224,224,255)";
-        errorElement.innerText = "Error: " + err.message;
+        errorElement.innerText = `Error: ${err.message}`;
     }
     setTimeout(refreshFunction, 500, chart)
 }

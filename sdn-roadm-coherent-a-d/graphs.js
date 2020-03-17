@@ -42,8 +42,8 @@ const transformData = (data) => data.map((value) => { return {x: value.frequency
 
 /** @type {HTMLCanvasElement} */
 // @ts-ignore - getElementById returns HTMLElement and I can't do type assertions (`as`) in JS.
-let ctx = document.getElementById('myChart');
-let errorElement = document.getElementById('error');
+let ctx = document.getElementById("myChart");
+let errorElement = document.getElementById("error");
 
 /** @param {Chart} chart */
 const refreshFunction = async (chart) => {
@@ -55,75 +55,73 @@ const refreshFunction = async (chart) => {
     try {
         const data = await getData();
 
-        const aggData = data['czechlight-coherent-add-drop:aggregate-power'];
-        const leafData = data['czechlight-coherent-add-drop:client-ports'];
+        const aggData = data["czechlight-coherent-add-drop:aggregate-power"];
+        const leafData = data["czechlight-coherent-add-drop:client-ports"];
 
-        chart.data.datasets[0].data[0][1] = aggData['express-out'];
-        chart.data.datasets[1].data[0][1] = aggData['express-in'];
+        chart.data.datasets[0].data[0][1] = aggData["express-out"];
+        chart.data.datasets[1].data[0][1] = aggData["express-in"];
         for (port = 1; port <= 8; port++) {
-            chart.data.datasets[3].data[port][1] = aggData['drop'];
-            const leaf = leafData.filter((value) => { return value['port'] == port; })[0];
-            chart.data.datasets[2].data[port][1] = leaf['input-power'];
-            chart.data.labels[port] = leaf['description'];
+            chart.data.datasets[3].data[port][1] = aggData["drop"];
+            const leaf = leafData.filter((value) => { return value["port"] == port; })[0];
+            chart.data.datasets[2].data[port][1] = leaf["input-power"];
+            chart.data.labels[port] = leaf["description"];
             if (chart.data.labels[port] === undefined) {
-                chart.data.labels[port] = 'Client ' + port;
+                chart.data.labels[port] = `Client ${port}`;
             }
         }
 
         chart.update();
-        ctx.style.backgroundColor = 'rgba(255,0,0,0)';
+        ctx.style.backgroundColor = "rgba(255,0,0,0)";
         errorElement.innerText = "";
     } catch (err) {
-        ctx.style.backgroundColor = 'rgba(255,224,224,255)';
-        errorElement.innerText = "Error: " + err.message;
+        ctx.style.backgroundColor = "rgba(255,224,224,255)";
+        errorElement.innerText = `Error: ${err.message}`;
     }
     setTimeout(refreshFunction, 500, chart)
 }
 
 const main = async () => {
-    let oldXmin;
-    let oldXmax;
-    let LOW = -100.0;
+    const LOW = -100.0;
 
-    let myChart = new Chart(ctx, {
-        type: 'bar',
+    const myChart = new Chart(ctx, {
+        type: "bar",
         data: {
             labels: [
-                'Express',
-                'Client 1',
-                'Client 2',
-                'Client 3',
-                'Client 4',
-                'Client 5',
-                'Client 6',
-                'Client 7',
-                'Client 8',
+                "Express",
+                "Client 1",
+                "Client 2",
+                "Client 3",
+                "Client 4",
+                "Client 5",
+                "Client 6",
+                "Client 7",
+                "Client 8",
             ],
             datasets: [
                 {
                     label: "Express OUT",
                     backgroundColor: "orange",
                     data: [[LOW, LOW], ],
-                    stack: 'ADD',
+                    stack: "ADD",
                 },
                 {
-                    type: 'bar',
+                    type: "bar",
                     label: "Express IN",
                     backgroundColor: "teal",
                     data: [[LOW, LOW], ],
-                    stack: 'DROP',
+                    stack: "DROP",
                 },
                 {
                     label: "Client IN",
                     backgroundColor: "pink",
                     data: [[LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], ],
-                    stack: 'ADD',
+                    stack: "ADD",
                 },
                 {
                     label: "Client OUT",
                     backgroundColor: "brown",
                     data: [[LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], [LOW, LOW], ],
-                    stack: 'DROP',
+                    stack: "DROP",
                 },
 
             ],
