@@ -104,6 +104,9 @@ const main = async () => {
                     pointRadius: 1,
                     pointHoverRadius: 1,
                     backgroundColor: "teal",
+                    borderColor: "teal",
+                    pointBorderColor: "teal",
+                    borderWidth: 0.6,
                 },
                 {
                     label: "Express OUT",
@@ -113,7 +116,10 @@ const main = async () => {
                     borderWidth: 2,
                     pointRadius: 1,
                     pointHoverRadius: 1,
-                    backgroundColor: "orange",
+                    backgroundColor: "darkorange",
+                    borderColor: "orange",
+                    pointBorderColor: "darkorange",
+                    borderWidth: 0.6,
                 },
 
             ],
@@ -147,6 +153,11 @@ const main = async () => {
                         }
                     }
                 ]
+            },
+            legend: {
+                labels: {
+                    usePointStyle: false,
+                },
             },
             plugins: {
                 zoom: {

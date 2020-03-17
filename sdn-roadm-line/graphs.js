@@ -104,6 +104,9 @@ const main = async () => {
                     pointRadius: 1,
                     pointHoverRadius: 1,
                     backgroundColor: "blue",
+                    borderColor: "blue",
+                    pointBorderColor: "darkblue",
+                    borderWidth: 0.6,
                 },
                 {
                     label: "Line OUT",
@@ -114,6 +117,9 @@ const main = async () => {
                     pointRadius: 1,
                     pointHoverRadius: 1,
                     backgroundColor: "red",
+                    borderColor: "red",
+                    pointBorderColor: "red",
+                    borderWidth: 0.6,
                 },
 
             ],
@@ -147,6 +153,11 @@ const main = async () => {
                         }
                     }
                 ]
+            },
+            legend: {
+                labels: {
+                    usePointStyle: false,
+                },
             },
             plugins: {
                 zoom: {
