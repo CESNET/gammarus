@@ -23,7 +23,7 @@
 /** @returns {Promise<Input>} */
 const getData = async () => {
     let url;
-    if (window.location.href.match("/ci-logs-CzechLight-internal/")) {
+    if (window.location.pathname.match("/ci-logs-CzechLight-internal/")) {
         url = window.location.href + "../../../dummy/sdn-roadm-line/dummy-rpc-full-spectrum-scan.json";
     } else {
         url = "/+restconf/operations/czechlight-roadm-device:full-spectrum-scan";
@@ -42,8 +42,8 @@ const transformData = (data) => data.map((value) => { return {x: value.frequency
 
 /** @type {HTMLCanvasElement} */
 // @ts-ignore - getElementById returns HTMLElement and I can't do type assertions (`as`) in JS.
-let ctx = document.getElementById('myChart');
-let errorElement = document.getElementById('error');
+let ctx = document.getElementById("myChart");
+let errorElement = document.getElementById("error");
 
 /** @param {Chart} chart */
 const refreshFunction = async (chart) => {
@@ -56,10 +56,10 @@ const refreshFunction = async (chart) => {
         const data = await getData();
 
         /** @type {Data} */
-        const innerData = data['czechlight-roadm-device:full-spectrum-scan'];
+        const innerData = data["czechlight-roadm-device:full-spectrum-scan"];
 
-        let commonInData = transformData(innerData['common-in']);
-        let commonOutData = transformData(innerData['common-out']);
+        let commonInData = transformData(innerData["common-in"]);
+        let commonOutData = transformData(innerData["common-out"]);
 
         chart.options.plugins.zoom.zoom.rangeMin = {x: Math.floor(commonInData[0].x)};
         chart.options.plugins.zoom.zoom.rangeMax = {x: Math.ceil(commonInData[commonInData.length - 1].x)};
@@ -78,11 +78,11 @@ const refreshFunction = async (chart) => {
         chart.data.datasets[0].data = commonInData;
         chart.data.datasets[1].data = commonOutData;
         chart.update();
-        ctx.style.backgroundColor = 'rgba(255,0,0,0)';
+        ctx.style.backgroundColor = "rgba(255,0,0,0)";
         errorElement.innerText = "";
     } catch (err) {
-        ctx.style.backgroundColor = 'rgba(255,224,224,255)';
-        errorElement.innerText = "Error: " + err.message;
+        ctx.style.backgroundColor = "rgba(255,224,224,255)";
+        errorElement.innerText = `Error: ${err.message}`;
     }
     setTimeout(refreshFunction, 500, chart)
 }
@@ -92,7 +92,7 @@ const main = async () => {
     let oldXmax;
 
     let myChart = new Chart(ctx, {
-        type: 'scatter',
+        type: "scatter",
         data: {
             datasets: [
                 {
@@ -152,7 +152,7 @@ const main = async () => {
                 zoom: {
                     pan: {
                         enabled: true,
-                        mode: 'x',
+                        mode: "x",
                         rangeMin: {
                         },
                         rangeMax: {
@@ -166,7 +166,7 @@ const main = async () => {
                     },
                     zoom: {
                         enabled: true,
-                        mode: 'x',
+                        mode: "x",
 
                         /** @param {{chart: Chart}} chart - An object, where the `chart` property is the actual Chart */
                         onZoom: ({chart}) => {
