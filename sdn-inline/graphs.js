@@ -62,6 +62,10 @@ const refreshFunction = async (chart) => {
         chart.data.datasets[1].data[0][1] = eastToWest["optical-power"]["output"];
         chart.data.datasets[0].data[1][1] = eastToWest["optical-power"]["input"];
         chart.data.datasets[1].data[1][1] = westToEast["optical-power"]["output"]
+        chart.data.datasets[2].data[0][0] = parseFloat(chart.data.datasets[1].data[0][1]);
+        chart.data.datasets[2].data[0][1] = parseFloat(eastToWest['output-voa']) + chart.data.datasets[2].data[0][0];
+        chart.data.datasets[2].data[1][0] = parseFloat(chart.data.datasets[1].data[1][1]);
+        chart.data.datasets[2].data[1][1] = parseFloat(westToEast['output-voa']) + chart.data.datasets[2].data[1][0];
 
         chart.update();
         ctx.style.backgroundColor = "rgba(255,0,0,0)";
@@ -88,11 +92,19 @@ const main = async () => {
                     label: "Line IN",
                     backgroundColor: "blue",
                     data: [[LOW, LOW], [LOW, LOW], ],
+                    stack: "in",
                 },
                 {
                     label: "Line OUT",
                     backgroundColor: "red",
                     data: [[LOW, LOW], [LOW, LOW], ],
+                    stack: "out",
+                },
+                {
+                    label: "Output VOA Attenuation",
+                    backgroundColor: "pink",
+                    data: [[LOW, LOW], [LOW, LOW], ],
+                    stack: "out",
                 },
 
             ],
@@ -123,7 +135,8 @@ const main = async () => {
                             min: -60.0,
                             suggestedMax: 0.0,
                             beginAtZero: false,
-                        }
+                        },
+                        stacked: true,
                     },
                 ],
             },
