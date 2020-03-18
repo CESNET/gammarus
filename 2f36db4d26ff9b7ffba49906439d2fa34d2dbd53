@@ -22,6 +22,30 @@
       "revId": "2f36db4d26ff9b7ffba49906439d2fa34d2dbd53",
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b3f49187_f2402e75",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-03-18T12:02:10Z",
+      "side": 1,
+      "message": "Thanks for catching that duplicate, I played with this a bit more.",
+      "parentUuid": "142fc554_f38579a9",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 35
+      },
+      "revId": "2f36db4d26ff9b7ffba49906439d2fa34d2dbd53",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": false
     }
   ]
 }
