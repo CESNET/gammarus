@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "142fc554_f38579a9",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1000056
+      },
+      "writtenOn": "2020-03-18T09:19:01Z",
+      "side": 1,
+      "message": "this should be removed then",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 35
+      },
+      "revId": "2f36db4d26ff9b7ffba49906439d2fa34d2dbd53",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68",
+      "unresolved": true
+    }
+  ]
+}
