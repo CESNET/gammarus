@@ -1,6 +1,6 @@
 - job:
     name: czechlight-gammarus-dashboard
-    parent: run-ci-build-sh
+    parent: run-ci-build-sh-f31
     success-url: docs/index.html
 
 - project:
