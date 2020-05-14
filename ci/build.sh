@@ -4,13 +4,14 @@ set -eux -o pipefail
 shopt -s failglob
 
 ZUUL_JOB_NAME=$(jq < ~/zuul-env.json -r '.job')
+CI_PARALLEL_JOBS=$(grep -c '^processor' /proc/cpuinfo)
 
 # this is one of the whitelisted directories
 WEBROOT=~/zuul-output/docs
 HTML=${WEBROOT}/index.html
 mkdir -p ${WEBROOT}
 
-make install DESTDIR=.OUT
+make -j${CI_PARALLEL_JOBS} install DESTDIR=.OUT
 tree .OUT > tree-output
 echo '<title>Dashboards demos for all devices</title><ul>' > ${HTML}
 for ITEM in .OUT/usr/share/gammarus/static/* ; do

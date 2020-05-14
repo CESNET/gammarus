@@ -21,6 +21,7 @@ install-services: $(wildcard *.service)
 
 install-static-files: sdn-roadm-line sdn-roadm-add-drop sdn-roadm-coherent-a-d sdn-inline
 	mkdir -p $(DESTDIR)$(PREFIX)/share/gammarus/static/
+	mkdir -p $(DESTDIR)$(PREFIX)/lib/systemd/system/multi-user.target.wants/
 	$(foreach device,$^,cp -a $(device) $(DESTDIR)$(PREFIX)/share/gammarus/static/;)
 	$(foreach device,$^,ln -sf ../nghttpd@.service $(DESTDIR)$(PREFIX)/lib/systemd/system/multi-user.target.wants/nghttpd@$(device).service;)
 	$(foreach device,$^,ln -sf ../nghttpx@.service $(DESTDIR)$(PREFIX)/lib/systemd/system/multi-user.target.wants/nghttpx@$(device).service;)
