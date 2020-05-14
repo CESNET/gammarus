@@ -4,7 +4,7 @@ set -eux -o pipefail
 shopt -s failglob
 
 ZUUL_JOB_NAME=$(jq < ~/zuul-env.json -r '.job')
-CI_PARALLEL_JOBS=$(grep -c '^processor' /proc/cpuinfo)
+CI_PARALLEL_JOBS=$(awk -vcpu=$(getconf _NPROCESSORS_ONLN) 'BEGIN{printf "%.0f", cpu*1.3+1}')
 
 # this is one of the whitelisted directories
 WEBROOT=~/zuul-output/docs
