@@ -2,6 +2,10 @@
     name: czechlight-gammarus-dashboard
     parent: run-ci-build-sh-f31
     success-url: docs/index.html
+    nodeset:
+      nodes:
+        - name: w
+          label: f31-small
 
 - project:
     check:
