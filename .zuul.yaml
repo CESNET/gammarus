@@ -1,11 +1,11 @@
 - job:
     name: czechlight-gammarus-dashboard
-    parent: run-ci-build-sh-f32
+    parent: run-ci-build-sh-f33
     success-url: docs/index.html
     nodeset:
       nodes:
         - name: w
-          label: f31-small
+          label: f33-small
 
 - project:
     check:
