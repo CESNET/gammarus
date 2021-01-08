@@ -9,3 +9,4 @@ Before=nghttpx@.service
 Type=simple
 ExecStart=/usr/bin/socat UNIX-LISTEN:/run/restconf-scan.sock,unlink-early,unlink-close,fork EXEC:/usr/bin/restconf-full-spectrum-scan.sh
 Restart=always
+User=yangnobody
