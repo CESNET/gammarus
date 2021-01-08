@@ -7,5 +7,7 @@ Before=nghttpx@.service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/socat UNIX-LISTEN:/run/restconf-scan.sock,unlink-early,unlink-close,fork EXEC:/usr/bin/restconf-full-spectrum-scan.sh
+ExecStart=/usr/bin/socat UNIX-LISTEN:${RUNTIME_DIRECTORY}/sock,unlink-early,unlink-close,fork EXEC:/usr/bin/restconf-full-spectrum-scan.sh
 Restart=always
+User=yangnobody
+RuntimeDirectory=gammarus-restconf-rpc
