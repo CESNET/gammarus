@@ -10,4 +10,5 @@ Type=simple
 ExecStart=/usr/bin/socat UNIX-LISTEN:${RUNTIME_DIRECTORY}/sock,unlink-early,unlink-close,fork EXEC:/usr/bin/restconf-full-spectrum-scan.sh
 Restart=always
 User=yangnobody
+Group=optics
 RuntimeDirectory=gammarus-restconf-rpc
