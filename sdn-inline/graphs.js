@@ -26,7 +26,7 @@ const getData = async () => {
     if (window.location.pathname.match("/ci-logs-CzechLight-internal/")) {
         url = window.location.href + "../../../dummy/sdn-inline/dummy-data-czechlight-inline-amp.json";
     } else {
-        url = "/+restconf/data/czechlight-inline-amp:*";
+        url = "/restconf/data/czechlight-inline-amp:*";
     }
     const response = await fetch(url);
     if (!response.ok) {
