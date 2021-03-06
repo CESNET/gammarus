@@ -24,9 +24,9 @@
 const getData = async () => {
     let url;
     if (window.location.pathname.match("/ci-logs-CzechLight-internal/")) {
-        url = window.location.href + "../../../dummy/sdn-roadm-line/dummy-rpc-full-spectrum-scan.json";
+	// FIXME
     } else {
-        url = "/+restconf/operations/czechlight-roadm-device:full-spectrum-scan";
+        url = "/restconf/data/czechlight-roadm-device:spectrum-scan";
     }
     const response = await fetch(url);
     if (!response.ok) {
@@ -38,7 +38,7 @@ const getData = async () => {
 
 
 /** @param {Value[]} data */
-const transformData = (data) => data.map((value) => { return {x: value.frequency / 1000000, y: value.power}; }).sort((a, b) => a.x - b.x);
+const transformData = (data) => data.p.map((power, index) => { return {x: data["lowest-frequency"] / 1000 + index * data.step / 1000, y: power}; })
 
 /** @type {HTMLCanvasElement} */
 // @ts-ignore - getElementById returns HTMLElement and I can't do type assertions (`as`) in JS.
@@ -56,7 +56,7 @@ const refreshFunction = async (chart) => {
         const data = await getData();
 
         /** @type {Data} */
-        const innerData = data["czechlight-roadm-device:full-spectrum-scan"];
+        const innerData = data["czechlight-roadm-device:spectrum-scan"];
 
         let commonInData = transformData(innerData["common-in"]);
         let commonOutData = transformData(innerData["common-out"]);
