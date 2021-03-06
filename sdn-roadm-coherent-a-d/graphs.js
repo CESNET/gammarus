@@ -26,7 +26,7 @@ const getData = async () => {
     if (window.location.pathname.match("/ci-logs-CzechLight-internal/")) {
         url = window.location.href + "../../../dummy/sdn-roadm-coherent-a-d/dummy-data-czechlight-coherent-add-drop.json";
     } else {
-        url = "/+restconf/data/czechlight-coherent-add-drop:*";
+        url = "/restconf/data/czechlight-coherent-add-drop:*";
     }
     const response = await fetch(url);
     if (!response.ok) {
