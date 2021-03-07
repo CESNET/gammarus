@@ -21,14 +21,8 @@
 
 
 /** @returns {Promise<Input>} */
-const getData = async () => {
-    let url;
-    if (window.location.pathname.match("/ci-logs-CzechLight-internal/")) {
-        url = window.location.href + "../../../dummy/sdn-roadm-line/dummy-spectrum-scan.json";
-    } else {
-        url = "/restconf/data/czechlight-roadm-device:spectrum-scan";
-    }
-    const response = await fetch(url);
+const getDummyData = async () => {
+    const response = await fetch(window.location.href + "../../../dummy/sdn-roadm-line/dummy-spectrum-scan.json");
     if (!response.ok) {
         throw Error(`Data request didn't get a proper response (status=${response.status})`);
     }
@@ -45,46 +39,59 @@ const transformData = (data) => data.p.map((power, index) => { return {x: data["
 let ctx = document.getElementById("myChart");
 let errorElement = document.getElementById("error");
 
-/** @param {Chart} chart */
-const refreshFunction = async (chart) => {
-    if (document.hidden) {
-        setTimeout(refreshFunction, 500, chart);
+const showError = (message) => {
+    ctx.style.backgroundColor = "rgba(255,224,224,255)";
+    errorElement.innerText = `Error: ${message}`;
+}
+
+const updateGraph = (chart, data) => {
+    let commonInData = null;
+    let commonOutData = null;
+    try {
+        /** @type {Data} */
+        let innerData = data["czechlight-roadm-device:spectrum-scan"];
+        commonInData = transformData(innerData["common-in"]);
+        commonOutData = transformData(innerData["common-out"]);
+    } catch {
+        showError("Spectrum scanning not configured");
         return;
     }
 
-    try {
-        const data = await getData();
+    chart.options.plugins.zoom.zoom.rangeMin = {x: Math.floor(commonInData[0].x)};
+    chart.options.plugins.zoom.zoom.rangeMax = {x: Math.ceil(commonInData[commonInData.length - 1].x)};
 
-        /** @type {Data} */
-        const innerData = data["czechlight-roadm-device:spectrum-scan"];
+    chart.options.plugins.zoom.pan.rangeMin = {x: Math.floor(commonInData[0].x)};
+    chart.options.plugins.zoom.pan.rangeMax = {x: Math.ceil(commonInData[commonInData.length - 1].x)};
 
-        let commonInData = transformData(innerData["common-in"]);
-        let commonOutData = transformData(innerData["common-out"]);
-
-        chart.options.plugins.zoom.zoom.rangeMin = {x: Math.floor(commonInData[0].x)};
-        chart.options.plugins.zoom.zoom.rangeMax = {x: Math.ceil(commonInData[commonInData.length - 1].x)};
-
-        chart.options.plugins.zoom.pan.rangeMin = {x: Math.floor(commonInData[0].x)};
-        chart.options.plugins.zoom.pan.rangeMax = {x: Math.ceil(commonInData[commonInData.length - 1].x)};
-
-        // If the user pans the chart before the first update comes in, the chart
-        // no longer automatically sets min/max of X (probably because
-        // the pan plugin sets it manually), so I have to set it manually too.
-        if (chart.data.datasets[0].data.length == 0) {
-            chart.options.scales.xAxes[0].ticks.min = chart.options.plugins.zoom.pan.rangeMin.x;
-            chart.options.scales.xAxes[0].ticks.max = chart.options.plugins.zoom.pan.rangeMax.x;
-        }
-
-        chart.data.datasets[0].data = commonInData;
-        chart.data.datasets[1].data = commonOutData;
-        chart.update();
-        ctx.style.backgroundColor = "rgba(255,0,0,0)";
-        errorElement.innerText = "";
-    } catch (err) {
-        ctx.style.backgroundColor = "rgba(255,224,224,255)";
-        errorElement.innerText = `Error: ${err.message}`;
+    // If the user pans the chart before the first update comes in, the chart
+    // no longer automatically sets min/max of X (probably because
+    // the pan plugin sets it manually), so I have to set it manually too.
+    if (chart.data.datasets[0].data.length == 0) {
+        chart.options.scales.xAxes[0].ticks.min = chart.options.plugins.zoom.pan.rangeMin.x;
+        chart.options.scales.xAxes[0].ticks.max = chart.options.plugins.zoom.pan.rangeMax.x;
     }
-    setTimeout(refreshFunction, 500, chart)
+
+    chart.data.datasets[0].data = commonInData;
+    chart.data.datasets[1].data = commonOutData;
+    chart.update();
+    ctx.style.backgroundColor = "rgba(255,0,0,0)";
+    errorElement.innerText = "";
+}
+
+let eventStream = null;
+let retrying = null;
+
+const startStreaming = (chart) => {
+    clearTimeout(retrying);
+    eventStream = new EventSource("/telemetry/optics");
+    eventStream.onerror = () => {
+        showError("Network error");
+        retrying = setTimeout(startStreaming, 2000, chart);
+    }
+    eventStream.onmessage = (e) => {
+        let data = JSON.parse(e.data)["ietf-restconf:notification"]["ietf-yang-push:push-update"]["datastore-contents"];
+        updateGraph(chart, data);
+    }
 }
 
 const main = async () => {
@@ -214,7 +221,24 @@ const main = async () => {
         }
     });
 
-    refreshFunction(myChart);
+    if (window.location.pathname.match("/ci-logs-CzechLight-internal/")) {
+        try {
+            const data = await getDummyData();
+            updateGraph(myChart, data);
+        } catch (err) {
+            showError(err.message);
+        }
+    } else {
+        startStreaming(myChart);
+        document.addEventListener("visibilitychange", () => {
+            if (document.visibilityState == 'visible') {
+                startStreaming(myChart);
+            } else {
+                eventStream.close();
+                showError("paused");
+            }
+        });
+    }
 }
 
 

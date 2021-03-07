@@ -21,21 +21,14 @@
 
 
 /** @returns {Promise<Input>} */
-const getData = async () => {
-    let url;
-    if (window.location.pathname.match("/ci-logs-CzechLight-internal/")) {
-        url = window.location.href + "../../../dummy/sdn-roadm-coherent-a-d/dummy-data-czechlight-coherent-add-drop.json";
-    } else {
-        url = "/restconf/data/czechlight-coherent-add-drop:*";
-    }
-    const response = await fetch(url);
+const getDummyData = async () => {
+    const response = await fetch(window.location.href + "../../../dummy/sdn-roadm-coherent-a-d/dummy-data-czechlight-coherent-add-drop.json");
     if (!response.ok) {
         throw Error(`Data request didn't get a proper response (status=${response.status})`);
     }
     const data = await response.json();
     return data;
 }
-
 
 /** @param {Value[]} data */
 const transformData = (data) => data.map((value) => { return {x: value.frequency / 1000000, y: value.power}; }).sort((a, b) => a.x - b.x);
@@ -45,16 +38,13 @@ const transformData = (data) => data.map((value) => { return {x: value.frequency
 let ctx = document.getElementById("myChart");
 let errorElement = document.getElementById("error");
 
-/** @param {Chart} chart */
-const refreshFunction = async (chart) => {
-    if (document.hidden) {
-        setTimeout(refreshFunction, 500, chart);
-        return;
-    }
+const showError = (message) => {
+    ctx.style.backgroundColor = "rgba(255,224,224,255)";
+    errorElement.innerText = `Error: ${message}`;
+}
 
+const updateGraph = (chart, data) => {
     try {
-        const data = await getData();
-
         const aggData = data["czechlight-coherent-add-drop:aggregate-power"];
         const leafData = data["czechlight-coherent-add-drop:client-ports"];
 
@@ -77,7 +67,22 @@ const refreshFunction = async (chart) => {
         ctx.style.backgroundColor = "rgba(255,224,224,255)";
         errorElement.innerText = `Error: ${err.message}`;
     }
-    setTimeout(refreshFunction, 500, chart)
+}
+
+let eventStream = null;
+let retrying = null;
+
+const startStreaming = (chart) => {
+    clearTimeout(retrying);
+    eventStream = new EventSource("/telemetry/optics");
+    eventStream.onerror = () => {
+        showError("Network error");
+        retrying = setTimeout(startStreaming, 2000, chart);
+    }
+    eventStream.onmessage = (e) => {
+        let data = JSON.parse(e.data)["ietf-restconf:notification"]["ietf-yang-push:push-update"]["datastore-contents"];
+        updateGraph(chart, data);
+    }
 }
 
 const main = async () => {
@@ -160,7 +165,24 @@ const main = async () => {
         }
     });
 
-    refreshFunction(myChart);
+    if (window.location.pathname.match("/ci-logs-CzechLight-internal/")) {
+        try {
+            const data = await getDummyData();
+            updateGraph(myChart, data);
+        } catch (err) {
+            showError(err.message);
+        }
+    } else {
+        startStreaming(myChart);
+        document.addEventListener("visibilitychange", () => {
+            if (document.visibilityState == 'visible') {
+                startStreaming(myChart);
+            } else {
+                eventStream.close();
+                showError("paused");
+            }
+        });
+    }
 }
 
 
