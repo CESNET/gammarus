@@ -18,6 +18,24 @@
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b26cfbfc_1410b038",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-03-08T17:45:46Z",
+      "side": 1,
+      "message": "If you feel it adds value, we can consider that, but I would prefer mocking the EventSource first.\n\nI missed the difference between the arrow function and regular function it seems, thanks for catching this.",
+      "parentUuid": "1ea04116_e2d3a04a",
+      "revId": "6725ffb0930659f155f0f628b74c58c6fe583bab",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "33876394_4ce18eaf",
@@ -41,6 +59,30 @@
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d9041e1_7da63680",
+        "filename": "sdn-roadm-add-drop/graphs.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-03-08T17:45:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "33876394_4ce18eaf",
+      "range": {
+        "startLine": 41,
+        "startChar": 146,
+        "endLine": 41,
+        "endChar": 147
+      },
+      "revId": "6725ffb0930659f155f0f628b74c58c6fe583bab",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "92399422_33fa48c7",
@@ -54,6 +96,30 @@
       "writtenOn": "2021-03-08T09:09:34Z",
       "side": 1,
       "message": "missing ;",
+      "range": {
+        "startLine": 41,
+        "startChar": 146,
+        "endLine": 41,
+        "endChar": 147
+      },
+      "revId": "6725ffb0930659f155f0f628b74c58c6fe583bab",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "744f678c_f4895bca",
+        "filename": "sdn-roadm-line/graphs.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-03-08T17:45:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "92399422_33fa48c7",
       "range": {
         "startLine": 41,
         "startChar": 146,
