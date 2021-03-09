@@ -36,6 +36,24 @@
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddc6f4e3_16798897",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000056
+      },
+      "writtenOn": "2021-03-09T08:52:06Z",
+      "side": 1,
+      "message": "There\u0027s no difference between an arrow function and a regular function in this case, semicolons are usually not needed in js, but in my opinion, they should be present",
+      "parentUuid": "b26cfbfc_1410b038",
+      "revId": "6725ffb0930659f155f0f628b74c58c6fe583bab",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "33876394_4ce18eaf",
