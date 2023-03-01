@@ -13,7 +13,7 @@ mkdir -p ${WEBROOT}
 
 make -j${CI_PARALLEL_JOBS} install DESTDIR=.OUT
 tree .OUT > tree-output
-echo '<title>Dashboards demos for all devices</title><ul>' > ${HTML}
+echo '<title>Dashboards demos for all devices</title><meta charset="utf-8"/><ul>' > ${HTML}
 for ITEM in .OUT/usr/share/gammarus/static/* ; do
   mv ${ITEM} ${WEBROOT}/
   DEVICE=$(basename ${ITEM})
