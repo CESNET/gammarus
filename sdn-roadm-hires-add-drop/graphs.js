@@ -221,7 +221,7 @@ const main = async () => {
         }
     });
 
-    if (window.location.pathname.match("/ci-logs-CzechLight-internal/")) {
+    if (window.location.pathname.match("/ci-logs-public/")) {
         try {
             const data = await getDummyData();
             updateGraph(myChart, data);
