@@ -1,0 +1,5681 @@
+{
+  "czechlight-lldp:nbr-list": {
+    "neighbors": [
+      {
+        "ifName": "eth0",
+        "remoteSysName": "GS1900",
+        "remotePortId": "1",
+        "remoteChassisId": "5c:e2:8c:f9:76:1f",
+        "systemCapabilitiesEnabled": "bridge"
+      }
+    ]
+  },
+  "czechlight-roadm-device:channel-plan": {
+    "channel": [
+      {
+        "name": "C-band",
+        "lower-frequency": "191325000",
+        "upper-frequency": "196125000"
+      },
+      {
+        "name": "13.5",
+        "lower-frequency": "191325000",
+        "upper-frequency": "191375000"
+      },
+      {
+        "name": "14.0",
+        "lower-frequency": "191375000",
+        "upper-frequency": "191425000"
+      },
+      {
+        "name": "14.5",
+        "lower-frequency": "191425000",
+        "upper-frequency": "191475000"
+      },
+      {
+        "name": "15.0",
+        "lower-frequency": "191475000",
+        "upper-frequency": "191525000"
+      },
+      {
+        "name": "15.5",
+        "lower-frequency": "191525000",
+        "upper-frequency": "191575000"
+      },
+      {
+        "name": "16.0",
+        "lower-frequency": "191575000",
+        "upper-frequency": "191625000"
+      },
+      {
+        "name": "16.5",
+        "lower-frequency": "191625000",
+        "upper-frequency": "191675000"
+      },
+      {
+        "name": "17.0",
+        "lower-frequency": "191675000",
+        "upper-frequency": "191725000"
+      },
+      {
+        "name": "17.5",
+        "lower-frequency": "191725000",
+        "upper-frequency": "191775000"
+      },
+      {
+        "name": "18.0",
+        "lower-frequency": "191775000",
+        "upper-frequency": "191825000"
+      },
+      {
+        "name": "18.5",
+        "lower-frequency": "191825000",
+        "upper-frequency": "191875000"
+      },
+      {
+        "name": "19.0",
+        "lower-frequency": "191875000",
+        "upper-frequency": "191925000"
+      },
+      {
+        "name": "19.5",
+        "lower-frequency": "191925000",
+        "upper-frequency": "191975000"
+      },
+      {
+        "name": "20.0",
+        "lower-frequency": "191975000",
+        "upper-frequency": "192025000"
+      },
+      {
+        "name": "20.5",
+        "lower-frequency": "192025000",
+        "upper-frequency": "192075000"
+      },
+      {
+        "name": "21.0",
+        "lower-frequency": "192075000",
+        "upper-frequency": "192125000"
+      },
+      {
+        "name": "21.5",
+        "lower-frequency": "192125000",
+        "upper-frequency": "192175000"
+      },
+      {
+        "name": "22.0",
+        "lower-frequency": "192175000",
+        "upper-frequency": "192225000"
+      },
+      {
+        "name": "22.5",
+        "lower-frequency": "192225000",
+        "upper-frequency": "192275000"
+      },
+      {
+        "name": "23.0",
+        "lower-frequency": "192275000",
+        "upper-frequency": "192325000"
+      },
+      {
+        "name": "23.5",
+        "lower-frequency": "192325000",
+        "upper-frequency": "192375000"
+      },
+      {
+        "name": "24.0",
+        "lower-frequency": "192375000",
+        "upper-frequency": "192425000"
+      },
+      {
+        "name": "24.5",
+        "lower-frequency": "192425000",
+        "upper-frequency": "192475000"
+      },
+      {
+        "name": "25.0",
+        "lower-frequency": "192475000",
+        "upper-frequency": "192525000"
+      },
+      {
+        "name": "25.5",
+        "lower-frequency": "192525000",
+        "upper-frequency": "192575000"
+      },
+      {
+        "name": "26.0",
+        "lower-frequency": "192575000",
+        "upper-frequency": "192625000"
+      },
+      {
+        "name": "26.5",
+        "lower-frequency": "192625000",
+        "upper-frequency": "192675000"
+      },
+      {
+        "name": "27.0",
+        "lower-frequency": "192675000",
+        "upper-frequency": "192725000"
+      },
+      {
+        "name": "27.5",
+        "lower-frequency": "192725000",
+        "upper-frequency": "192775000"
+      },
+      {
+        "name": "28.0",
+        "lower-frequency": "192775000",
+        "upper-frequency": "192825000"
+      },
+      {
+        "name": "28.5",
+        "lower-frequency": "192825000",
+        "upper-frequency": "192875000"
+      },
+      {
+        "name": "29.0",
+        "lower-frequency": "192875000",
+        "upper-frequency": "192925000"
+      },
+      {
+        "name": "29.5",
+        "lower-frequency": "192925000",
+        "upper-frequency": "192975000"
+      },
+      {
+        "name": "30.0",
+        "lower-frequency": "192975000",
+        "upper-frequency": "193025000"
+      },
+      {
+        "name": "30.5",
+        "lower-frequency": "193025000",
+        "upper-frequency": "193075000"
+      },
+      {
+        "name": "31.0",
+        "lower-frequency": "193075000",
+        "upper-frequency": "193125000"
+      },
+      {
+        "name": "31.5",
+        "lower-frequency": "193125000",
+        "upper-frequency": "193175000"
+      },
+      {
+        "name": "32.0",
+        "lower-frequency": "193175000",
+        "upper-frequency": "193225000"
+      },
+      {
+        "name": "32.5",
+        "lower-frequency": "193225000",
+        "upper-frequency": "193275000"
+      },
+      {
+        "name": "33.0",
+        "lower-frequency": "193275000",
+        "upper-frequency": "193325000"
+      },
+      {
+        "name": "33.5",
+        "lower-frequency": "193325000",
+        "upper-frequency": "193375000"
+      },
+      {
+        "name": "34.0",
+        "lower-frequency": "193375000",
+        "upper-frequency": "193425000"
+      },
+      {
+        "name": "34.5",
+        "lower-frequency": "193425000",
+        "upper-frequency": "193475000"
+      },
+      {
+        "name": "35.0",
+        "lower-frequency": "193475000",
+        "upper-frequency": "193525000"
+      },
+      {
+        "name": "35.5",
+        "lower-frequency": "193525000",
+        "upper-frequency": "193575000"
+      },
+      {
+        "name": "36.0",
+        "lower-frequency": "193575000",
+        "upper-frequency": "193625000"
+      },
+      {
+        "name": "36.5",
+        "lower-frequency": "193625000",
+        "upper-frequency": "193675000"
+      },
+      {
+        "name": "37.0",
+        "lower-frequency": "193675000",
+        "upper-frequency": "193725000"
+      },
+      {
+        "name": "37.5",
+        "lower-frequency": "193725000",
+        "upper-frequency": "193775000"
+      },
+      {
+        "name": "38.0",
+        "lower-frequency": "193775000",
+        "upper-frequency": "193825000"
+      },
+      {
+        "name": "38.5",
+        "lower-frequency": "193825000",
+        "upper-frequency": "193875000"
+      },
+      {
+        "name": "39.0",
+        "lower-frequency": "193875000",
+        "upper-frequency": "193925000"
+      },
+      {
+        "name": "39.5",
+        "lower-frequency": "193925000",
+        "upper-frequency": "193975000"
+      },
+      {
+        "name": "40.0",
+        "lower-frequency": "193975000",
+        "upper-frequency": "194025000"
+      },
+      {
+        "name": "40.5",
+        "lower-frequency": "194025000",
+        "upper-frequency": "194075000"
+      },
+      {
+        "name": "41.0",
+        "lower-frequency": "194075000",
+        "upper-frequency": "194125000"
+      },
+      {
+        "name": "41.5",
+        "lower-frequency": "194125000",
+        "upper-frequency": "194175000"
+      },
+      {
+        "name": "42.0",
+        "lower-frequency": "194175000",
+        "upper-frequency": "194225000"
+      },
+      {
+        "name": "42.5",
+        "lower-frequency": "194225000",
+        "upper-frequency": "194275000"
+      },
+      {
+        "name": "43.0",
+        "lower-frequency": "194275000",
+        "upper-frequency": "194325000"
+      },
+      {
+        "name": "43.5",
+        "lower-frequency": "194325000",
+        "upper-frequency": "194375000"
+      },
+      {
+        "name": "44.0",
+        "lower-frequency": "194375000",
+        "upper-frequency": "194425000"
+      },
+      {
+        "name": "44.5",
+        "lower-frequency": "194425000",
+        "upper-frequency": "194475000"
+      },
+      {
+        "name": "45.0",
+        "lower-frequency": "194475000",
+        "upper-frequency": "194525000"
+      },
+      {
+        "name": "45.5",
+        "lower-frequency": "194525000",
+        "upper-frequency": "194575000"
+      },
+      {
+        "name": "46.0",
+        "lower-frequency": "194575000",
+        "upper-frequency": "194625000"
+      },
+      {
+        "name": "46.5",
+        "lower-frequency": "194625000",
+        "upper-frequency": "194675000"
+      },
+      {
+        "name": "47.0",
+        "lower-frequency": "194675000",
+        "upper-frequency": "194725000"
+      },
+      {
+        "name": "47.5",
+        "lower-frequency": "194725000",
+        "upper-frequency": "194775000"
+      },
+      {
+        "name": "48.0",
+        "lower-frequency": "194775000",
+        "upper-frequency": "194825000"
+      },
+      {
+        "name": "48.5",
+        "lower-frequency": "194825000",
+        "upper-frequency": "194875000"
+      },
+      {
+        "name": "49.0",
+        "lower-frequency": "194875000",
+        "upper-frequency": "194925000"
+      },
+      {
+        "name": "49.5",
+        "lower-frequency": "194925000",
+        "upper-frequency": "194975000"
+      },
+      {
+        "name": "50.0",
+        "lower-frequency": "194975000",
+        "upper-frequency": "195025000"
+      },
+      {
+        "name": "50.5",
+        "lower-frequency": "195025000",
+        "upper-frequency": "195075000"
+      },
+      {
+        "name": "51.0",
+        "lower-frequency": "195075000",
+        "upper-frequency": "195125000"
+      },
+      {
+        "name": "51.5",
+        "lower-frequency": "195125000",
+        "upper-frequency": "195175000"
+      },
+      {
+        "name": "52.0",
+        "lower-frequency": "195175000",
+        "upper-frequency": "195225000"
+      },
+      {
+        "name": "52.5",
+        "lower-frequency": "195225000",
+        "upper-frequency": "195275000"
+      },
+      {
+        "name": "53.0",
+        "lower-frequency": "195275000",
+        "upper-frequency": "195325000"
+      },
+      {
+        "name": "53.5",
+        "lower-frequency": "195325000",
+        "upper-frequency": "195375000"
+      },
+      {
+        "name": "54.0",
+        "lower-frequency": "195375000",
+        "upper-frequency": "195425000"
+      },
+      {
+        "name": "54.5",
+        "lower-frequency": "195425000",
+        "upper-frequency": "195475000"
+      },
+      {
+        "name": "55.0",
+        "lower-frequency": "195475000",
+        "upper-frequency": "195525000"
+      },
+      {
+        "name": "55.5",
+        "lower-frequency": "195525000",
+        "upper-frequency": "195575000"
+      },
+      {
+        "name": "56.0",
+        "lower-frequency": "195575000",
+        "upper-frequency": "195625000"
+      },
+      {
+        "name": "56.5",
+        "lower-frequency": "195625000",
+        "upper-frequency": "195675000"
+      },
+      {
+        "name": "57.0",
+        "lower-frequency": "195675000",
+        "upper-frequency": "195725000"
+      },
+      {
+        "name": "57.5",
+        "lower-frequency": "195725000",
+        "upper-frequency": "195775000"
+      },
+      {
+        "name": "58.0",
+        "lower-frequency": "195775000",
+        "upper-frequency": "195825000"
+      },
+      {
+        "name": "58.5",
+        "lower-frequency": "195825000",
+        "upper-frequency": "195875000"
+      },
+      {
+        "name": "59.0",
+        "lower-frequency": "195875000",
+        "upper-frequency": "195925000"
+      },
+      {
+        "name": "59.5",
+        "lower-frequency": "195925000",
+        "upper-frequency": "195975000"
+      },
+      {
+        "name": "60.0",
+        "lower-frequency": "195975000",
+        "upper-frequency": "196025000"
+      },
+      {
+        "name": "60.5",
+        "lower-frequency": "196025000",
+        "upper-frequency": "196075000"
+      },
+      {
+        "name": "61.0",
+        "lower-frequency": "196075000",
+        "upper-frequency": "196125000"
+      },
+      {
+        "name": "14 (100GHz)",
+        "lower-frequency": "191350000",
+        "upper-frequency": "191450000"
+      },
+      {
+        "name": "15 (100GHz)",
+        "lower-frequency": "191450000",
+        "upper-frequency": "191550000"
+      },
+      {
+        "name": "16 (100GHz)",
+        "lower-frequency": "191550000",
+        "upper-frequency": "191650000"
+      },
+      {
+        "name": "17 (100GHz)",
+        "lower-frequency": "191650000",
+        "upper-frequency": "191750000"
+      },
+      {
+        "name": "18 (100GHz)",
+        "lower-frequency": "191750000",
+        "upper-frequency": "191850000"
+      },
+      {
+        "name": "19 (100GHz)",
+        "lower-frequency": "191850000",
+        "upper-frequency": "191950000"
+      },
+      {
+        "name": "20 (100GHz)",
+        "lower-frequency": "191950000",
+        "upper-frequency": "192050000"
+      },
+      {
+        "name": "21 (100GHz)",
+        "lower-frequency": "192050000",
+        "upper-frequency": "192150000"
+      },
+      {
+        "name": "22 (100GHz)",
+        "lower-frequency": "192150000",
+        "upper-frequency": "192250000"
+      },
+      {
+        "name": "23 (100GHz)",
+        "lower-frequency": "192250000",
+        "upper-frequency": "192350000"
+      },
+      {
+        "name": "24 (100GHz)",
+        "lower-frequency": "192350000",
+        "upper-frequency": "192450000"
+      },
+      {
+        "name": "25 (100GHz)",
+        "lower-frequency": "192450000",
+        "upper-frequency": "192550000"
+      },
+      {
+        "name": "26 (100GHz)",
+        "lower-frequency": "192550000",
+        "upper-frequency": "192650000"
+      },
+      {
+        "name": "27 (100GHz)",
+        "lower-frequency": "192650000",
+        "upper-frequency": "192750000"
+      },
+      {
+        "name": "28 (100GHz)",
+        "lower-frequency": "192750000",
+        "upper-frequency": "192850000"
+      },
+      {
+        "name": "29 (100GHz)",
+        "lower-frequency": "192850000",
+        "upper-frequency": "192950000"
+      },
+      {
+        "name": "30 (100GHz)",
+        "lower-frequency": "192950000",
+        "upper-frequency": "193050000"
+      },
+      {
+        "name": "31 (100GHz)",
+        "lower-frequency": "193050000",
+        "upper-frequency": "193150000"
+      },
+      {
+        "name": "32 (100GHz)",
+        "lower-frequency": "193150000",
+        "upper-frequency": "193250000"
+      },
+      {
+        "name": "33 (100GHz)",
+        "lower-frequency": "193250000",
+        "upper-frequency": "193350000"
+      },
+      {
+        "name": "34 (100GHz)",
+        "lower-frequency": "193350000",
+        "upper-frequency": "193450000"
+      },
+      {
+        "name": "35 (100GHz)",
+        "lower-frequency": "193450000",
+        "upper-frequency": "193550000"
+      },
+      {
+        "name": "36 (100GHz)",
+        "lower-frequency": "193550000",
+        "upper-frequency": "193650000"
+      },
+      {
+        "name": "37 (100GHz)",
+        "lower-frequency": "193650000",
+        "upper-frequency": "193750000"
+      },
+      {
+        "name": "38 (100GHz)",
+        "lower-frequency": "193750000",
+        "upper-frequency": "193850000"
+      },
+      {
+        "name": "39 (100GHz)",
+        "lower-frequency": "193850000",
+        "upper-frequency": "193950000"
+      },
+      {
+        "name": "40 (100GHz)",
+        "lower-frequency": "193950000",
+        "upper-frequency": "194050000"
+      },
+      {
+        "name": "41 (100GHz)",
+        "lower-frequency": "194050000",
+        "upper-frequency": "194150000"
+      },
+      {
+        "name": "42 (100GHz)",
+        "lower-frequency": "194150000",
+        "upper-frequency": "194250000"
+      },
+      {
+        "name": "43 (100GHz)",
+        "lower-frequency": "194250000",
+        "upper-frequency": "194350000"
+      },
+      {
+        "name": "44 (100GHz)",
+        "lower-frequency": "194350000",
+        "upper-frequency": "194450000"
+      },
+      {
+        "name": "45 (100GHz)",
+        "lower-frequency": "194450000",
+        "upper-frequency": "194550000"
+      },
+      {
+        "name": "46 (100GHz)",
+        "lower-frequency": "194550000",
+        "upper-frequency": "194650000"
+      },
+      {
+        "name": "47 (100GHz)",
+        "lower-frequency": "194650000",
+        "upper-frequency": "194750000"
+      },
+      {
+        "name": "48 (100GHz)",
+        "lower-frequency": "194750000",
+        "upper-frequency": "194850000"
+      },
+      {
+        "name": "49 (100GHz)",
+        "lower-frequency": "194850000",
+        "upper-frequency": "194950000"
+      },
+      {
+        "name": "50 (100GHz)",
+        "lower-frequency": "194950000",
+        "upper-frequency": "195050000"
+      },
+      {
+        "name": "51 (100GHz)",
+        "lower-frequency": "195050000",
+        "upper-frequency": "195150000"
+      },
+      {
+        "name": "52 (100GHz)",
+        "lower-frequency": "195150000",
+        "upper-frequency": "195250000"
+      },
+      {
+        "name": "53 (100GHz)",
+        "lower-frequency": "195250000",
+        "upper-frequency": "195350000"
+      },
+      {
+        "name": "54 (100GHz)",
+        "lower-frequency": "195350000",
+        "upper-frequency": "195450000"
+      },
+      {
+        "name": "55 (100GHz)",
+        "lower-frequency": "195450000",
+        "upper-frequency": "195550000"
+      },
+      {
+        "name": "56 (100GHz)",
+        "lower-frequency": "195550000",
+        "upper-frequency": "195650000"
+      },
+      {
+        "name": "57 (100GHz)",
+        "lower-frequency": "195650000",
+        "upper-frequency": "195750000"
+      },
+      {
+        "name": "58 (100GHz)",
+        "lower-frequency": "195750000",
+        "upper-frequency": "195850000"
+      },
+      {
+        "name": "59 (100GHz)",
+        "lower-frequency": "195850000",
+        "upper-frequency": "195950000"
+      },
+      {
+        "name": "60 (100GHz)",
+        "lower-frequency": "195950000",
+        "upper-frequency": "196050000"
+      }
+    ]
+  },
+  "czechlight-roadm-device:media-channels": [
+    {
+      "channel": "C-band",
+      "description": "Whole-band overview",
+      "power": {
+        "common-in": "-25.51",
+        "common-out": "-20.09"
+      }
+    }
+  ],
+  "czechlight-roadm-device:aggregate-power": {
+    "common-in": "-43.44",
+    "common-out": "-21.98"
+  },
+  "czechlight-roadm-device:line": {
+    "osc": {
+      "tx-power": "1.96",
+      "rx-power": "-99.99"
+    }
+  },
+  "czechlight-system:firmware": {
+    "firmware-slot": [
+      {
+        "name": "A",
+        "version": "v4-205-g51b4615-dirty",
+        "installed": "2022-01-11T10:32:12-00:00",
+        "state": "inactive",
+        "boot-status": "good"
+      },
+      {
+        "name": "B",
+        "version": "v4-225-ge30adf9",
+        "installed": "2022-04-27T08:42:39-00:00",
+        "state": "booted",
+        "boot-status": "good"
+      }
+    ],
+    "installation": {
+      "status": "none",
+      "message": ""
+    }
+  },
+  "czechlight-system:authentication": {
+    "users": [
+      {
+        "name": "root",
+        "password-last-change": "1969-12-31T00:00:00-00:00",
+        "authorized-keys": [
+          {
+            "index": 0,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAgEAwdsjuEhb9VoyYWncwYcAtwXwHNwDFq6KGKd0RHaeqiYIR9NyQcxCSQiB6CmLx4V0P2OMas5jn868/UuUBe8bNa9ZB1VVoPDfWPRVNhQGUSaKbF2BReZLBHWBvZKrI6QqjHyVs0MMAMxFd8RrrbuNylychb6DL7t39AcCRS9oFb4rRYkOG6FeTdUo+d+GW1y1h+PIC1E+uS6aJVDx+01wn/4iwpO3UfL2Z64jifsjgKE8ee9brg1dTGX5D/nt3CiutlSETwWh0Hp5yQQDjECM+/SlPbO334kjdOFxfGe2zrsJVVl2Y4y3ornQJ5dpkrfwuw9fE0ymUxRirGzCAGtKioz71IoUTsWNF1kToGunMSaQdIrjLclfICVWj1avoHaeS/LXbA+9x85I99+pSs5Jw4AjeSVSSXT5R1RTAUv62FMIomGDt8SIlYo9ACZbUAiwVrNUWaF/FEOtaeaVi3yMset7t6RQP6kQoJN32Hc2lP1e5vhsWWdNaNfVRfezj1KOzSy7wjxjymhDDAMfIHyeA8dM927gu6m2ah3TBbrHMkPUVe52ht8rdbLJMM2NbE16DixVX/s5RQg+YvY5nVBBIFRdcNvO/wMdJIequJUfnoBcJ1Rmh7nMgMo8gVLKGgoAfnzaPhOp75f4n+poyrHwdt0M6UIy8AQs1dowQPHfPzU= jkt@velbloud.basa.flaska.net"
+          },
+          {
+            "index": 1,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAgEA3ZRDNJrT9aKbG7HFUucgPlDD7qk4COZJP2xq1/qLygSuDDO0KeY4q//gIrAvijix2E1kII4P5WhdF7nR0NyfGmWiEa+dfUnczve2Vnr42IBi4aLyScefQlo5ihhAkaww4pcetZ8ZycEtD/jakpqBj/hVhFKcLZ1ENfqT1CZYvfEiW0h4DpFSE1NUYEJ7Nreice0jA5D62C7I61hAi//K1S6IFVlYFUvzPhU3p5IY488bNt1FEW+7727ecA/p3w75WUmacK1IKdhkX+Oubft21sXKUjHZpXvXI+dH1R7AYgQcoL4XMRsvdLiRQxoOcbMn4dhdT+1Jt2/42vihymtDMju84pXdPczgtcUD0JLupvuInljsK3iqZNLxI1qfqaZmxBrwyiqvFAR+A5hPcBbof3TlgkXpFHK8JqNpT0K1FA+BG9ogiOKJpZls7IiwffcALgbgBagKlQBI+V2rkA4ni0h6/L8f/YsRKoK9LfWDtkSvglqiq3KWG7+xOnStCKJrEURY3nbtqmr9jTgFe4QFwTAlOsbbWjhsh5LjFgmLCAmkHVst8zGwDivJU+s5NyWzaElDl3ES3qiSyIl4qZpG0Pl2fq6NnIy0rVxbJRCkzwTRCKjqrR2wuC4ZRW1eSJZltgA/09pesUpbysnnhj5vcGYy4MlcyGv6lOsoVVRbEV0= jkt@vorvan.flaska.net"
+          },
+          {
+            "index": 2,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD4HHwAIhh77EPQ0hxsH2y3B/IWxFq8lyVPlmUeELR9e9bLvWGtipLgyk0FmZfy7DkvFOK9W/lrQopFBbdsxs9THhkODvA+laaiUzgI8SqYh4P2yDM5Vg07yweh/Hqvg+cyKGVLOluscwLzM4pgIQ5GuaOEk3yHc+KuBy4zSYZp1Vy+6LxX+0U6EmQYMheC/Nvlm90PVxnvX1uog4QbFo7hLVL+lVpVDXy5kDBC/yyuYkMy3AZKzP/HnPFD5V9nGMHRZfDihcleqvXIvWPIaK+KwBZeaeoHLTW51RsCV+47FpflYjOm+1UXfN1SR+vAFbSfvr/fdeXDe5S2Wc5UAB/ydLMSXN5Vxb/UAGMeWpxhp3IZDTogmOlvktUmKgh2C53onti7yerxhpcNylVJN3hoe5I6sFaJIw7emxD6PWI5BMgbt/B5cDxDbiSCRkkFbsyOKwx5WdHpJJH3OiAxDTUH/JO70Bg0wzGgJGN92ZONVDaBZCuGy5ISVqVQRkz7bqXLfVSghD8IWyhur6cL/pNYF3C2kmYypqrLyKnCwaXVFK2y1P88S97eZVPO6UgwTLYEx5KHaB6gBlnp6eluez2UdemBNDFKH+SAGe5IHYzBeD7o6ymIVM51CSPMnMEAJOrnbUGgfL6KgeW8mXHoVjgOYYN5uPGX8MiGvzyv0ztw1w== tomas@enterprise-2014-11-29"
+          },
+          {
+            "index": 3,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC2NCNfR2hgve7pvmhjgShfc1srppIkKsbAqkSRE64sWdt81JqQUMVTExZ3ikq9NdbewAT5/uUkB+lQj5+FUasN/iT0ZlNJ0KX8vbFfxT4eMgt8xpuqV/sc+6wkh31ZObQ4y3td7rEruSbL4dqLp10IRhuj6rLpo5QTOmZ8hgIzFrEKePQPJM/4H4Cr1Tf30nF1XbULocBIWcq9DWsfkcMrbAKiLObiO4gSAsqqoK681HmRMMA/4Ho2p+OjFNHNT2KqP2F/4rHj4G+c9yTY8B7Y6NFNlskVyljTEOtx4pnnNdMcjSO/kmu6GpJL63utAMOG/E9kJJQer9rV98D8XqdEhqXAJmlP12Vnfh5jyX87FqdWTf7aLs33n61vFjaboT2Z6GaGbwoBLWs7n/84HVl4aKrl1PR/9XKzamUn6Lydg48DCRCR4ahenlZ3KITDE9loYslO/oE7w5/fXUq3LbV4ZdiTrxIT7ia/4EB1xl4LwVEKN9W1L6IWHzF5eD0trLU= vk@KAREL"
+          }
+        ]
+      },
+      {
+        "name": "daemon",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "bin",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "sys",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "sync",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "mail",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "www-data",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "operator",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "nobody",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "yangnobody",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "dbus",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "sshd",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "systemd-journal-remote",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "systemd-coredump",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "systemd-network",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "systemd-resolve",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "systemd-timesync",
+        "password-last-change": "1969-12-31T00:00:00-00:00"
+      },
+      {
+        "name": "dwdm",
+        "password-last-change": "1969-12-31T00:00:00-00:00",
+        "authorized-keys": [
+          {
+            "index": 0,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAgEAwdsjuEhb9VoyYWncwYcAtwXwHNwDFq6KGKd0RHaeqiYIR9NyQcxCSQiB6CmLx4V0P2OMas5jn868/UuUBe8bNa9ZB1VVoPDfWPRVNhQGUSaKbF2BReZLBHWBvZKrI6QqjHyVs0MMAMxFd8RrrbuNylychb6DL7t39AcCRS9oFb4rRYkOG6FeTdUo+d+GW1y1h+PIC1E+uS6aJVDx+01wn/4iwpO3UfL2Z64jifsjgKE8ee9brg1dTGX5D/nt3CiutlSETwWh0Hp5yQQDjECM+/SlPbO334kjdOFxfGe2zrsJVVl2Y4y3ornQJ5dpkrfwuw9fE0ymUxRirGzCAGtKioz71IoUTsWNF1kToGunMSaQdIrjLclfICVWj1avoHaeS/LXbA+9x85I99+pSs5Jw4AjeSVSSXT5R1RTAUv62FMIomGDt8SIlYo9ACZbUAiwVrNUWaF/FEOtaeaVi3yMset7t6RQP6kQoJN32Hc2lP1e5vhsWWdNaNfVRfezj1KOzSy7wjxjymhDDAMfIHyeA8dM927gu6m2ah3TBbrHMkPUVe52ht8rdbLJMM2NbE16DixVX/s5RQg+YvY5nVBBIFRdcNvO/wMdJIequJUfnoBcJ1Rmh7nMgMo8gVLKGgoAfnzaPhOp75f4n+poyrHwdt0M6UIy8AQs1dowQPHfPzU= jkt@velbloud.basa.flaska.net"
+          },
+          {
+            "index": 1,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAgEA3ZRDNJrT9aKbG7HFUucgPlDD7qk4COZJP2xq1/qLygSuDDO0KeY4q//gIrAvijix2E1kII4P5WhdF7nR0NyfGmWiEa+dfUnczve2Vnr42IBi4aLyScefQlo5ihhAkaww4pcetZ8ZycEtD/jakpqBj/hVhFKcLZ1ENfqT1CZYvfEiW0h4DpFSE1NUYEJ7Nreice0jA5D62C7I61hAi//K1S6IFVlYFUvzPhU3p5IY488bNt1FEW+7727ecA/p3w75WUmacK1IKdhkX+Oubft21sXKUjHZpXvXI+dH1R7AYgQcoL4XMRsvdLiRQxoOcbMn4dhdT+1Jt2/42vihymtDMju84pXdPczgtcUD0JLupvuInljsK3iqZNLxI1qfqaZmxBrwyiqvFAR+A5hPcBbof3TlgkXpFHK8JqNpT0K1FA+BG9ogiOKJpZls7IiwffcALgbgBagKlQBI+V2rkA4ni0h6/L8f/YsRKoK9LfWDtkSvglqiq3KWG7+xOnStCKJrEURY3nbtqmr9jTgFe4QFwTAlOsbbWjhsh5LjFgmLCAmkHVst8zGwDivJU+s5NyWzaElDl3ES3qiSyIl4qZpG0Pl2fq6NnIy0rVxbJRCkzwTRCKjqrR2wuC4ZRW1eSJZltgA/09pesUpbysnnhj5vcGYy4MlcyGv6lOsoVVRbEV0= jkt@vorvan.flaska.net"
+          },
+          {
+            "index": 2,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD4HHwAIhh77EPQ0hxsH2y3B/IWxFq8lyVPlmUeELR9e9bLvWGtipLgyk0FmZfy7DkvFOK9W/lrQopFBbdsxs9THhkODvA+laaiUzgI8SqYh4P2yDM5Vg07yweh/Hqvg+cyKGVLOluscwLzM4pgIQ5GuaOEk3yHc+KuBy4zSYZp1Vy+6LxX+0U6EmQYMheC/Nvlm90PVxnvX1uog4QbFo7hLVL+lVpVDXy5kDBC/yyuYkMy3AZKzP/HnPFD5V9nGMHRZfDihcleqvXIvWPIaK+KwBZeaeoHLTW51RsCV+47FpflYjOm+1UXfN1SR+vAFbSfvr/fdeXDe5S2Wc5UAB/ydLMSXN5Vxb/UAGMeWpxhp3IZDTogmOlvktUmKgh2C53onti7yerxhpcNylVJN3hoe5I6sFaJIw7emxD6PWI5BMgbt/B5cDxDbiSCRkkFbsyOKwx5WdHpJJH3OiAxDTUH/JO70Bg0wzGgJGN92ZONVDaBZCuGy5ISVqVQRkz7bqXLfVSghD8IWyhur6cL/pNYF3C2kmYypqrLyKnCwaXVFK2y1P88S97eZVPO6UgwTLYEx5KHaB6gBlnp6eluez2UdemBNDFKH+SAGe5IHYzBeD7o6ymIVM51CSPMnMEAJOrnbUGgfL6KgeW8mXHoVjgOYYN5uPGX8MiGvzyv0ztw1w== tomas@enterprise-2014-11-29"
+          },
+          {
+            "index": 3,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC2NCNfR2hgve7pvmhjgShfc1srppIkKsbAqkSRE64sWdt81JqQUMVTExZ3ikq9NdbewAT5/uUkB+lQj5+FUasN/iT0ZlNJ0KX8vbFfxT4eMgt8xpuqV/sc+6wkh31ZObQ4y3td7rEruSbL4dqLp10IRhuj6rLpo5QTOmZ8hgIzFrEKePQPJM/4H4Cr1Tf30nF1XbULocBIWcq9DWsfkcMrbAKiLObiO4gSAsqqoK681HmRMMA/4Ho2p+OjFNHNT2KqP2F/4rHj4G+c9yTY8B7Y6NFNlskVyljTEOtx4pnnNdMcjSO/kmu6GpJL63utAMOG/E9kJJQer9rV98D8XqdEhqXAJmlP12Vnfh5jyX87FqdWTf7aLs33n61vFjaboT2Z6GaGbwoBLWs7n/84HVl4aKrl1PR/9XKzamUn6Lydg48DCRCR4ahenlZ3KITDE9loYslO/oE7w5/fXUq3LbV4ZdiTrxIT7ia/4EB1xl4LwVEKN9W1L6IWHzF5eD0trLU= vk@KAREL"
+          },
+          {
+            "index": 4,
+            "public-key": "ssh-dss AAAAB3NzaC1kc3MAAAIBAIRKb+3ZCnnI1xJjdFStN7B9t9+6tzQuLAizvt+hbsVzlntA4fogfLWa9PYPLBe27iVw5jIXU8j2TcsaPwr5O50VvyzYTwwhAWeerBAWsLwsmjrR0eBdXDnMmYegq/j2XiQwvBZCyNTxyFFABlozdIU6CI+u2reGiEqxjX4kr41ES5l+MdHVaYqx1NnL05Jq0s5xipaTlNzm0IhGwP6tPd1Aje38KvQ2e1sgxE8DOkTZNxSe/khgCq7ZMZ5sqDDwQJbZRxGBPVKXoBUrm9QtpCs2NV+CPlwTXny0geQ/asw6mMkQbcqs1s9UlKVm/Sb8eZrQQVwSR5kXX+MaDI7peNcssbPwcXQxmszvsErj1bt7igMVGlTfBlsJnzTXwxfPEMaKAF+jeFjmnoJYnDcVV1qy9BHGh72EUQjCSHK1JULicH3MYCiK7B7iFmJ556jy4spfzvtKSvoNVAmYpaUhjYKE424sDcfHOejNK2pI4rt+f3++a7TKDb3XqqWHE6AdwfAhtRh26lZ4GIkvCqnDjdtcjGj1PRrKO7vN2Wr3AIvz4EXPk7pbNf4mBZuB9lD9KjYyCRflVYqToFOmAZm8eMWXoFRKq8hIU4bcS11jY1uspmfXwtwEUGFxsDHKtrrzMJKPRgBG6+bFNnUbm9sWZGIE+8+9pT7j2Lm8z8nXedqFAAAAFQCVXJbtYRbq814CvQlHKGpQJRybVwAAAgBW48HRfLJOPULhFFJFdvja4BfXoVI1gKpE+cD34oZEC+9l6xiQYEzD7A4JxtOKNo2cHKzq892g0ZYzMfe9ky5Lqb4scvpLZJLYywYZHybuzVvnGZ4cMnTrk693Oj1ehO1C9t6oIv7Um90LYgjF4FZH/vu+B0F6E8sapjbQkH3Kc/1AoTeQ5YdX64h2PUGU0HJJGizgPA2rP7QTI4ANOppxrSTxzvaTaL1dk+EdP1CpR7CQ3xaO3Hsz4kSZPG9BbTrqSxgx8xLn3JUNpJiNBZbeFIsnazcQFEph8hfy/b35cMWX3dVKp5rKHYc89lqloiaXNuvR9vpQLsdiWvvTJriKxD8Xolow04JUu1JlP2SBNbHioArgvyn1bM3eaIgh70FVc+e8gDiZ3z9BkBglwYayzt4vWSSp7tFOFJT9I7yV3k71ETA+ciLLzc1NJBtNpOmJGox9M3YMk7VklOTclvMfuK2LuMWQuHM4YXLGjQRswNuJKMR5y9g5vUat05jxxkfiVCglLUSne3X1wJcK2ZX/mtP8Gn4ArcLZsOjniSGU79JJWaEnIAig/AExjJLGeM25gJG0FpeB1ZtO+DCBrTPTSyo4eXBRQpw2LQ2YvBgP7QgfnB/mDSaIMwWqaBsx4O3dkIWkZKEuVJxSnjdcCxJPeRCuh4IHf40ecXkwA80VmAAAAgAJcuvTmjxZ1s8W0NxXl5nFbwM+3C7TkplnP4v9XthevX7k5+sXLAKiPicQwMI+308hXlwxM86+dBapzD3AqryG0cnfiqfUB8O9xcm/jh0OnbgjzudLP4YPR8Ed5nWZ7cgmVolntU4Es40L5H8h53g2J76NwAqcwct1y5YvtP/0WUGyd/5z9UGYx2lYLECC0ljD7BGYFvotcYjtm35Pr2HF60k3/GHgDf2pGjFwMKqu2MLAOinKgvBThPY+lJEc0FvdpEhNXor1nizJJoOqcnvFf+CQGQihbq9nJgFtsOcD2I7bz9ReL/OhFEZ4ykeiGdo9L1+1tIrbOkmE08R4VykWxJpT/rO/ZpOBKlEvcc1KeaBc2rXB69fqO0jKZr2Dbka0RVJPLWNCyOAxVq5itNZgHKC0LYHgx/JEXzX85MEHtCgFC8D9CI+UGFibKFj33V1gHWA7RLzamrpZT5JjDIZ8i5hPLiYnJ6hHABjRbX/ychloyB2BPWv6IiIlP65XrgsRgO6axvU9ViOYHmn02k6y0PgEL39CnE4pAjkWnt0mao/H1ESvcauGyBiL2W/Q5AzEdCUA/QkBQSmNsiOVJjiwPdcd6qCrpgOiTsWDun+sJErbTlKXcEHudjQ4pt1naUnNkvA3A5JXphtJyn5+8/zFeYzwlXMdE7W+hyqP4jSscw== slapamar"
+          },
+          {
+            "index": 5,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdcK6NSAFcIVdxbNxRePn4BFxf4Upg+pH94XPbuyKcHd9WxdAH5mtsWdS3KBAhpFbvHOI4C2w5pMFsuYbEGll7Thn61MKhFE+jcRh2f5oACrwF1CZzwZFbkukq2j7hBz1/rkV2x2aYRdPWWsXkokzpMXv4eCAHL6GO9iXeXyFhY2gX6hjIFRxegtN5GPHbjAaPR86qIZS92QfmmZtQZOpNDehAO3RaqWt0EzfQyf2su03UF8iL0MeDe+W9X6t7XbbjwfaRhhEFSDQoMzvMydzG289J2mMMQ/BFnDyjF4Fpb7Rq56BQGDLPZSK4I+Wswp+bV0aU+lW/YPoEq37Kd97T gimli2@glum"
+          },
+          {
+            "index": 6,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCyHJde5qmYOuYOzuoPgL36pLYBK81NOiQhzPKwH+n1FRCRbRqwwYenMJkOrRNfIjqfzv95DcB7sW+mq9hu3a00lEQQmx6xnEA4H5O8jmlFkkTzexJT1CkQFCqK3hyL9owjEYlhUft6liKsKxPnc+XP3U96UVUpsoT3aQjM7NMZwwPNqesOFjHhOnCkp2jQ/jtn7zvE7dng5bZbhsxJMr4qVcGW0hDnqPuxjD18FZuiNrth3ggKZxv2KuSWNCFXB1nAOiAeZxQkCxfcixaOgczoZlL8F1jvth1dZQYf3GDAjt1zCx9LVDh7nXj9uwlPfOwyLVFYFf10GyDid8YwUTIDUQLC0kBaQtmrdw3mb7KuVFYCgOaNWplg7Md22tjJcryNAg1QIBfijGzQrK9SyQOqiQYZmxLsUmgB0s7u0+P0IFQi7a+hc8swSsMK0UWMHCrY7d+pCGMrUP4mf2deT/9nofVHB8n5Mt98kLJ78SMitlBu/cTHdwmV8h3sgBrIjok= lubomir-prda"
+          },
+          {
+            "index": 7,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwuCE06Rrye9l41tneQ4I5GVsn63tzq8S+z2PD6NvO1V7Z3530XtEYvR91TgbBu5aLZgfnwHM6ZL/1wBQKqyBcnwTb7aMBcS/YY9y9gwkatTHLr/+6JWFEIcT055DsSWD6oCMElwPJkoCPmtasvfMgLd9UzSFkQEaQUuAN3MvUcIokAyCymlvXrtCiDRQRWWObB81VTHD2OrZaa75uutg/0MKpNC3/PS02kMCct/7LfLX3rfOQFSIauBdXRoy2BWiKyeymYxlHvDlwQkwAf9TKtSF5Y2lSmL53ia5TRcHau2okIfVRADkyMeHx8QCEhLs8ClgBlqOmvKPdo3NwSJ3x ondra-havlis"
+          },
+          {
+            "index": 8,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDyoa01h2eNDBaGVz9uQC93ENNaTG5MWDDLcbcZ32ThH70Kh4+FEr40pYzZwyz5tw88FGDirUl65sSYk+I25pf8eLGeGSGsh6lF5sMFg4DjtqXhOwsho/kAs9iJSlNVA3HSL6ZNsEkOMDza2GFP23IgzlWiZ9y8F83cDkqimpbhyNXN8Y5GLRvnmEJ4ct3FxVGCllJAblHGdWMJb+N3S9XaW1GtIroXVVsJEy9dTBGTbIs7J9JSLWnJsvUWWBerRkoufmYj012iPkaHrNkQlEiBasxoqB5s1ae9DYRTJGcoIcrnoXOHlw+byeEhGSEWRqnJZOJWO2wJnW6sLCbRnujf kuba-mer"
+          },
+          {
+            "index": 9,
+            "public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDYsXWCiSpRYOS/pa1s3yid48iqSe8bazbvKrBI5v+G+w0guvUxoPUgOPPPT8/vsjYmqpmceZQAXTx0oSzM1gKlWEBAcWt4zwoRlvDQZ11oYWiYOowDnTauGVsknLFOtyrNidCZnMbcmNhqbzEGYPnV2Hsi/6lHS+gaNUZma52vvkq40atUCKswakrCck1YhJV0RVAhaMrMKIcr4p9qMK1uckquYvXldZOrpCx25lVMaMsPjfZynmfhHGDYh2OUvm3tm64HXjqxCHspJZ1xDlVD6tjNpk+7JTvFZGra9Ofp+HoD5Al+6v0ZVNa4Hfa6LGq/2GnbcPcMFAhq3Mw1IlhgFHlFh6RYITKeCL0UGX5K2LRjldbVExKwvGw2ZOxRzRkO5r2xXKfJ3XdUCQvpn3jZQ5586pbT63tx2Q4EerEQe++z5+Pjo/jDRT15iclODEzdZcG2nM6yPIZrGt/PN3+5uRYkpdEKwq8MzdGbGGa+8xTUQAYWFUcLFcvYlC+iZ8iM2kQTfw3j44Y56kI8VLzEcH+nisZZ2DoLSeb9y5XsAl4sBWYmVMqSgG2OKCLyyNL7X68M/HDZ4b5Nl12sH7UgODlENfmtYmV+6/OQh5u1zogU1syqsqzVxYjYBqzZ3mbaup7KO4DgBlXMIO18Xzc/PmL+XDaUVJMYzTmrWP9lfQ== petr-adamec"
+          }
+        ]
+      }
+    ]
+  },
+  "czechlight-system:leds": {
+    "led": [
+      {
+        "name": "led5:blue",
+        "brightness": 0
+      },
+      {
+        "name": "led5:green",
+        "brightness": 0
+      },
+      {
+        "name": "led5:red",
+        "brightness": 0
+      },
+      {
+        "name": "line:blue",
+        "brightness": 0
+      },
+      {
+        "name": "line:green",
+        "brightness": 0
+      },
+      {
+        "name": "line:red",
+        "brightness": 0
+      },
+      {
+        "name": "mmc0::",
+        "brightness": 0
+      },
+      {
+        "name": "sfp:blue",
+        "brightness": 0
+      },
+      {
+        "name": "sfp:green",
+        "brightness": 0
+      },
+      {
+        "name": "sfp:red",
+        "brightness": 0
+      },
+      {
+        "name": "status:blue",
+        "brightness": 0
+      },
+      {
+        "name": "status:green",
+        "brightness": 100
+      },
+      {
+        "name": "status:red",
+        "brightness": 0
+      },
+      {
+        "name": "uid:blue",
+        "brightness": 0
+      },
+      {
+        "name": "uid:green",
+        "brightness": 0
+      },
+      {
+        "name": "uid:red",
+        "brightness": 0
+      }
+    ]
+  },
+  "ietf-hardware:hardware": {
+    "last-change": "2022-04-27T08:47:33-00:00",
+    "component": [
+      {
+        "name": "ne",
+        "class": "iana-hardware:chassis",
+        "description": "Czechlight project",
+        "model-name": "sdn-roadm-line"
+      },
+      {
+        "name": "ne:edfa",
+        "class": "iana-hardware:module",
+        "parent": "ne",
+        "firmware-rev": "1.0.1",
+        "serial-num": "625675",
+        "model-name": "DUAL FIXED GAIN"
+      },
+      {
+        "name": "ne:edfa:pump1",
+        "class": "iana-hardware:module",
+        "parent": "ne:edfa"
+      },
+      {
+        "name": "ne:edfa:pump1:laser-current",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:edfa:pump1",
+        "sensor-data": {
+          "value": 431,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 1,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:edfa:pump1:operating-time",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:edfa:pump1",
+        "sensor-data": {
+          "value": 10494,
+          "value-type": "other",
+          "value-scale": "units",
+          "value-precision": 0,
+          "oper-status": "ok",
+          "units-display": "hours"
+        }
+      },
+      {
+        "name": "ne:edfa:pump1:tec-current",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:edfa:pump1",
+        "sensor-data": {
+          "value": -1800,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 1,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:edfa:pump1:tec-voltage",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:edfa:pump1",
+        "sensor-data": {
+          "value": -352,
+          "value-type": "volts-DC",
+          "value-scale": "units",
+          "value-precision": 3,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:edfa:pump1:temperature",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:edfa:pump1",
+        "sensor-data": {
+          "value": 250,
+          "value-type": "celsius",
+          "value-scale": "units",
+          "value-precision": 1,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:edfa:pump2",
+        "class": "iana-hardware:module",
+        "parent": "ne:edfa"
+      },
+      {
+        "name": "ne:edfa:pump2:laser-current",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:edfa:pump2",
+        "sensor-data": {
+          "value": 422,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 1,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:edfa:pump2:operating-time",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:edfa:pump2",
+        "sensor-data": {
+          "value": 10494,
+          "value-type": "other",
+          "value-scale": "units",
+          "value-precision": 0,
+          "oper-status": "ok",
+          "units-display": "hours"
+        }
+      },
+      {
+        "name": "ne:edfa:pump2:tec-current",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:edfa:pump2",
+        "sensor-data": {
+          "value": -1890,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 1,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:edfa:pump2:tec-voltage",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:edfa:pump2",
+        "sensor-data": {
+          "value": -378,
+          "value-type": "volts-DC",
+          "value-scale": "units",
+          "value-precision": 3,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:edfa:pump2:temperature",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:edfa:pump2",
+        "sensor-data": {
+          "value": 250,
+          "value-type": "celsius",
+          "value-scale": "units",
+          "value-precision": 1,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:edfa:temperature",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:edfa",
+        "sensor-data": {
+          "value": 257,
+          "value-type": "celsius",
+          "value-scale": "units",
+          "value-precision": 1,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:ocm",
+        "class": "iana-hardware:module",
+        "parent": "ne",
+        "hardware-rev": "001",
+        "serial-num": "MM4054082-Q",
+        "mfg-name": "JDSU",
+        "model-name": "TRUEFLEX(R) OCM",
+        "mfg-date": "2018-08-09T00:00:00-00:00"
+      },
+      {
+        "name": "ne:wss",
+        "class": "iana-hardware:module",
+        "parent": "ne",
+        "hardware-rev": "5.1.0",
+        "firmware-rev": "6.5.5",
+        "serial-num": "N018F55239",
+        "mfg-name": "Nistica",
+        "model-name": "FFMB-C58L020-9NI"
+      },
+      {
+        "name": "ne:wss:barometric-pressure",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:wss",
+        "sensor-data": {
+          "value": 9923,
+          "value-type": "other",
+          "value-scale": "kilo",
+          "value-precision": 2,
+          "oper-status": "ok",
+          "units-display": "pascals"
+        }
+      },
+      {
+        "name": "ne:wss:temperature-board",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:wss",
+        "sensor-data": {
+          "value": 351,
+          "value-type": "celsius",
+          "value-scale": "units",
+          "value-precision": 1,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:wss:temperature-case",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:wss",
+        "sensor-data": {
+          "value": 259,
+          "value-type": "celsius",
+          "value-scale": "units",
+          "value-precision": 1,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:wss:temperature-lid",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:wss",
+        "sensor-data": {
+          "value": 259,
+          "value-type": "celsius",
+          "value-scale": "units",
+          "value-precision": 1,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:wss:temperature-switch",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:wss",
+        "sensor-data": {
+          "value": 259,
+          "value-type": "celsius",
+          "value-scale": "units",
+          "value-precision": 1,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:wss:uptime",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:wss",
+        "sensor-data": {
+          "value": 16445863,
+          "value-type": "other",
+          "value-scale": "units",
+          "value-precision": 0,
+          "oper-status": "ok",
+          "units-display": "seconds"
+        }
+      },
+      {
+        "name": "ne:wss:voltage-3V3",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:wss",
+        "sensor-data": {
+          "value": 330,
+          "value-type": "volts-DC",
+          "value-scale": "units",
+          "value-precision": 2,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:wss:voltage-5V0",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:wss",
+        "sensor-data": {
+          "value": 501,
+          "value-type": "volts-DC",
+          "value-scale": "units",
+          "value-precision": 2,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:wss:voltage-N5V0",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:wss",
+        "sensor-data": {
+          "value": -504,
+          "value-type": "volts-DC",
+          "value-scale": "units",
+          "value-precision": 2,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:ctrl",
+        "class": "iana-hardware:module",
+        "parent": "ne"
+      },
+      {
+        "name": "ne:ctrl:emmc",
+        "class": "iana-hardware:module",
+        "parent": "ne:ctrl",
+        "serial-num": "0xfc9dc00e",
+        "model-name": "8GTF4R",
+        "mfg-date": "2018-01-01T00:00:00-00:00"
+      },
+      {
+        "name": "ne:ctrl:emmc:lifetime",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:ctrl:emmc",
+        "sensor-data": {
+          "value": 0,
+          "value-type": "other",
+          "value-scale": "units",
+          "value-precision": 0,
+          "oper-status": "ok",
+          "units-display": "percent"
+        }
+      },
+      {
+        "name": "ne:ctrl:temperature-cpu",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:ctrl",
+        "sensor-data": {
+          "value": 42743,
+          "value-type": "celsius",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:ctrl:temperature-front",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:ctrl",
+        "sensor-data": {
+          "value": -127249,
+          "value-type": "celsius",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:ctrl:temperature-internal-0",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:ctrl",
+        "sensor-data": {
+          "value": 46000,
+          "value-type": "celsius",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:ctrl:temperature-internal-1",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:ctrl",
+        "sensor-data": {
+          "value": 26000,
+          "value-type": "celsius",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:fans",
+        "class": "iana-hardware:module",
+        "parent": "ne"
+      },
+      {
+        "name": "ne:fans:fan1",
+        "class": "iana-hardware:fan",
+        "parent": "ne:fans"
+      },
+      {
+        "name": "ne:fans:fan1:rpm",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:fans:fan1",
+        "sensor-data": {
+          "value": 10384,
+          "value-type": "rpm",
+          "value-scale": "units",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:fans:fan2",
+        "class": "iana-hardware:fan",
+        "parent": "ne:fans"
+      },
+      {
+        "name": "ne:fans:fan2:rpm",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:fans:fan2",
+        "sensor-data": {
+          "value": 7906,
+          "value-type": "rpm",
+          "value-scale": "units",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:fans:fan3",
+        "class": "iana-hardware:fan",
+        "parent": "ne:fans"
+      },
+      {
+        "name": "ne:fans:fan3:rpm",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:fans:fan3",
+        "sensor-data": {
+          "value": 15126,
+          "value-type": "rpm",
+          "value-scale": "units",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:fans:fan4",
+        "class": "iana-hardware:fan",
+        "parent": "ne:fans"
+      },
+      {
+        "name": "ne:fans:fan4:rpm",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:fans:fan4",
+        "sensor-data": {
+          "value": 14438,
+          "value-type": "rpm",
+          "value-scale": "units",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu",
+        "class": "iana-hardware:power-supply",
+        "parent": "ne"
+      },
+      {
+        "name": "ne:pdu:current-12V",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 957,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu:current-3V3",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 582,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu:current-5V",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 796,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu:power-12V",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 15000000,
+          "value-type": "watts",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu:power-3V3",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 14000000,
+          "value-type": "watts",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu:power-5V",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 15000000,
+          "value-type": "watts",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu:temperature-1",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 27000,
+          "value-type": "celsius",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu:temperature-2",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 31000,
+          "value-type": "celsius",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu:temperature-3",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 32000,
+          "value-type": "celsius",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu:voltage-12V",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 11955,
+          "value-type": "volts-DC",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu:voltage-3V3",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 3337,
+          "value-type": "volts-DC",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:pdu:voltage-5V",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:pdu",
+        "sensor-data": {
+          "value": 5136,
+          "value-type": "volts-DC",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu1",
+        "class": "iana-hardware:power-supply",
+        "parent": "ne"
+      },
+      {
+        "name": "ne:psu1:current-12V",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu1",
+        "sensor-data": {
+          "value": 0,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu1:current-5Vsb",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu1",
+        "sensor-data": {
+          "value": 0,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu1:current-in",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu1",
+        "sensor-data": {
+          "value": 0,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu1:fan",
+        "class": "iana-hardware:module",
+        "parent": "ne:psu1"
+      },
+      {
+        "name": "ne:psu1:fan:fan1",
+        "class": "iana-hardware:fan",
+        "parent": "ne:psu1:fan"
+      },
+      {
+        "name": "ne:psu1:fan:fan1:rpm",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu1:fan:fan1",
+        "sensor-data": {
+          "value": 0,
+          "value-type": "rpm",
+          "value-scale": "units",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu1:power-in",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu1",
+        "sensor-data": {
+          "value": 0,
+          "value-type": "watts",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu1:power-out",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu1",
+        "sensor-data": {
+          "value": 0,
+          "value-type": "watts",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu1:temperature-1",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu1",
+        "sensor-data": {
+          "value": 24000,
+          "value-type": "celsius",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu1:temperature-2",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu1",
+        "sensor-data": {
+          "value": 24000,
+          "value-type": "celsius",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu1:voltage-12V",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu1",
+        "sensor-data": {
+          "value": 0,
+          "value-type": "volts-DC",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu1:voltage-5Vsb",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu1",
+        "sensor-data": {
+          "value": 0,
+          "value-type": "volts-DC",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu1:voltage-in",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu1",
+        "sensor-data": {
+          "value": 0,
+          "value-type": "volts-AC",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu2",
+        "class": "iana-hardware:power-supply",
+        "parent": "ne"
+      },
+      {
+        "name": "ne:psu2:current-12V",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu2",
+        "sensor-data": {
+          "value": 1574,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu2:current-5Vsb",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu2",
+        "sensor-data": {
+          "value": 156,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu2:current-in",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu2",
+        "sensor-data": {
+          "value": 187,
+          "value-type": "amperes",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu2:fan",
+        "class": "iana-hardware:module",
+        "parent": "ne:psu2"
+      },
+      {
+        "name": "ne:psu2:fan:fan1",
+        "class": "iana-hardware:fan",
+        "parent": "ne:psu2:fan"
+      },
+      {
+        "name": "ne:psu2:fan:fan1:rpm",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu2:fan:fan1",
+        "sensor-data": {
+          "value": 4096,
+          "value-type": "rpm",
+          "value-scale": "units",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu2:power-in",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu2",
+        "sensor-data": {
+          "value": 25250000,
+          "value-type": "watts",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu2:power-out",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu2",
+        "sensor-data": {
+          "value": 18000000,
+          "value-type": "watts",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu2:temperature-1",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu2",
+        "sensor-data": {
+          "value": 34000,
+          "value-type": "celsius",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu2:temperature-2",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu2",
+        "sensor-data": {
+          "value": 33000,
+          "value-type": "celsius",
+          "value-scale": "milli",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu2:voltage-12V",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu2",
+        "sensor-data": {
+          "value": 11890,
+          "value-type": "volts-DC",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu2:voltage-5Vsb",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu2",
+        "sensor-data": {
+          "value": 5017,
+          "value-type": "volts-DC",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      },
+      {
+        "name": "ne:psu2:voltage-in",
+        "class": "iana-hardware:sensor",
+        "parent": "ne:psu2",
+        "sensor-data": {
+          "value": 224750,
+          "value-type": "volts-AC",
+          "value-scale": "micro",
+          "value-precision": 0,
+          "oper-status": "ok"
+        }
+      }
+    ]
+  },
+  "ietf-interfaces:interfaces": {
+    "interface": [
+      {
+        "name": "lo",
+        "type": "iana-if-type:softwareLoopback",
+        "oper-status": "unknown",
+        "phys-address": "00:00:00:00:00:00",
+        "statistics": {
+          "in-octets": "6080",
+          "in-discards": 0,
+          "in-errors": 0,
+          "out-octets": "6080",
+          "out-discards": 0,
+          "out-errors": 0
+        },
+        "ietf-ip:ipv4": {
+          "address": [
+            {
+              "ip": "127.0.0.1",
+              "prefix-length": 8
+            }
+          ]
+        },
+        "ietf-ip:ipv6": {
+          "address": [
+            {
+              "ip": "::1",
+              "prefix-length": 128
+            }
+          ]
+        }
+      },
+      {
+        "name": "eth0",
+        "type": "iana-if-type:ethernetCsmacd",
+        "oper-status": "up",
+        "phys-address": "00:11:17:01:00:2e",
+        "statistics": {
+          "in-octets": "488342",
+          "in-discards": 0,
+          "in-errors": 0,
+          "out-octets": "53565126",
+          "out-discards": 0,
+          "out-errors": 0
+        }
+      },
+      {
+        "name": "eth1",
+        "type": "iana-if-type:ethernetCsmacd",
+        "oper-status": "down",
+        "phys-address": "00:11:17:01:00:2f",
+        "statistics": {
+          "in-octets": "0",
+          "in-discards": 0,
+          "in-errors": 0,
+          "out-octets": "0",
+          "out-discards": 0,
+          "out-errors": 0
+        }
+      },
+      {
+        "name": "osc",
+        "type": "iana-if-type:ethernetCsmacd",
+        "oper-status": "down",
+        "phys-address": "00:11:17:01:00:30",
+        "statistics": {
+          "in-octets": "0",
+          "in-discards": 0,
+          "in-errors": 0,
+          "out-octets": "0",
+          "out-discards": 0,
+          "out-errors": 0
+        }
+      },
+      {
+        "name": "br0",
+        "type": "iana-if-type:bridge",
+        "oper-status": "up",
+        "phys-address": "00:11:17:01:00:2e",
+        "statistics": {
+          "in-octets": "399873",
+          "in-discards": 0,
+          "in-errors": 0,
+          "out-octets": "53564019",
+          "out-discards": 0,
+          "out-errors": 0
+        },
+        "ietf-ip:ipv4": {
+          "address": [
+            {
+              "ip": "10.0.254.78",
+              "prefix-length": 24
+            }
+          ],
+          "neighbor": [
+            {
+              "ip": "10.0.0.1",
+              "link-layer-address": "cc:2d:e0:52:30:9c"
+            },
+            {
+              "ip": "10.0.254.1",
+              "link-layer-address": "cc:2d:e0:52:30:9c"
+            },
+            {
+              "ip": "10.0.254.98",
+              "link-layer-address": "4a:2a:8d:2f:35:00"
+            }
+          ]
+        },
+        "ietf-ip:ipv6": {
+          "address": [
+            {
+              "ip": "fe80::211:17ff:fe01:2e",
+              "prefix-length": 64
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ietf-keystore:keystore": {
+    "asymmetric-keys": {
+      "asymmetric-key": [
+        {
+          "name": "genkey",
+          "algorithm": "rsa2048",
+          "public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt11RGOvyM0Pa4qLxPRUSkv+jbi9ehnCvRKUJ3TV5zvXQb5IvQYIdUb/OgaimWGHY6TIdRW+aLd4VBS38+EVxjlIzhZB8/ztPLcSOSRo61Sk/eIJoUKDuD1iVCPP2/nEPguAhe+KKZCPkNCH5KItWUTPd2WmUerWs7iLyq4FmRaVggnaibkzHXeBdkQwprHZu0akVAB3PgYvgmGWgd3a2+djgCFBy5H2vC5ef+qKJoR/I7P0aFutCxunJ/aPvEgaU3+eCSoMCzgQLaJSfNm1hpK7FH6UOiEam4SgZsCOF9m611AE7agLc4tbFMTxOPVHai4DnXpFMXrjqvAscKLJ3uwIDAQAB",
+          "private-key": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3XVEY6/IzQ9riovE9FRKS/6NuL16GcK9EpQndNXnO9dBvki9Bgh1Rv86BqKZYYdjpMh1Fb5ot3hUFLfz4RXGOUjOFkHz/O08txI5JGjrVKT94gmhQoO4PWJUI8/b+cQ+C4CF74opkI+Q0Ifkoi1ZRM93ZaZR6tazuIvKrgWZFpWCCdqJuTMdd4F2RDCmsdm7RqRUAHc+Bi+CYZaB3drb52OAIUHLkfa8Ll5/6oomhH8js/RoW60LG6cn9o+8SBpTf54JKgwLOBAtolJ82bWGkrsUfpQ6IRqbhKBmwI4X2brXUATtqAtzi1sUxPE49UdqLgOdekUxeuOq8Cxwosne7AgMBAAECggEAGJZ2zXS2IZGzxDg9SQeOWg/Vhmzrq/NoTTgkPnlxQANOU+eyVoJwFAo4UsKeq7NTNtH1gt4YOpZRE0S7az9EnuT+66YYXNFDKMv2mG7f/L1vOWWjP0yVH5GtSmoMcMoQXmhXlRknnY4Ch8sWcg1dIb5mvUSfGGVMLxKYn87WO/hal1Vg94l3lmJyeuvtK8rpUGr8AFLxWlAKUOhdDEpp9WtbiupPNfAemZYcnYTI3FGGn61JzhP+hYD3tMeU6YXreeqGPFz3adYatlgN2jytGO8Q/eCkLWrGk5RM/35Tof8T5zkh74x75IDctlxKap/bm2ex1K3Pmqxr877kaPtkoQKBgQD0Jz6OkNH6YMiqBp06brXKvIHbEO+KHDSbd35bRApKZ/3HmSFpQhh6Bo59e6hFlqEoOs/NmDCol6wh81lXkFKyoM9QURXMoW4gRJxT3tb8fPMjQTQpNSOy8k0hri2XMriqNcvxfav6pbEsnKdERKXJVzIE1YLwvZXJdPmPD5r3RwKBgQDAQvu1zgcejwk6M2/7BKdwmWXJZMhhrJyy+04aTTDQyLMZplyJOCV0IAxVT4McRlFUzgdE8ITeMKdsckAONf8+p1LrC2Tx7UUJMLTwRXPsgeqmvECYefgSoFoT+qOxdtgDvnRpA85zvyn9C6OU5diDiM6skxZjxZungbaK40Od7QKBgATp8UlfQsqePgul/G4bok8FQjvNeHS4IprqacGeefKLa0EkJNcAfIugLCf8YCOeZ3nuzRXfNUN/YfiA9FBd2Dw+Hk4Ig77NlPDTUK4jcwI75YzVGB6oMiK8266M2eAMJklOsd8XX2m5Afra4EbwdsG5nokYXv1HY4ddclRdxQmrAoGBAJnCuEX9IMp6wHlwe8U4QqUVuUbouC0NfEDUJPF5/GltqXcBCo6ffayymMp9jbDGN/Nn1n53EPwV00Ay2zHCU4ELFpBuC2xEQusHrh1enkhu2nhApDSNjy1uWrwRvmqGTlooLjdyWOFO6Ei8zzWc4JzJg+iWtdhTSJodbh0Dhqc9AoGBANvhtQ34WRGu4ijlXt5fwXpBweK7Ea0j5xedF+3yjHsZY2cBHjwlqcE6133rEjfLPKKJS+4uj1+7sM0eZNvHOl/OvqlIbGbqqvnwqAUGRM2JiFMPiclvT8uCdHLAkOvfE0zYKBt1GWNfxAkpd+7OYGvJZC0tH6t5U7Y3mMuiTb1o"
+        }
+      ]
+    }
+  },
+  "ietf-netconf-acm:nacm": {
+    "denied-operations": 0,
+    "denied-data-writes": 0,
+    "denied-notifications": 0,
+    "rule-list": [
+      {
+        "name": "Allow DWDM control to the optics group",
+        "group": [
+          "optics"
+        ],
+        "rule": [
+          {
+            "name": "czechlight-roadm-device",
+            "module-name": "czechlight-roadm-device",
+            "action": "permit"
+          },
+          {
+            "name": "czechlight-inline-amp",
+            "module-name": "czechlight-inline-amp",
+            "action": "permit"
+          },
+          {
+            "name": "czechlight-coherent-add-drop",
+            "module-name": "czechlight-coherent-add-drop",
+            "action": "permit"
+          },
+          {
+            "name": "czechlight-calibration-device",
+            "module-name": "czechlight-calibration-device",
+            "action": "permit"
+          }
+        ]
+      }
+    ]
+  },
+  "ietf-netconf-monitoring:netconf-state": {
+    "capabilities": {
+      "capability": [
+        "urn:ietf:params:netconf:base:1.0",
+        "urn:ietf:params:netconf:base:1.1",
+        "urn:ietf:params:netconf:capability:writable-running:1.0",
+        "urn:ietf:params:netconf:capability:candidate:1.0",
+        "urn:ietf:params:netconf:capability:confirmed-commit:1.1",
+        "urn:ietf:params:netconf:capability:rollback-on-error:1.0",
+        "urn:ietf:params:netconf:capability:validate:1.1",
+        "urn:ietf:params:netconf:capability:startup:1.0",
+        "urn:ietf:params:netconf:capability:xpath:1.0",
+        "urn:ietf:params:netconf:capability:with-defaults:1.0?basic-mode=explicit&also-supported=report-all,report-all-tagged,trim,explicit",
+        "urn:ietf:params:netconf:capability:notification:1.0",
+        "urn:ietf:params:netconf:capability:interleave:1.0",
+        "urn:ietf:params:xml:ns:yang:ietf-yang-metadata?module=ietf-yang-metadata&revision=2016-08-05",
+        "urn:ietf:params:xml:ns:yang:1?module=yang&revision=2021-04-07",
+        "urn:ietf:params:xml:ns:yang:ietf-inet-types?module=ietf-inet-types&revision=2013-07-15",
+        "urn:ietf:params:xml:ns:yang:ietf-yang-types?module=ietf-yang-types&revision=2013-07-15",
+        "urn:ietf:params:netconf:capability:yang-library:1.1?revision=2019-01-04&content-id=1",
+        "urn:ietf:params:xml:ns:yang:ietf-netconf-acm?module=ietf-netconf-acm&revision=2018-02-14",
+        "urn:sysrepo:plugind?module=sysrepo-plugind&revision=2022-03-10",
+        "urn:ietf:params:xml:ns:netconf:base:1.0?module=ietf-netconf&revision=2013-09-29&features=writable-running,candidate,confirmed-commit,rollback-on-error,validate,startup,url,xpath",
+        "urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults?module=ietf-netconf-with-defaults&revision=2011-06-01",
+        "urn:ietf:params:xml:ns:yang:ietf-netconf-notifications?module=ietf-netconf-notifications&revision=2012-02-06",
+        "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring?module=ietf-netconf-monitoring&revision=2010-10-04",
+        "urn:ietf:params:xml:ns:netmod:notification?module=nc-notifications&revision=2008-07-14",
+        "urn:ietf:params:xml:ns:netconf:notification:1.0?module=notifications&revision=2008-07-14",
+        "urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name?module=ietf-x509-cert-to-name&revision=2014-12-10",
+        "urn:ietf:params:xml:ns:yang:iana-crypt-hash?module=iana-crypt-hash&revision=2014-08-06",
+        "http://www.opendevice.net/yang/opendevice-types?module=opendevice-types&revision=2017-10-08",
+        "urn:ietf:params:xml:ns:yang:ietf-system?module=ietf-system&revision=2014-08-06&deviations=czechlight-system",
+        "urn:ietf:params:xml:ns:yang:iana-afn-safi?module=iana-afn-safi&revision=2013-07-04",
+        "urn:ietf:params:xml:ns:yang:iana-if-type?module=iana-if-type&revision=2017-01-19",
+        "urn:ietf:params:xml:ns:yang:ietf-ethertypes?module=ietf-ethertypes&revision=2019-03-04"
+      ]
+    },
+    "datastores": {
+      "datastore": [
+        {
+          "name": "running"
+        },
+        {
+          "name": "startup"
+        },
+        {
+          "name": "candidate"
+        }
+      ]
+    },
+    "schemas": {
+      "schema": [
+        {
+          "identifier": "ietf-yang-metadata",
+          "version": "2016-08-05",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-metadata",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-yang-metadata",
+          "version": "2016-08-05",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-metadata",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "yang",
+          "version": "2021-04-07",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:1",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "yang",
+          "version": "2021-04-07",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:1",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-inet-types",
+          "version": "2013-07-15",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-inet-types",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-inet-types",
+          "version": "2013-07-15",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-inet-types",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-yang-types",
+          "version": "2013-07-15",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-types",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-yang-types",
+          "version": "2013-07-15",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-types",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-yang-schema-mount",
+          "version": "2019-01-14",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-schema-mount",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-yang-schema-mount",
+          "version": "2019-01-14",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-schema-mount",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "sysrepo",
+          "version": "2021-10-08",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "http://www.sysrepo.org/yang/sysrepo",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "sysrepo",
+          "version": "2021-10-08",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "http://www.sysrepo.org/yang/sysrepo",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-datastores",
+          "version": "2018-02-14",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-datastores",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-datastores",
+          "version": "2018-02-14",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-datastores",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-yang-library",
+          "version": "2019-01-04",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-library",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-yang-library",
+          "version": "2019-01-04",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-library",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-acm",
+          "version": "2018-02-14",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-acm",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-acm",
+          "version": "2018-02-14",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-acm",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "sysrepo-monitoring",
+          "version": "2022-04-08",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "http://www.sysrepo.org/yang/sysrepo-monitoring",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "sysrepo-monitoring",
+          "version": "2022-04-08",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "http://www.sysrepo.org/yang/sysrepo-monitoring",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "sysrepo-plugind",
+          "version": "2022-03-10",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:sysrepo:plugind",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "sysrepo-plugind",
+          "version": "2022-03-10",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:sysrepo:plugind",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf",
+          "version": "2013-09-29",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:netconf:base:1.0",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf",
+          "version": "2013-09-29",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:netconf:base:1.0",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-with-defaults",
+          "version": "2011-06-01",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-with-defaults",
+          "version": "2011-06-01",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-notifications",
+          "version": "2012-02-06",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-notifications",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-notifications",
+          "version": "2012-02-06",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-notifications",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-origin",
+          "version": "2018-02-14",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-origin",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-origin",
+          "version": "2018-02-14",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-origin",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-monitoring",
+          "version": "2010-10-04",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-monitoring",
+          "version": "2010-10-04",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-nmda",
+          "version": "2019-01-07",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-nmda",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-nmda",
+          "version": "2019-01-07",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-nmda",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "nc-notifications",
+          "version": "2008-07-14",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:netmod:notification",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "nc-notifications",
+          "version": "2008-07-14",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:netmod:notification",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "notifications",
+          "version": "2008-07-14",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:netconf:notification:1.0",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "notifications",
+          "version": "2008-07-14",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:netconf:notification:1.0",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-x509-cert-to-name",
+          "version": "2014-12-10",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-x509-cert-to-name",
+          "version": "2014-12-10",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-crypto-types",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-crypto-types",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-crypto-types",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-crypto-types",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-keystore",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-keystore",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-keystore",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-keystore",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-truststore",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-truststore",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-truststore",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-truststore",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-tcp-common",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-common",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-tcp-common",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-common",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ssh-server",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ssh-server",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ssh-server",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ssh-server",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ssh-common",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ssh-common",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ssh-common",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ssh-common",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "iana-crypt-hash",
+          "version": "2014-08-06",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:iana-crypt-hash",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "iana-crypt-hash",
+          "version": "2014-08-06",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:iana-crypt-hash",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-tls-server",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-tls-server",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-tls-server",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-tls-server",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-tls-common",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-tls-common",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-tls-common",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-tls-common",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-server",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-server",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-netconf-server",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-server",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-tcp-client",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-client",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-tcp-client",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-client",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-tcp-server",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-server",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-tcp-server",
+          "version": "2019-07-02",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-server",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-interfaces",
+          "version": "2018-02-20",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-interfaces",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-interfaces",
+          "version": "2018-02-20",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-interfaces",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ip",
+          "version": "2018-02-22",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ip",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ip",
+          "version": "2018-02-22",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ip",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-network-instance",
+          "version": "2019-01-21",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-network-instance",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-network-instance",
+          "version": "2019-01-21",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-network-instance",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-subscribed-notifications",
+          "version": "2019-09-09",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-subscribed-notifications",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-subscribed-notifications",
+          "version": "2019-09-09",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-subscribed-notifications",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-restconf",
+          "version": "2017-01-26",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-restconf",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-restconf",
+          "version": "2017-01-26",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-restconf",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-yang-push",
+          "version": "2019-09-09",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-push",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-yang-push",
+          "version": "2019-09-09",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-push",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-yang-patch",
+          "version": "2017-02-22",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-patch",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-yang-patch",
+          "version": "2017-02-22",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-patch",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "iana-hardware",
+          "version": "2018-03-13",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:iana-hardware",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "iana-hardware",
+          "version": "2018-03-13",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:iana-hardware",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-hardware",
+          "version": "2018-03-13",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-hardware",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-hardware",
+          "version": "2018-03-13",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-hardware",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-roadm-device",
+          "version": "2021-03-05",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-roadm-device",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-roadm-device",
+          "version": "2021-03-05",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-roadm-device",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "opendevice-types",
+          "version": "2017-10-08",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "http://www.opendevice.net/yang/opendevice-types",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "opendevice-types",
+          "version": "2017-10-08",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "http://www.opendevice.net/yang/opendevice-types",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-roadm-common",
+          "version": "2021-03-05",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-roadm-common",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-roadm-common",
+          "version": "2021-03-05",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-roadm-common",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-system",
+          "version": "2014-08-06",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-system",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-system",
+          "version": "2014-08-06",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-system",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-lldp",
+          "version": "2020-11-04",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-lldp",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-lldp",
+          "version": "2020-11-04",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-lldp",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "iana-afn-safi",
+          "version": "2013-07-04",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:iana-afn-safi",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "iana-afn-safi",
+          "version": "2013-07-04",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:iana-afn-safi",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-system",
+          "version": "2021-01-13",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-system",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-system",
+          "version": "2021-01-13",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-system",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "iana-if-type",
+          "version": "2017-01-19",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:iana-if-type",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "iana-if-type",
+          "version": "2017-01-19",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:iana-if-type",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-routing",
+          "version": "2018-03-13",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-routing",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-routing",
+          "version": "2018-03-13",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-routing",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ipv4-unicast-routing",
+          "version": "2018-03-13",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ipv4-unicast-routing",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ipv4-unicast-routing",
+          "version": "2018-03-13",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ipv4-unicast-routing",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ipv6-unicast-routing",
+          "version": "2018-03-13",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ipv6-unicast-routing",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ipv6-unicast-routing",
+          "version": "2018-03-13",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ipv6-unicast-routing",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-network",
+          "version": "2021-02-22",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-network",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-network",
+          "version": "2021-02-22",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-network",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-firewall",
+          "version": "2021-01-25",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-firewall",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "czechlight-firewall",
+          "version": "2021-01-25",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "http://czechlight.cesnet.cz/yang/czechlight-firewall",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-packet-fields",
+          "version": "2019-03-04",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-packet-fields",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-packet-fields",
+          "version": "2019-03-04",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-packet-fields",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ethertypes",
+          "version": "2019-03-04",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ethertypes",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-ethertypes",
+          "version": "2019-03-04",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-ethertypes",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-access-control-list",
+          "version": "2019-03-04",
+          "format": "ietf-netconf-monitoring:yang",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-access-control-list",
+          "location": [
+            "NETCONF"
+          ]
+        },
+        {
+          "identifier": "ietf-access-control-list",
+          "version": "2019-03-04",
+          "format": "ietf-netconf-monitoring:yin",
+          "namespace": "urn:ietf:params:xml:ns:yang:ietf-access-control-list",
+          "location": [
+            "NETCONF"
+          ]
+        }
+      ]
+    },
+    "statistics": {
+      "netconf-start-time": "2022-04-27T08:43:32+00:00",
+      "in-bad-hellos": 0,
+      "in-sessions": 0,
+      "dropped-sessions": 0,
+      "in-rpcs": 0,
+      "in-bad-rpcs": 0,
+      "out-rpc-errors": 0,
+      "out-notifications": 0
+    }
+  },
+  "ietf-netconf-server:netconf-server": {
+    "listen": {
+      "endpoint": [
+        {
+          "name": "default-ssh",
+          "ssh": {
+            "ssh-server-parameters": {
+              "client-authentication": {
+                "users": {
+                  "user": [
+                    {
+                      "name": "root",
+                      "authorized-key": [
+                        {
+                          "name": "key1",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAABIwAAAgEAwdsjuEhb9VoyYWncwYcAtwXwHNwDFq6KGKd0RHaeqiYIR9NyQcxCSQiB6CmLx4V0P2OMas5jn868/UuUBe8bNa9ZB1VVoPDfWPRVNhQGUSaKbF2BReZLBHWBvZKrI6QqjHyVs0MMAMxFd8RrrbuNylychb6DL7t39AcCRS9oFb4rRYkOG6FeTdUo+d+GW1y1h+PIC1E+uS6aJVDx+01wn/4iwpO3UfL2Z64jifsjgKE8ee9brg1dTGX5D/nt3CiutlSETwWh0Hp5yQQDjECM+/SlPbO334kjdOFxfGe2zrsJVVl2Y4y3ornQJ5dpkrfwuw9fE0ymUxRirGzCAGtKioz71IoUTsWNF1kToGunMSaQdIrjLclfICVWj1avoHaeS/LXbA+9x85I99+pSs5Jw4AjeSVSSXT5R1RTAUv62FMIomGDt8SIlYo9ACZbUAiwVrNUWaF/FEOtaeaVi3yMset7t6RQP6kQoJN32Hc2lP1e5vhsWWdNaNfVRfezj1KOzSy7wjxjymhDDAMfIHyeA8dM927gu6m2ah3TBbrHMkPUVe52ht8rdbLJMM2NbE16DixVX/s5RQg+YvY5nVBBIFRdcNvO/wMdJIequJUfnoBcJ1Rmh7nMgMo8gVLKGgoAfnzaPhOp75f4n+poyrHwdt0M6UIy8AQs1dowQPHfPzU="
+                        },
+                        {
+                          "name": "key2",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAABIwAAAgEA3ZRDNJrT9aKbG7HFUucgPlDD7qk4COZJP2xq1/qLygSuDDO0KeY4q//gIrAvijix2E1kII4P5WhdF7nR0NyfGmWiEa+dfUnczve2Vnr42IBi4aLyScefQlo5ihhAkaww4pcetZ8ZycEtD/jakpqBj/hVhFKcLZ1ENfqT1CZYvfEiW0h4DpFSE1NUYEJ7Nreice0jA5D62C7I61hAi//K1S6IFVlYFUvzPhU3p5IY488bNt1FEW+7727ecA/p3w75WUmacK1IKdhkX+Oubft21sXKUjHZpXvXI+dH1R7AYgQcoL4XMRsvdLiRQxoOcbMn4dhdT+1Jt2/42vihymtDMju84pXdPczgtcUD0JLupvuInljsK3iqZNLxI1qfqaZmxBrwyiqvFAR+A5hPcBbof3TlgkXpFHK8JqNpT0K1FA+BG9ogiOKJpZls7IiwffcALgbgBagKlQBI+V2rkA4ni0h6/L8f/YsRKoK9LfWDtkSvglqiq3KWG7+xOnStCKJrEURY3nbtqmr9jTgFe4QFwTAlOsbbWjhsh5LjFgmLCAmkHVst8zGwDivJU+s5NyWzaElDl3ES3qiSyIl4qZpG0Pl2fq6NnIy0rVxbJRCkzwTRCKjqrR2wuC4ZRW1eSJZltgA/09pesUpbysnnhj5vcGYy4MlcyGv6lOsoVVRbEV0="
+                        },
+                        {
+                          "name": "key3",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAADAQABAAACAQD4HHwAIhh77EPQ0hxsH2y3B/IWxFq8lyVPlmUeELR9e9bLvWGtipLgyk0FmZfy7DkvFOK9W/lrQopFBbdsxs9THhkODvA+laaiUzgI8SqYh4P2yDM5Vg07yweh/Hqvg+cyKGVLOluscwLzM4pgIQ5GuaOEk3yHc+KuBy4zSYZp1Vy+6LxX+0U6EmQYMheC/Nvlm90PVxnvX1uog4QbFo7hLVL+lVpVDXy5kDBC/yyuYkMy3AZKzP/HnPFD5V9nGMHRZfDihcleqvXIvWPIaK+KwBZeaeoHLTW51RsCV+47FpflYjOm+1UXfN1SR+vAFbSfvr/fdeXDe5S2Wc5UAB/ydLMSXN5Vxb/UAGMeWpxhp3IZDTogmOlvktUmKgh2C53onti7yerxhpcNylVJN3hoe5I6sFaJIw7emxD6PWI5BMgbt/B5cDxDbiSCRkkFbsyOKwx5WdHpJJH3OiAxDTUH/JO70Bg0wzGgJGN92ZONVDaBZCuGy5ISVqVQRkz7bqXLfVSghD8IWyhur6cL/pNYF3C2kmYypqrLyKnCwaXVFK2y1P88S97eZVPO6UgwTLYEx5KHaB6gBlnp6eluez2UdemBNDFKH+SAGe5IHYzBeD7o6ymIVM51CSPMnMEAJOrnbUGgfL6KgeW8mXHoVjgOYYN5uPGX8MiGvzyv0ztw1w=="
+                        },
+                        {
+                          "name": "key4",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAADAQABAAABgQC2NCNfR2hgve7pvmhjgShfc1srppIkKsbAqkSRE64sWdt81JqQUMVTExZ3ikq9NdbewAT5/uUkB+lQj5+FUasN/iT0ZlNJ0KX8vbFfxT4eMgt8xpuqV/sc+6wkh31ZObQ4y3td7rEruSbL4dqLp10IRhuj6rLpo5QTOmZ8hgIzFrEKePQPJM/4H4Cr1Tf30nF1XbULocBIWcq9DWsfkcMrbAKiLObiO4gSAsqqoK681HmRMMA/4Ho2p+OjFNHNT2KqP2F/4rHj4G+c9yTY8B7Y6NFNlskVyljTEOtx4pnnNdMcjSO/kmu6GpJL63utAMOG/E9kJJQer9rV98D8XqdEhqXAJmlP12Vnfh5jyX87FqdWTf7aLs33n61vFjaboT2Z6GaGbwoBLWs7n/84HVl4aKrl1PR/9XKzamUn6Lydg48DCRCR4ahenlZ3KITDE9loYslO/oE7w5/fXUq3LbV4ZdiTrxIT7ia/4EB1xl4LwVEKN9W1L6IWHzF5eD0trLU="
+                        }
+                      ]
+                    },
+                    {
+                      "name": "daemon"
+                    },
+                    {
+                      "name": "bin"
+                    },
+                    {
+                      "name": "sys"
+                    },
+                    {
+                      "name": "sync"
+                    },
+                    {
+                      "name": "mail"
+                    },
+                    {
+                      "name": "www-data"
+                    },
+                    {
+                      "name": "operator"
+                    },
+                    {
+                      "name": "nobody"
+                    },
+                    {
+                      "name": "yangnobody"
+                    },
+                    {
+                      "name": "dbus"
+                    },
+                    {
+                      "name": "sshd"
+                    },
+                    {
+                      "name": "systemd-journal-remote"
+                    },
+                    {
+                      "name": "systemd-coredump"
+                    },
+                    {
+                      "name": "systemd-network"
+                    },
+                    {
+                      "name": "systemd-resolve"
+                    },
+                    {
+                      "name": "systemd-timesync"
+                    },
+                    {
+                      "name": "dwdm",
+                      "authorized-key": [
+                        {
+                          "name": "key1",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAABIwAAAgEAwdsjuEhb9VoyYWncwYcAtwXwHNwDFq6KGKd0RHaeqiYIR9NyQcxCSQiB6CmLx4V0P2OMas5jn868/UuUBe8bNa9ZB1VVoPDfWPRVNhQGUSaKbF2BReZLBHWBvZKrI6QqjHyVs0MMAMxFd8RrrbuNylychb6DL7t39AcCRS9oFb4rRYkOG6FeTdUo+d+GW1y1h+PIC1E+uS6aJVDx+01wn/4iwpO3UfL2Z64jifsjgKE8ee9brg1dTGX5D/nt3CiutlSETwWh0Hp5yQQDjECM+/SlPbO334kjdOFxfGe2zrsJVVl2Y4y3ornQJ5dpkrfwuw9fE0ymUxRirGzCAGtKioz71IoUTsWNF1kToGunMSaQdIrjLclfICVWj1avoHaeS/LXbA+9x85I99+pSs5Jw4AjeSVSSXT5R1RTAUv62FMIomGDt8SIlYo9ACZbUAiwVrNUWaF/FEOtaeaVi3yMset7t6RQP6kQoJN32Hc2lP1e5vhsWWdNaNfVRfezj1KOzSy7wjxjymhDDAMfIHyeA8dM927gu6m2ah3TBbrHMkPUVe52ht8rdbLJMM2NbE16DixVX/s5RQg+YvY5nVBBIFRdcNvO/wMdJIequJUfnoBcJ1Rmh7nMgMo8gVLKGgoAfnzaPhOp75f4n+poyrHwdt0M6UIy8AQs1dowQPHfPzU="
+                        },
+                        {
+                          "name": "key2",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAABIwAAAgEA3ZRDNJrT9aKbG7HFUucgPlDD7qk4COZJP2xq1/qLygSuDDO0KeY4q//gIrAvijix2E1kII4P5WhdF7nR0NyfGmWiEa+dfUnczve2Vnr42IBi4aLyScefQlo5ihhAkaww4pcetZ8ZycEtD/jakpqBj/hVhFKcLZ1ENfqT1CZYvfEiW0h4DpFSE1NUYEJ7Nreice0jA5D62C7I61hAi//K1S6IFVlYFUvzPhU3p5IY488bNt1FEW+7727ecA/p3w75WUmacK1IKdhkX+Oubft21sXKUjHZpXvXI+dH1R7AYgQcoL4XMRsvdLiRQxoOcbMn4dhdT+1Jt2/42vihymtDMju84pXdPczgtcUD0JLupvuInljsK3iqZNLxI1qfqaZmxBrwyiqvFAR+A5hPcBbof3TlgkXpFHK8JqNpT0K1FA+BG9ogiOKJpZls7IiwffcALgbgBagKlQBI+V2rkA4ni0h6/L8f/YsRKoK9LfWDtkSvglqiq3KWG7+xOnStCKJrEURY3nbtqmr9jTgFe4QFwTAlOsbbWjhsh5LjFgmLCAmkHVst8zGwDivJU+s5NyWzaElDl3ES3qiSyIl4qZpG0Pl2fq6NnIy0rVxbJRCkzwTRCKjqrR2wuC4ZRW1eSJZltgA/09pesUpbysnnhj5vcGYy4MlcyGv6lOsoVVRbEV0="
+                        },
+                        {
+                          "name": "key3",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAADAQABAAACAQD4HHwAIhh77EPQ0hxsH2y3B/IWxFq8lyVPlmUeELR9e9bLvWGtipLgyk0FmZfy7DkvFOK9W/lrQopFBbdsxs9THhkODvA+laaiUzgI8SqYh4P2yDM5Vg07yweh/Hqvg+cyKGVLOluscwLzM4pgIQ5GuaOEk3yHc+KuBy4zSYZp1Vy+6LxX+0U6EmQYMheC/Nvlm90PVxnvX1uog4QbFo7hLVL+lVpVDXy5kDBC/yyuYkMy3AZKzP/HnPFD5V9nGMHRZfDihcleqvXIvWPIaK+KwBZeaeoHLTW51RsCV+47FpflYjOm+1UXfN1SR+vAFbSfvr/fdeXDe5S2Wc5UAB/ydLMSXN5Vxb/UAGMeWpxhp3IZDTogmOlvktUmKgh2C53onti7yerxhpcNylVJN3hoe5I6sFaJIw7emxD6PWI5BMgbt/B5cDxDbiSCRkkFbsyOKwx5WdHpJJH3OiAxDTUH/JO70Bg0wzGgJGN92ZONVDaBZCuGy5ISVqVQRkz7bqXLfVSghD8IWyhur6cL/pNYF3C2kmYypqrLyKnCwaXVFK2y1P88S97eZVPO6UgwTLYEx5KHaB6gBlnp6eluez2UdemBNDFKH+SAGe5IHYzBeD7o6ymIVM51CSPMnMEAJOrnbUGgfL6KgeW8mXHoVjgOYYN5uPGX8MiGvzyv0ztw1w=="
+                        },
+                        {
+                          "name": "key4",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAADAQABAAABgQC2NCNfR2hgve7pvmhjgShfc1srppIkKsbAqkSRE64sWdt81JqQUMVTExZ3ikq9NdbewAT5/uUkB+lQj5+FUasN/iT0ZlNJ0KX8vbFfxT4eMgt8xpuqV/sc+6wkh31ZObQ4y3td7rEruSbL4dqLp10IRhuj6rLpo5QTOmZ8hgIzFrEKePQPJM/4H4Cr1Tf30nF1XbULocBIWcq9DWsfkcMrbAKiLObiO4gSAsqqoK681HmRMMA/4Ho2p+OjFNHNT2KqP2F/4rHj4G+c9yTY8B7Y6NFNlskVyljTEOtx4pnnNdMcjSO/kmu6GpJL63utAMOG/E9kJJQer9rV98D8XqdEhqXAJmlP12Vnfh5jyX87FqdWTf7aLs33n61vFjaboT2Z6GaGbwoBLWs7n/84HVl4aKrl1PR/9XKzamUn6Lydg48DCRCR4ahenlZ3KITDE9loYslO/oE7w5/fXUq3LbV4ZdiTrxIT7ia/4EB1xl4LwVEKN9W1L6IWHzF5eD0trLU="
+                        },
+                        {
+                          "name": "key5",
+                          "algorithm": "ssh-dss",
+                          "key-data": "AAAAB3NzaC1kc3MAAAIBAIRKb+3ZCnnI1xJjdFStN7B9t9+6tzQuLAizvt+hbsVzlntA4fogfLWa9PYPLBe27iVw5jIXU8j2TcsaPwr5O50VvyzYTwwhAWeerBAWsLwsmjrR0eBdXDnMmYegq/j2XiQwvBZCyNTxyFFABlozdIU6CI+u2reGiEqxjX4kr41ES5l+MdHVaYqx1NnL05Jq0s5xipaTlNzm0IhGwP6tPd1Aje38KvQ2e1sgxE8DOkTZNxSe/khgCq7ZMZ5sqDDwQJbZRxGBPVKXoBUrm9QtpCs2NV+CPlwTXny0geQ/asw6mMkQbcqs1s9UlKVm/Sb8eZrQQVwSR5kXX+MaDI7peNcssbPwcXQxmszvsErj1bt7igMVGlTfBlsJnzTXwxfPEMaKAF+jeFjmnoJYnDcVV1qy9BHGh72EUQjCSHK1JULicH3MYCiK7B7iFmJ556jy4spfzvtKSvoNVAmYpaUhjYKE424sDcfHOejNK2pI4rt+f3++a7TKDb3XqqWHE6AdwfAhtRh26lZ4GIkvCqnDjdtcjGj1PRrKO7vN2Wr3AIvz4EXPk7pbNf4mBZuB9lD9KjYyCRflVYqToFOmAZm8eMWXoFRKq8hIU4bcS11jY1uspmfXwtwEUGFxsDHKtrrzMJKPRgBG6+bFNnUbm9sWZGIE+8+9pT7j2Lm8z8nXedqFAAAAFQCVXJbtYRbq814CvQlHKGpQJRybVwAAAgBW48HRfLJOPULhFFJFdvja4BfXoVI1gKpE+cD34oZEC+9l6xiQYEzD7A4JxtOKNo2cHKzq892g0ZYzMfe9ky5Lqb4scvpLZJLYywYZHybuzVvnGZ4cMnTrk693Oj1ehO1C9t6oIv7Um90LYgjF4FZH/vu+B0F6E8sapjbQkH3Kc/1AoTeQ5YdX64h2PUGU0HJJGizgPA2rP7QTI4ANOppxrSTxzvaTaL1dk+EdP1CpR7CQ3xaO3Hsz4kSZPG9BbTrqSxgx8xLn3JUNpJiNBZbeFIsnazcQFEph8hfy/b35cMWX3dVKp5rKHYc89lqloiaXNuvR9vpQLsdiWvvTJriKxD8Xolow04JUu1JlP2SBNbHioArgvyn1bM3eaIgh70FVc+e8gDiZ3z9BkBglwYayzt4vWSSp7tFOFJT9I7yV3k71ETA+ciLLzc1NJBtNpOmJGox9M3YMk7VklOTclvMfuK2LuMWQuHM4YXLGjQRswNuJKMR5y9g5vUat05jxxkfiVCglLUSne3X1wJcK2ZX/mtP8Gn4ArcLZsOjniSGU79JJWaEnIAig/AExjJLGeM25gJG0FpeB1ZtO+DCBrTPTSyo4eXBRQpw2LQ2YvBgP7QgfnB/mDSaIMwWqaBsx4O3dkIWkZKEuVJxSnjdcCxJPeRCuh4IHf40ecXkwA80VmAAAAgAJcuvTmjxZ1s8W0NxXl5nFbwM+3C7TkplnP4v9XthevX7k5+sXLAKiPicQwMI+308hXlwxM86+dBapzD3AqryG0cnfiqfUB8O9xcm/jh0OnbgjzudLP4YPR8Ed5nWZ7cgmVolntU4Es40L5H8h53g2J76NwAqcwct1y5YvtP/0WUGyd/5z9UGYx2lYLECC0ljD7BGYFvotcYjtm35Pr2HF60k3/GHgDf2pGjFwMKqu2MLAOinKgvBThPY+lJEc0FvdpEhNXor1nizJJoOqcnvFf+CQGQihbq9nJgFtsOcD2I7bz9ReL/OhFEZ4ykeiGdo9L1+1tIrbOkmE08R4VykWxJpT/rO/ZpOBKlEvcc1KeaBc2rXB69fqO0jKZr2Dbka0RVJPLWNCyOAxVq5itNZgHKC0LYHgx/JEXzX85MEHtCgFC8D9CI+UGFibKFj33V1gHWA7RLzamrpZT5JjDIZ8i5hPLiYnJ6hHABjRbX/ychloyB2BPWv6IiIlP65XrgsRgO6axvU9ViOYHmn02k6y0PgEL39CnE4pAjkWnt0mao/H1ESvcauGyBiL2W/Q5AzEdCUA/QkBQSmNsiOVJjiwPdcd6qCrpgOiTsWDun+sJErbTlKXcEHudjQ4pt1naUnNkvA3A5JXphtJyn5+8/zFeYzwlXMdE7W+hyqP4jSscw=="
+                        },
+                        {
+                          "name": "key6",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDdcK6NSAFcIVdxbNxRePn4BFxf4Upg+pH94XPbuyKcHd9WxdAH5mtsWdS3KBAhpFbvHOI4C2w5pMFsuYbEGll7Thn61MKhFE+jcRh2f5oACrwF1CZzwZFbkukq2j7hBz1/rkV2x2aYRdPWWsXkokzpMXv4eCAHL6GO9iXeXyFhY2gX6hjIFRxegtN5GPHbjAaPR86qIZS92QfmmZtQZOpNDehAO3RaqWt0EzfQyf2su03UF8iL0MeDe+W9X6t7XbbjwfaRhhEFSDQoMzvMydzG289J2mMMQ/BFnDyjF4Fpb7Rq56BQGDLPZSK4I+Wswp+bV0aU+lW/YPoEq37Kd97T"
+                        },
+                        {
+                          "name": "key7",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAADAQABAAABgQCyHJde5qmYOuYOzuoPgL36pLYBK81NOiQhzPKwH+n1FRCRbRqwwYenMJkOrRNfIjqfzv95DcB7sW+mq9hu3a00lEQQmx6xnEA4H5O8jmlFkkTzexJT1CkQFCqK3hyL9owjEYlhUft6liKsKxPnc+XP3U96UVUpsoT3aQjM7NMZwwPNqesOFjHhOnCkp2jQ/jtn7zvE7dng5bZbhsxJMr4qVcGW0hDnqPuxjD18FZuiNrth3ggKZxv2KuSWNCFXB1nAOiAeZxQkCxfcixaOgczoZlL8F1jvth1dZQYf3GDAjt1zCx9LVDh7nXj9uwlPfOwyLVFYFf10GyDid8YwUTIDUQLC0kBaQtmrdw3mb7KuVFYCgOaNWplg7Md22tjJcryNAg1QIBfijGzQrK9SyQOqiQYZmxLsUmgB0s7u0+P0IFQi7a+hc8swSsMK0UWMHCrY7d+pCGMrUP4mf2deT/9nofVHB8n5Mt98kLJ78SMitlBu/cTHdwmV8h3sgBrIjok="
+                        },
+                        {
+                          "name": "key8",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAADAQABAAABAQCwuCE06Rrye9l41tneQ4I5GVsn63tzq8S+z2PD6NvO1V7Z3530XtEYvR91TgbBu5aLZgfnwHM6ZL/1wBQKqyBcnwTb7aMBcS/YY9y9gwkatTHLr/+6JWFEIcT055DsSWD6oCMElwPJkoCPmtasvfMgLd9UzSFkQEaQUuAN3MvUcIokAyCymlvXrtCiDRQRWWObB81VTHD2OrZaa75uutg/0MKpNC3/PS02kMCct/7LfLX3rfOQFSIauBdXRoy2BWiKyeymYxlHvDlwQkwAf9TKtSF5Y2lSmL53ia5TRcHau2okIfVRADkyMeHx8QCEhLs8ClgBlqOmvKPdo3NwSJ3x"
+                        },
+                        {
+                          "name": "key9",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDyoa01h2eNDBaGVz9uQC93ENNaTG5MWDDLcbcZ32ThH70Kh4+FEr40pYzZwyz5tw88FGDirUl65sSYk+I25pf8eLGeGSGsh6lF5sMFg4DjtqXhOwsho/kAs9iJSlNVA3HSL6ZNsEkOMDza2GFP23IgzlWiZ9y8F83cDkqimpbhyNXN8Y5GLRvnmEJ4ct3FxVGCllJAblHGdWMJb+N3S9XaW1GtIroXVVsJEy9dTBGTbIs7J9JSLWnJsvUWWBerRkoufmYj012iPkaHrNkQlEiBasxoqB5s1ae9DYRTJGcoIcrnoXOHlw+byeEhGSEWRqnJZOJWO2wJnW6sLCbRnujf"
+                        },
+                        {
+                          "name": "key10",
+                          "algorithm": "ssh-rsa",
+                          "key-data": "AAAAB3NzaC1yc2EAAAADAQABAAACAQDYsXWCiSpRYOS/pa1s3yid48iqSe8bazbvKrBI5v+G+w0guvUxoPUgOPPPT8/vsjYmqpmceZQAXTx0oSzM1gKlWEBAcWt4zwoRlvDQZ11oYWiYOowDnTauGVsknLFOtyrNidCZnMbcmNhqbzEGYPnV2Hsi/6lHS+gaNUZma52vvkq40atUCKswakrCck1YhJV0RVAhaMrMKIcr4p9qMK1uckquYvXldZOrpCx25lVMaMsPjfZynmfhHGDYh2OUvm3tm64HXjqxCHspJZ1xDlVD6tjNpk+7JTvFZGra9Ofp+HoD5Al+6v0ZVNa4Hfa6LGq/2GnbcPcMFAhq3Mw1IlhgFHlFh6RYITKeCL0UGX5K2LRjldbVExKwvGw2ZOxRzRkO5r2xXKfJ3XdUCQvpn3jZQ5586pbT63tx2Q4EerEQe++z5+Pjo/jDRT15iclODEzdZcG2nM6yPIZrGt/PN3+5uRYkpdEKwq8MzdGbGGa+8xTUQAYWFUcLFcvYlC+iZ8iM2kQTfw3j44Y56kI8VLzEcH+nisZZ2DoLSeb9y5XsAl4sBWYmVMqSgG2OKCLyyNL7X68M/HDZ4b5Nl12sH7UgODlENfmtYmV+6/OQh5u1zogU1syqsqzVxYjYBqzZ3mbaup7KO4DgBlXMIO18Xzc/PmL+XDaUVJMYzTmrWP9lfQ=="
+                        }
+                      ]
+                    },
+                    {
+                      "name": "systemd-journal-upload"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "ssh": {
+            "tcp-server-parameters": {
+              "local-address": "::",
+              "keepalives": {
+                "idle-time": 1,
+                "max-probes": 10,
+                "probe-interval": 5
+              }
+            },
+            "ssh-server-parameters": {
+              "server-identity": {
+                "host-key": [
+                  {
+                    "name": "default-key",
+                    "public-key": {
+                      "keystore-reference": "genkey"
+                    }
+                  }
+                ]
+              },
+              "client-authentication": {
+                "supported-authentication-methods": {
+                  "publickey": [null],
+                  "passsword": [null],
+                  "other": [
+                    "interactive"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ietf-routing:routing": {
+    "ribs": {
+      "rib": [
+        {
+          "name": "ipv4-master",
+          "routes": {
+            "route": [
+              {
+                "next-hop": {
+                  "outgoing-interface": "br0",
+                  "ietf-ipv4-unicast-routing:next-hop-address": "10.0.254.1"
+                },
+                "source-protocol": "czechlight-network:dhcp",
+                "ietf-ipv4-unicast-routing:destination-prefix": "0.0.0.0/0"
+              },
+              {
+                "next-hop": {
+                  "outgoing-interface": "br0"
+                },
+                "source-protocol": "ietf-routing:direct",
+                "ietf-ipv4-unicast-routing:destination-prefix": "10.0.254.0/24"
+              },
+              {
+                "next-hop": {
+                  "outgoing-interface": "br0"
+                },
+                "source-protocol": "czechlight-network:dhcp",
+                "ietf-ipv4-unicast-routing:destination-prefix": "10.0.254.1/32"
+              },
+              {
+                "next-hop": {
+                  "outgoing-interface": "br0",
+                  "ietf-ipv4-unicast-routing:next-hop-address": "10.0.254.1"
+                },
+                "source-protocol": "czechlight-network:dhcp",
+                "ietf-ipv4-unicast-routing:destination-prefix": "195.113.144.201/32"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ipv6-master",
+          "routes": {
+            "route": [
+              {
+                "next-hop": {
+                  "outgoing-interface": "lo"
+                },
+                "source-protocol": "ietf-routing:static",
+                "ietf-ipv6-unicast-routing:destination-prefix": "::1/128"
+              },
+              {
+                "next-hop": {
+                  "outgoing-interface": "br0"
+                },
+                "source-protocol": "ietf-routing:static",
+                "ietf-ipv6-unicast-routing:destination-prefix": "fe80::/64"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "ietf-subscribed-notifications:streams": {
+    "stream": [
+      {
+        "name": "NETCONF",
+        "description": "Default NETCONF stream containing notifications from all the modules. Replays only notifications for modules that support replay.",
+        "replay-support": [null]
+      },
+      {
+        "name": "ietf-yang-library",
+        "description": "Stream with all notifications of a module."
+      },
+      {
+        "name": "ietf-netconf-notifications",
+        "description": "Stream with all notifications of a module."
+      },
+      {
+        "name": "nc-notifications",
+        "description": "Stream with all notifications of a module."
+      },
+      {
+        "name": "ietf-keystore",
+        "description": "Stream with all notifications of a module."
+      },
+      {
+        "name": "ietf-truststore",
+        "description": "Stream with all notifications of a module."
+      },
+      {
+        "name": "ietf-network-instance",
+        "description": "Stream with all notifications of a module."
+      },
+      {
+        "name": "ietf-subscribed-notifications",
+        "description": "Stream with all notifications of a module."
+      },
+      {
+        "name": "ietf-yang-push",
+        "description": "Stream with all notifications of a module."
+      },
+      {
+        "name": "ietf-hardware",
+        "description": "Stream with all notifications of a module."
+      },
+      {
+        "name": "czechlight-system",
+        "description": "Stream with all notifications of a module."
+      }
+    ]
+  },
+  "ietf-system:system": {
+    "hostname": "line-qr79",
+    "dns-resolver": {
+      "server": [
+        {
+          "name": "10.0.254.1",
+          "udp-and-tcp": {
+            "address": "10.0.254.1"
+          }
+        }
+      ]
+    }
+  },
+  "ietf-system:system-state": {
+    "platform": {
+      "os-name": "CzechLight",
+      "os-release": "v4-225-ge30adf9",
+      "os-version": "v4-225-ge30adf9"
+    },
+    "clock": {
+      "current-datetime": "2022-04-27T08:47:33-00:00"
+    }
+  },
+  "ietf-yang-library:yang-library": {
+    "module-set": [
+      {
+        "name": "complete",
+        "module": [
+          {
+            "name": "yang",
+            "revision": "2021-04-07",
+            "namespace": "urn:ietf:params:xml:ns:yang:1"
+          },
+          {
+            "name": "ietf-yang-schema-mount",
+            "revision": "2019-01-14",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-schema-mount"
+          },
+          {
+            "name": "sysrepo",
+            "revision": "2021-10-08",
+            "namespace": "http://www.sysrepo.org/yang/sysrepo"
+          },
+          {
+            "name": "ietf-datastores",
+            "revision": "2018-02-14",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-datastores",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-datastores@2018-02-14.yang"
+            ]
+          },
+          {
+            "name": "ietf-yang-library",
+            "revision": "2019-01-04",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-library",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-yang-library@2019-01-04.yang"
+            ]
+          },
+          {
+            "name": "ietf-netconf-acm",
+            "revision": "2018-02-14",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-acm",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-netconf-acm@2018-02-14.yang"
+            ]
+          },
+          {
+            "name": "sysrepo-monitoring",
+            "revision": "2022-04-08",
+            "namespace": "http://www.sysrepo.org/yang/sysrepo-monitoring",
+            "location": [
+              "file:///etc/sysrepo/yang/sysrepo-monitoring@2022-04-08.yang"
+            ]
+          },
+          {
+            "name": "sysrepo-plugind",
+            "revision": "2022-03-10",
+            "namespace": "urn:sysrepo:plugind",
+            "location": [
+              "file:///etc/sysrepo/yang/sysrepo-plugind@2022-03-10.yang"
+            ]
+          },
+          {
+            "name": "ietf-netconf",
+            "revision": "2013-09-29",
+            "namespace": "urn:ietf:params:xml:ns:netconf:base:1.0",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-netconf@2013-09-29.yang"
+            ],
+            "feature": [
+              "writable-running",
+              "candidate",
+              "confirmed-commit",
+              "rollback-on-error",
+              "validate",
+              "startup",
+              "url",
+              "xpath"
+            ]
+          },
+          {
+            "name": "ietf-netconf-with-defaults",
+            "revision": "2011-06-01",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-netconf-with-defaults@2011-06-01.yang"
+            ]
+          },
+          {
+            "name": "ietf-netconf-notifications",
+            "revision": "2012-02-06",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-notifications",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-netconf-notifications@2012-02-06.yang"
+            ]
+          },
+          {
+            "name": "ietf-origin",
+            "revision": "2018-02-14",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-origin",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-origin@2018-02-14.yang"
+            ]
+          },
+          {
+            "name": "ietf-netconf-monitoring",
+            "revision": "2010-10-04",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-netconf-monitoring@2010-10-04.yang"
+            ]
+          },
+          {
+            "name": "ietf-netconf-nmda",
+            "revision": "2019-01-07",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-nmda",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-netconf-nmda@2019-01-07.yang"
+            ],
+            "feature": [
+              "origin",
+              "with-defaults"
+            ]
+          },
+          {
+            "name": "nc-notifications",
+            "revision": "2008-07-14",
+            "namespace": "urn:ietf:params:xml:ns:netmod:notification",
+            "location": [
+              "file:///etc/sysrepo/yang/nc-notifications@2008-07-14.yang"
+            ]
+          },
+          {
+            "name": "notifications",
+            "revision": "2008-07-14",
+            "namespace": "urn:ietf:params:xml:ns:netconf:notification:1.0",
+            "location": [
+              "file:///etc/sysrepo/yang/notifications@2008-07-14.yang"
+            ]
+          },
+          {
+            "name": "ietf-x509-cert-to-name",
+            "revision": "2014-12-10",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-x509-cert-to-name@2014-12-10.yang"
+            ]
+          },
+          {
+            "name": "ietf-crypto-types",
+            "revision": "2019-07-02",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-crypto-types",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-crypto-types@2019-07-02.yang"
+            ]
+          },
+          {
+            "name": "ietf-keystore",
+            "revision": "2019-07-02",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-keystore",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-keystore@2019-07-02.yang"
+            ],
+            "feature": [
+              "keystore-supported"
+            ]
+          },
+          {
+            "name": "ietf-truststore",
+            "revision": "2019-07-02",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-truststore",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-truststore@2019-07-02.yang"
+            ],
+            "feature": [
+              "truststore-supported",
+              "x509-certificates"
+            ]
+          },
+          {
+            "name": "ietf-tcp-common",
+            "revision": "2019-07-02",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-common",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-tcp-common@2019-07-02.yang"
+            ],
+            "feature": [
+              "keepalives-supported"
+            ]
+          },
+          {
+            "name": "ietf-ssh-server",
+            "revision": "2019-07-02",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-ssh-server",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-ssh-server@2019-07-02.yang"
+            ],
+            "feature": [
+              "local-client-auth-supported"
+            ]
+          },
+          {
+            "name": "ietf-tls-server",
+            "revision": "2019-07-02",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-tls-server",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-tls-server@2019-07-02.yang"
+            ],
+            "feature": [
+              "local-client-auth-supported"
+            ]
+          },
+          {
+            "name": "ietf-netconf-server",
+            "revision": "2019-07-02",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-server",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-netconf-server@2019-07-02.yang"
+            ],
+            "feature": [
+              "ssh-listen",
+              "tls-listen",
+              "ssh-call-home",
+              "tls-call-home"
+            ]
+          },
+          {
+            "name": "ietf-interfaces",
+            "revision": "2018-02-20",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-interfaces",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-interfaces@2018-02-20.yang"
+            ],
+            "deviation": [
+              "czechlight-network"
+            ]
+          },
+          {
+            "name": "ietf-ip",
+            "revision": "2018-02-22",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-ip",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-ip@2018-02-22.yang"
+            ]
+          },
+          {
+            "name": "ietf-network-instance",
+            "revision": "2019-01-21",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-network-instance",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-network-instance@2019-01-21.yang"
+            ]
+          },
+          {
+            "name": "ietf-subscribed-notifications",
+            "revision": "2019-09-09",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-subscribed-notifications",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-subscribed-notifications@2019-09-09.yang"
+            ],
+            "feature": [
+              "encode-xml",
+              "replay",
+              "subtree",
+              "xpath"
+            ]
+          },
+          {
+            "name": "ietf-yang-push",
+            "revision": "2019-09-09",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-push",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-yang-push@2019-09-09.yang"
+            ],
+            "feature": [
+              "on-change"
+            ]
+          },
+          {
+            "name": "iana-hardware",
+            "revision": "2018-03-13",
+            "namespace": "urn:ietf:params:xml:ns:yang:iana-hardware",
+            "location": [
+              "file:///etc/sysrepo/yang/iana-hardware@2018-03-13.yang"
+            ]
+          },
+          {
+            "name": "ietf-hardware",
+            "revision": "2018-03-13",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-hardware",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-hardware@2018-03-13.yang"
+            ],
+            "feature": [
+              "hardware-sensor"
+            ]
+          },
+          {
+            "name": "czechlight-roadm-device",
+            "revision": "2021-03-05",
+            "namespace": "http://czechlight.cesnet.cz/yang/czechlight-roadm-device",
+            "location": [
+              "file:///etc/sysrepo/yang/czechlight-roadm-device@2021-03-05.yang"
+            ],
+            "feature": [
+              "hw-line-9"
+            ]
+          },
+          {
+            "name": "ietf-system",
+            "revision": "2014-08-06",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-system",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-system@2014-08-06.yang"
+            ],
+            "deviation": [
+              "czechlight-system"
+            ]
+          },
+          {
+            "name": "czechlight-lldp",
+            "revision": "2020-11-04",
+            "namespace": "http://czechlight.cesnet.cz/yang/czechlight-lldp",
+            "location": [
+              "file:///etc/sysrepo/yang/czechlight-lldp@2020-11-04.yang"
+            ]
+          },
+          {
+            "name": "czechlight-system",
+            "revision": "2021-01-13",
+            "namespace": "http://czechlight.cesnet.cz/yang/czechlight-system",
+            "location": [
+              "file:///etc/sysrepo/yang/czechlight-system@2021-01-13.yang"
+            ]
+          },
+          {
+            "name": "iana-if-type",
+            "revision": "2017-01-19",
+            "namespace": "urn:ietf:params:xml:ns:yang:iana-if-type",
+            "location": [
+              "file:///etc/sysrepo/yang/iana-if-type@2017-01-19.yang"
+            ]
+          },
+          {
+            "name": "ietf-routing",
+            "revision": "2018-03-13",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-routing",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-routing@2018-03-13.yang"
+            ],
+            "deviation": [
+              "czechlight-network"
+            ]
+          },
+          {
+            "name": "ietf-ipv4-unicast-routing",
+            "revision": "2018-03-13",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-ipv4-unicast-routing",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-ipv4-unicast-routing@2018-03-13.yang"
+            ]
+          },
+          {
+            "name": "ietf-ipv6-unicast-routing",
+            "revision": "2018-03-13",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-ipv6-unicast-routing",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-ipv6-unicast-routing@2018-03-13.yang"
+            ],
+            "submodule": [
+              {
+                "name": "ietf-ipv6-router-advertisements",
+                "revision": "2018-03-13",
+                "location": [
+                  "file:///etc/sysrepo/yang/ietf-ipv6-router-advertisements@2018-03-13.yang"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "czechlight-network",
+            "revision": "2021-02-22",
+            "namespace": "http://czechlight.cesnet.cz/yang/czechlight-network",
+            "location": [
+              "file:///etc/sysrepo/yang/czechlight-network@2021-02-22.yang"
+            ]
+          },
+          {
+            "name": "czechlight-firewall",
+            "revision": "2021-01-25",
+            "namespace": "http://czechlight.cesnet.cz/yang/czechlight-firewall",
+            "location": [
+              "file:///etc/sysrepo/yang/czechlight-firewall@2021-01-25.yang"
+            ]
+          },
+          {
+            "name": "ietf-access-control-list",
+            "revision": "2019-03-04",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-access-control-list",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-access-control-list@2019-03-04.yang"
+            ],
+            "feature": [
+              "match-on-eth",
+              "match-on-ipv4",
+              "match-on-ipv6",
+              "eth",
+              "ipv4",
+              "ipv6",
+              "mixed-eth-ipv4-ipv6"
+            ],
+            "deviation": [
+              "czechlight-firewall"
+            ]
+          }
+        ],
+        "import-only-module": [
+          {
+            "name": "ietf-yang-metadata",
+            "revision": "2016-08-05",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-metadata"
+          },
+          {
+            "name": "ietf-inet-types",
+            "revision": "2013-07-15",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-inet-types"
+          },
+          {
+            "name": "ietf-yang-types",
+            "revision": "2013-07-15",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-types"
+          },
+          {
+            "name": "ietf-ssh-common",
+            "revision": "2019-07-02",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-ssh-common",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-ssh-common@2019-07-02.yang"
+            ]
+          },
+          {
+            "name": "iana-crypt-hash",
+            "revision": "2014-08-06",
+            "namespace": "urn:ietf:params:xml:ns:yang:iana-crypt-hash",
+            "location": [
+              "file:///etc/sysrepo/yang/iana-crypt-hash@2014-08-06.yang"
+            ]
+          },
+          {
+            "name": "ietf-tls-common",
+            "revision": "2019-07-02",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-tls-common",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-tls-common@2019-07-02.yang"
+            ]
+          },
+          {
+            "name": "ietf-tcp-client",
+            "revision": "2019-07-02",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-client",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-tcp-client@2019-07-02.yang"
+            ]
+          },
+          {
+            "name": "ietf-tcp-server",
+            "revision": "2019-07-02",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-server",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-tcp-server@2019-07-02.yang"
+            ]
+          },
+          {
+            "name": "ietf-restconf",
+            "revision": "2017-01-26",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-restconf",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-restconf@2017-01-26.yang"
+            ]
+          },
+          {
+            "name": "ietf-yang-patch",
+            "revision": "2017-02-22",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-patch",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-yang-patch@2017-02-22.yang"
+            ]
+          },
+          {
+            "name": "opendevice-types",
+            "revision": "2017-10-08",
+            "namespace": "http://www.opendevice.net/yang/opendevice-types",
+            "location": [
+              "file:///etc/sysrepo/yang/opendevice-types@2017-10-08.yang"
+            ]
+          },
+          {
+            "name": "czechlight-roadm-common",
+            "revision": "2021-03-05",
+            "namespace": "http://czechlight.cesnet.cz/yang/czechlight-roadm-common",
+            "location": [
+              "file:///etc/sysrepo/yang/czechlight-roadm-common@2021-03-05.yang"
+            ]
+          },
+          {
+            "name": "iana-afn-safi",
+            "revision": "2013-07-04",
+            "namespace": "urn:ietf:params:xml:ns:yang:iana-afn-safi",
+            "location": [
+              "file:///etc/sysrepo/yang/iana-afn-safi@2013-07-04.yang"
+            ]
+          },
+          {
+            "name": "ietf-packet-fields",
+            "revision": "2019-03-04",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-packet-fields",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-packet-fields@2019-03-04.yang"
+            ]
+          },
+          {
+            "name": "ietf-ethertypes",
+            "revision": "2019-03-04",
+            "namespace": "urn:ietf:params:xml:ns:yang:ietf-ethertypes",
+            "location": [
+              "file:///etc/sysrepo/yang/ietf-ethertypes@2019-03-04.yang"
+            ]
+          }
+        ]
+      }
+    ],
+    "schema": [
+      {
+        "name": "complete",
+        "module-set": [
+          "complete"
+        ]
+      }
+    ],
+    "datastore": [
+      {
+        "name": "ietf-datastores:running",
+        "schema": "complete"
+      },
+      {
+        "name": "ietf-datastores:candidate",
+        "schema": "complete"
+      },
+      {
+        "name": "ietf-datastores:startup",
+        "schema": "complete"
+      },
+      {
+        "name": "ietf-datastores:operational",
+        "schema": "complete"
+      }
+    ],
+    "content-id": "1"
+  },
+  "ietf-yang-library:modules-state": {
+    "module-set-id": "1",
+    "module": [
+      {
+        "name": "ietf-yang-metadata",
+        "revision": "2016-08-05",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-metadata",
+        "conformance-type": "import"
+      },
+      {
+        "name": "yang",
+        "revision": "2021-04-07",
+        "namespace": "urn:ietf:params:xml:ns:yang:1",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-inet-types",
+        "revision": "2013-07-15",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-inet-types",
+        "conformance-type": "import"
+      },
+      {
+        "name": "ietf-yang-types",
+        "revision": "2013-07-15",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-types",
+        "conformance-type": "import"
+      },
+      {
+        "name": "ietf-yang-schema-mount",
+        "revision": "2019-01-14",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-schema-mount",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "sysrepo",
+        "revision": "2021-10-08",
+        "namespace": "http://www.sysrepo.org/yang/sysrepo",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-datastores",
+        "revision": "2018-02-14",
+        "schema": "file:///etc/sysrepo/yang/ietf-datastores@2018-02-14.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-datastores",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-yang-library",
+        "revision": "2019-01-04",
+        "schema": "file:///etc/sysrepo/yang/ietf-yang-library@2019-01-04.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-library",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-netconf-acm",
+        "revision": "2018-02-14",
+        "schema": "file:///etc/sysrepo/yang/ietf-netconf-acm@2018-02-14.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-acm",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "sysrepo-monitoring",
+        "revision": "2022-04-08",
+        "schema": "file:///etc/sysrepo/yang/sysrepo-monitoring@2022-04-08.yang",
+        "namespace": "http://www.sysrepo.org/yang/sysrepo-monitoring",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "sysrepo-plugind",
+        "revision": "2022-03-10",
+        "schema": "file:///etc/sysrepo/yang/sysrepo-plugind@2022-03-10.yang",
+        "namespace": "urn:sysrepo:plugind",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-netconf",
+        "revision": "2013-09-29",
+        "schema": "file:///etc/sysrepo/yang/ietf-netconf@2013-09-29.yang",
+        "namespace": "urn:ietf:params:xml:ns:netconf:base:1.0",
+        "feature": [
+          "writable-running",
+          "candidate",
+          "confirmed-commit",
+          "rollback-on-error",
+          "validate",
+          "startup",
+          "url",
+          "xpath"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-netconf-with-defaults",
+        "revision": "2011-06-01",
+        "schema": "file:///etc/sysrepo/yang/ietf-netconf-with-defaults@2011-06-01.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-netconf-notifications",
+        "revision": "2012-02-06",
+        "schema": "file:///etc/sysrepo/yang/ietf-netconf-notifications@2012-02-06.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-notifications",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-origin",
+        "revision": "2018-02-14",
+        "schema": "file:///etc/sysrepo/yang/ietf-origin@2018-02-14.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-origin",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-netconf-monitoring",
+        "revision": "2010-10-04",
+        "schema": "file:///etc/sysrepo/yang/ietf-netconf-monitoring@2010-10-04.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-netconf-nmda",
+        "revision": "2019-01-07",
+        "schema": "file:///etc/sysrepo/yang/ietf-netconf-nmda@2019-01-07.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-nmda",
+        "feature": [
+          "origin",
+          "with-defaults"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "nc-notifications",
+        "revision": "2008-07-14",
+        "schema": "file:///etc/sysrepo/yang/nc-notifications@2008-07-14.yang",
+        "namespace": "urn:ietf:params:xml:ns:netmod:notification",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "notifications",
+        "revision": "2008-07-14",
+        "schema": "file:///etc/sysrepo/yang/notifications@2008-07-14.yang",
+        "namespace": "urn:ietf:params:xml:ns:netconf:notification:1.0",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-x509-cert-to-name",
+        "revision": "2014-12-10",
+        "schema": "file:///etc/sysrepo/yang/ietf-x509-cert-to-name@2014-12-10.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-crypto-types",
+        "revision": "2019-07-02",
+        "schema": "file:///etc/sysrepo/yang/ietf-crypto-types@2019-07-02.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-crypto-types",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-keystore",
+        "revision": "2019-07-02",
+        "schema": "file:///etc/sysrepo/yang/ietf-keystore@2019-07-02.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-keystore",
+        "feature": [
+          "keystore-supported"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-truststore",
+        "revision": "2019-07-02",
+        "schema": "file:///etc/sysrepo/yang/ietf-truststore@2019-07-02.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-truststore",
+        "feature": [
+          "truststore-supported",
+          "x509-certificates"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-tcp-common",
+        "revision": "2019-07-02",
+        "schema": "file:///etc/sysrepo/yang/ietf-tcp-common@2019-07-02.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-common",
+        "feature": [
+          "keepalives-supported"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-ssh-server",
+        "revision": "2019-07-02",
+        "schema": "file:///etc/sysrepo/yang/ietf-ssh-server@2019-07-02.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-ssh-server",
+        "feature": [
+          "local-client-auth-supported"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-ssh-common",
+        "revision": "2019-07-02",
+        "schema": "file:///etc/sysrepo/yang/ietf-ssh-common@2019-07-02.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-ssh-common",
+        "conformance-type": "import"
+      },
+      {
+        "name": "iana-crypt-hash",
+        "revision": "2014-08-06",
+        "schema": "file:///etc/sysrepo/yang/iana-crypt-hash@2014-08-06.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:iana-crypt-hash",
+        "conformance-type": "import"
+      },
+      {
+        "name": "ietf-tls-server",
+        "revision": "2019-07-02",
+        "schema": "file:///etc/sysrepo/yang/ietf-tls-server@2019-07-02.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-tls-server",
+        "feature": [
+          "local-client-auth-supported"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-tls-common",
+        "revision": "2019-07-02",
+        "schema": "file:///etc/sysrepo/yang/ietf-tls-common@2019-07-02.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-tls-common",
+        "conformance-type": "import"
+      },
+      {
+        "name": "ietf-netconf-server",
+        "revision": "2019-07-02",
+        "schema": "file:///etc/sysrepo/yang/ietf-netconf-server@2019-07-02.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-netconf-server",
+        "feature": [
+          "ssh-listen",
+          "tls-listen",
+          "ssh-call-home",
+          "tls-call-home"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-tcp-client",
+        "revision": "2019-07-02",
+        "schema": "file:///etc/sysrepo/yang/ietf-tcp-client@2019-07-02.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-client",
+        "conformance-type": "import"
+      },
+      {
+        "name": "ietf-tcp-server",
+        "revision": "2019-07-02",
+        "schema": "file:///etc/sysrepo/yang/ietf-tcp-server@2019-07-02.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-tcp-server",
+        "conformance-type": "import"
+      },
+      {
+        "name": "ietf-interfaces",
+        "revision": "2018-02-20",
+        "schema": "file:///etc/sysrepo/yang/ietf-interfaces@2018-02-20.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-interfaces",
+        "deviation": [
+          {
+            "name": "czechlight-network",
+            "revision": "2021-02-22"
+          }
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-ip",
+        "revision": "2018-02-22",
+        "schema": "file:///etc/sysrepo/yang/ietf-ip@2018-02-22.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-ip",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-network-instance",
+        "revision": "2019-01-21",
+        "schema": "file:///etc/sysrepo/yang/ietf-network-instance@2019-01-21.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-network-instance",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-subscribed-notifications",
+        "revision": "2019-09-09",
+        "schema": "file:///etc/sysrepo/yang/ietf-subscribed-notifications@2019-09-09.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-subscribed-notifications",
+        "feature": [
+          "encode-xml",
+          "replay",
+          "subtree",
+          "xpath"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-restconf",
+        "revision": "2017-01-26",
+        "schema": "file:///etc/sysrepo/yang/ietf-restconf@2017-01-26.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-restconf",
+        "conformance-type": "import"
+      },
+      {
+        "name": "ietf-yang-push",
+        "revision": "2019-09-09",
+        "schema": "file:///etc/sysrepo/yang/ietf-yang-push@2019-09-09.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-push",
+        "feature": [
+          "on-change"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-yang-patch",
+        "revision": "2017-02-22",
+        "schema": "file:///etc/sysrepo/yang/ietf-yang-patch@2017-02-22.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-yang-patch",
+        "conformance-type": "import"
+      },
+      {
+        "name": "iana-hardware",
+        "revision": "2018-03-13",
+        "schema": "file:///etc/sysrepo/yang/iana-hardware@2018-03-13.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:iana-hardware",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-hardware",
+        "revision": "2018-03-13",
+        "schema": "file:///etc/sysrepo/yang/ietf-hardware@2018-03-13.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-hardware",
+        "feature": [
+          "hardware-sensor"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "czechlight-roadm-device",
+        "revision": "2021-03-05",
+        "schema": "file:///etc/sysrepo/yang/czechlight-roadm-device@2021-03-05.yang",
+        "namespace": "http://czechlight.cesnet.cz/yang/czechlight-roadm-device",
+        "feature": [
+          "hw-line-9"
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "opendevice-types",
+        "revision": "2017-10-08",
+        "schema": "file:///etc/sysrepo/yang/opendevice-types@2017-10-08.yang",
+        "namespace": "http://www.opendevice.net/yang/opendevice-types",
+        "conformance-type": "import"
+      },
+      {
+        "name": "czechlight-roadm-common",
+        "revision": "2021-03-05",
+        "schema": "file:///etc/sysrepo/yang/czechlight-roadm-common@2021-03-05.yang",
+        "namespace": "http://czechlight.cesnet.cz/yang/czechlight-roadm-common",
+        "conformance-type": "import"
+      },
+      {
+        "name": "ietf-system",
+        "revision": "2014-08-06",
+        "schema": "file:///etc/sysrepo/yang/ietf-system@2014-08-06.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-system",
+        "deviation": [
+          {
+            "name": "czechlight-system",
+            "revision": "2021-01-13"
+          }
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "czechlight-lldp",
+        "revision": "2020-11-04",
+        "schema": "file:///etc/sysrepo/yang/czechlight-lldp@2020-11-04.yang",
+        "namespace": "http://czechlight.cesnet.cz/yang/czechlight-lldp",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "iana-afn-safi",
+        "revision": "2013-07-04",
+        "schema": "file:///etc/sysrepo/yang/iana-afn-safi@2013-07-04.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:iana-afn-safi",
+        "conformance-type": "import"
+      },
+      {
+        "name": "czechlight-system",
+        "revision": "2021-01-13",
+        "schema": "file:///etc/sysrepo/yang/czechlight-system@2021-01-13.yang",
+        "namespace": "http://czechlight.cesnet.cz/yang/czechlight-system",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "iana-if-type",
+        "revision": "2017-01-19",
+        "schema": "file:///etc/sysrepo/yang/iana-if-type@2017-01-19.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:iana-if-type",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-routing",
+        "revision": "2018-03-13",
+        "schema": "file:///etc/sysrepo/yang/ietf-routing@2018-03-13.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-routing",
+        "deviation": [
+          {
+            "name": "czechlight-network",
+            "revision": "2021-02-22"
+          }
+        ],
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-ipv4-unicast-routing",
+        "revision": "2018-03-13",
+        "schema": "file:///etc/sysrepo/yang/ietf-ipv4-unicast-routing@2018-03-13.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-ipv4-unicast-routing",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-ipv6-unicast-routing",
+        "revision": "2018-03-13",
+        "schema": "file:///etc/sysrepo/yang/ietf-ipv6-unicast-routing@2018-03-13.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-ipv6-unicast-routing",
+        "conformance-type": "implement",
+        "submodule": [
+          {
+            "name": "ietf-ipv6-router-advertisements",
+            "revision": "2018-03-13",
+            "schema": "file:///etc/sysrepo/yang/ietf-ipv6-router-advertisements@2018-03-13.yang"
+          }
+        ]
+      },
+      {
+        "name": "czechlight-network",
+        "revision": "2021-02-22",
+        "schema": "file:///etc/sysrepo/yang/czechlight-network@2021-02-22.yang",
+        "namespace": "http://czechlight.cesnet.cz/yang/czechlight-network",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "czechlight-firewall",
+        "revision": "2021-01-25",
+        "schema": "file:///etc/sysrepo/yang/czechlight-firewall@2021-01-25.yang",
+        "namespace": "http://czechlight.cesnet.cz/yang/czechlight-firewall",
+        "conformance-type": "implement"
+      },
+      {
+        "name": "ietf-packet-fields",
+        "revision": "2019-03-04",
+        "schema": "file:///etc/sysrepo/yang/ietf-packet-fields@2019-03-04.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-packet-fields",
+        "conformance-type": "import"
+      },
+      {
+        "name": "ietf-ethertypes",
+        "revision": "2019-03-04",
+        "schema": "file:///etc/sysrepo/yang/ietf-ethertypes@2019-03-04.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-ethertypes",
+        "conformance-type": "import"
+      },
+      {
+        "name": "ietf-access-control-list",
+        "revision": "2019-03-04",
+        "schema": "file:///etc/sysrepo/yang/ietf-access-control-list@2019-03-04.yang",
+        "namespace": "urn:ietf:params:xml:ns:yang:ietf-access-control-list",
+        "feature": [
+          "match-on-eth",
+          "match-on-ipv4",
+          "match-on-ipv6",
+          "eth",
+          "ipv4",
+          "ipv6",
+          "mixed-eth-ipv4-ipv6"
+        ],
+        "deviation": [
+          {
+            "name": "czechlight-firewall",
+            "revision": "2021-01-25"
+          }
+        ],
+        "conformance-type": "implement"
+      }
+    ]
+  },
+  "nc-notifications:netconf": {
+    "streams": {
+      "stream": [
+        {
+          "name": "NETCONF",
+          "description": "Default NETCONF stream containing notifications from all the modules. Replays only notifications for modules (streams) that support replay.",
+          "replaySupport": true
+        },
+        {
+          "name": "ietf-yang-library",
+          "description": "Stream with all the notifications of a module.",
+          "replaySupport": false
+        },
+        {
+          "name": "ietf-netconf-notifications",
+          "description": "Stream with all the notifications of a module.",
+          "replaySupport": false
+        },
+        {
+          "name": "nc-notifications",
+          "description": "Stream with all the notifications of a module.",
+          "replaySupport": false
+        },
+        {
+          "name": "ietf-keystore",
+          "description": "Stream with all the notifications of a module.",
+          "replaySupport": false
+        },
+        {
+          "name": "ietf-truststore",
+          "description": "Stream with all the notifications of a module.",
+          "replaySupport": false
+        },
+        {
+          "name": "ietf-network-instance",
+          "description": "Stream with all the notifications of a module.",
+          "replaySupport": false
+        },
+        {
+          "name": "ietf-subscribed-notifications",
+          "description": "Stream with all the notifications of a module.",
+          "replaySupport": false
+        },
+        {
+          "name": "ietf-yang-push",
+          "description": "Stream with all the notifications of a module.",
+          "replaySupport": false
+        },
+        {
+          "name": "ietf-hardware",
+          "description": "Stream with all the notifications of a module.",
+          "replaySupport": false
+        },
+        {
+          "name": "czechlight-system",
+          "description": "Stream with all the notifications of a module.",
+          "replaySupport": false
+        }
+      ]
+    }
+  },
+  "sysrepo-monitoring:sysrepo-state": {
+    "module": [
+      {
+        "name": "yang"
+      },
+      {
+        "name": "ietf-yang-schema-mount",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ]
+      },
+      {
+        "name": "ietf-datastores"
+      },
+      {
+        "name": "ietf-yang-library",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ]
+      },
+      {
+        "name": "ietf-netconf-acm",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "change-sub": [
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-acm:nacm",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-acm:nacm/groups/group",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-acm:nacm/rule-list",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-acm:nacm/rule-list/rule",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            }
+          ],
+          "operational-sub": [
+            {
+              "xpath": "/ietf-netconf-acm:nacm/denied-operations",
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "xpath": "/ietf-netconf-acm:nacm/denied-data-writes",
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "xpath": "/ietf-netconf-acm:nacm/denied-notifications",
+              "cid": 5,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "sysrepo-monitoring",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "operational-sub": [
+            {
+              "xpath": "/sysrepo-monitoring:sysrepo-state/connection[cid='5']/nacm-stats",
+              "cid": 5,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "sysrepo-plugind",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ]
+      },
+      {
+        "name": "ietf-netconf"
+      },
+      {
+        "name": "ietf-netconf-with-defaults"
+      },
+      {
+        "name": "ietf-netconf-notifications"
+      },
+      {
+        "name": "ietf-origin"
+      },
+      {
+        "name": "ietf-netconf-monitoring",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "operational-sub": [
+            {
+              "xpath": "/ietf-netconf-monitoring:netconf-state",
+              "cid": 5,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "ietf-netconf-nmda"
+      },
+      {
+        "name": "nc-notifications",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "operational-sub": [
+            {
+              "xpath": "/nc-notifications:netconf",
+              "cid": 5,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "notifications"
+      },
+      {
+        "name": "ietf-x509-cert-to-name"
+      },
+      {
+        "name": "ietf-crypto-types"
+      },
+      {
+        "name": "ietf-keystore",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "change-sub": [
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-keystore:keystore/asymmetric-keys",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "ietf-truststore",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "change-sub": [
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-truststore:truststore/certificates",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "ietf-tcp-common"
+      },
+      {
+        "name": "ietf-ssh-server"
+      },
+      {
+        "name": "ietf-tls-server"
+      },
+      {
+        "name": "ietf-netconf-server",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "change-sub": [
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/listen/idle-timeout",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/listen/endpoint/ssh",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/listen/endpoint/ssh/tcp-server-parameters",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/listen/endpoint/ssh/ssh-server-parameters/server-identity/host-key/public-key/keystore-reference",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/listen/endpoint/ssh/ssh-server-parameters/client-authentication/supported-authentication-methods",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/listen/endpoint/tls",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/listen/endpoint/tls/tcp-server-parameters",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/listen/endpoint/tls/tls-server-parameters/server-identity/keystore-reference",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/listen/endpoint/tls/tls-server-parameters/client-authentication",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/listen/endpoint/tls/tls-server-parameters/client-authentication/cert-maps",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/connection-type",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/connection-type/periodic",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/reconnect-strategy",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/endpoints/endpoint/ssh",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/endpoints/endpoint/ssh/tcp-client-parameters",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/endpoints/endpoint/ssh/ssh-server-parameters/server-identity/host-key/public-key/keystore-reference",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/endpoints/endpoint/ssh/ssh-server-parameters/client-authentication/supported-authentication-methods",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/endpoints/endpoint/tls",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/endpoints/endpoint/tls/tcp-client-parameters",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/endpoints/endpoint/tls/tls-server-parameters/server-identity/keystore-reference",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/endpoints/endpoint/tls/tls-server-parameters/client-authentication",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-netconf-server:netconf-server/call-home/netconf-client/endpoints/endpoint/tls/tls-server-parameters/client-authentication/cert-maps",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            }
+          ],
+          "operational-sub": [
+            {
+              "xpath": "/ietf-netconf-server:netconf-server/listen/endpoint/ssh/ssh-server-parameters/client-authentication/users",
+              "cid": 5,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "ietf-interfaces",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "change-sub": [
+            {
+              "datastore": "ietf-datastores:startup",
+              "xpath": "/ietf-interfaces:interfaces",
+              "priority": 0,
+              "cid": 6,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-interfaces:interfaces",
+              "priority": 0,
+              "cid": 6,
+              "suspended": false
+            }
+          ],
+          "operational-sub": [
+            {
+              "xpath": "/ietf-interfaces:interfaces/interface/statistics",
+              "cid": 6,
+              "suspended": false
+            },
+            {
+              "xpath": "/ietf-interfaces:interfaces/interface/ietf-ip:ipv4/neighbor",
+              "cid": 6,
+              "suspended": false
+            },
+            {
+              "xpath": "/ietf-interfaces:interfaces/interface/ietf-ip:ipv6/neighbor",
+              "cid": 6,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "ietf-ip"
+      },
+      {
+        "name": "ietf-network-instance",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ]
+      },
+      {
+        "name": "ietf-subscribed-notifications",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "change-sub": [
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-subscribed-notifications:filters",
+              "priority": 0,
+              "cid": 5,
+              "suspended": false
+            }
+          ],
+          "operational-sub": [
+            {
+              "xpath": "/ietf-subscribed-notifications:streams",
+              "cid": 5,
+              "suspended": false
+            },
+            {
+              "xpath": "/ietf-subscribed-notifications:subscriptions",
+              "cid": 5,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "ietf-yang-push"
+      },
+      {
+        "name": "iana-hardware"
+      },
+      {
+        "name": "ietf-hardware",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "change-sub": [
+            {
+              "datastore": "ietf-datastores:running",
+              "priority": 0,
+              "cid": 3,
+              "suspended": false
+            }
+          ],
+          "operational-sub": [
+            {
+              "xpath": "/ietf-hardware:hardware/*",
+              "cid": 8,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "czechlight-roadm-device",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "change-sub": [
+            {
+              "datastore": "ietf-datastores:running",
+              "priority": 0,
+              "cid": 3,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:operational",
+              "priority": 0,
+              "cid": 7,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "ietf-system",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "change-sub": [
+            {
+              "datastore": "ietf-datastores:startup",
+              "xpath": "/ietf-system:system/hostname",
+              "priority": 0,
+              "cid": 6,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-system:system/hostname",
+              "priority": 0,
+              "cid": 6,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-system:system/location",
+              "priority": 0,
+              "cid": 6,
+              "suspended": false
+            },
+            {
+              "datastore": "ietf-datastores:running",
+              "xpath": "/ietf-system:system/contact",
+              "priority": 0,
+              "cid": 6,
+              "suspended": false
+            }
+          ],
+          "operational-sub": [
+            {
+              "xpath": "/ietf-system:system/hostname",
+              "cid": 6,
+              "suspended": false
+            },
+            {
+              "xpath": "/ietf-system:system-state/clock",
+              "cid": 6,
+              "suspended": false
+            },
+            {
+              "xpath": "/ietf-system:system/dns-resolver",
+              "cid": 6,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "czechlight-lldp",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "operational-sub": [
+            {
+              "xpath": "/czechlight-lldp:nbr-list",
+              "cid": 6,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "czechlight-system",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "operational-sub": [
+            {
+              "xpath": "/czechlight-system:firmware/*",
+              "cid": 6,
+              "suspended": false
+            },
+            {
+              "xpath": "/czechlight-system:authentication",
+              "cid": 6,
+              "suspended": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "iana-if-type"
+      },
+      {
+        "name": "ietf-routing",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ]
+      },
+      {
+        "name": "ietf-ipv4-unicast-routing"
+      },
+      {
+        "name": "ietf-ipv6-unicast-routing"
+      },
+      {
+        "name": "czechlight-network"
+      },
+      {
+        "name": "czechlight-firewall"
+      },
+      {
+        "name": "ietf-access-control-list",
+        "data-lock": [
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:running",
+            "mode": "read"
+          },
+          {
+            "cid": 10,
+            "datastore": "ietf-datastores:operational",
+            "mode": "read"
+          }
+        ],
+        "subscriptions": {
+          "change-sub": [
+            {
+              "datastore": "ietf-datastores:running",
+              "priority": 0,
+              "cid": 4,
+              "suspended": false
+            }
+          ]
+        }
+      }
+    ],
+    "rpc": [
+      {
+        "path": "/ietf-netconf:get-config",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:get-config",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf:edit-config",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:edit-config",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf:copy-config",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:copy-config",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf:delete-config",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:delete-config",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf:lock",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:lock",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf:unlock",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:unlock",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf:get",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:get",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf:kill-session",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:kill-session",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf:commit",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:commit",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf:discard-changes",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:discard-changes",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf:validate",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:validate",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf:cancel-commit",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf:cancel-commit",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf-nmda:get-data",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf-nmda:get-data",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-netconf-nmda:edit-data",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-netconf-nmda:edit-data",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/notifications:create-subscription",
+        "rpc-sub": [
+          {
+            "xpath": "/notifications:create-subscription",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-subscribed-notifications:establish-subscription",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-subscribed-notifications:establish-subscription",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-subscribed-notifications:modify-subscription",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-subscribed-notifications:modify-subscription",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-subscribed-notifications:delete-subscription",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-subscribed-notifications:delete-subscription",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-subscribed-notifications:kill-subscription",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-subscribed-notifications:kill-subscription",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-yang-push:resync-subscription",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-yang-push:resync-subscription",
+            "priority": 0,
+            "cid": 5,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/ietf-system:system-restart",
+        "rpc-sub": [
+          {
+            "xpath": "/ietf-system:system-restart",
+            "priority": 0,
+            "cid": 6,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/czechlight-system:firmware/installation/install",
+        "rpc-sub": [
+          {
+            "xpath": "/czechlight-system:firmware/installation/install",
+            "priority": 0,
+            "cid": 6,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/czechlight-system:authentication/users/change-password",
+        "rpc-sub": [
+          {
+            "xpath": "/czechlight-system:authentication/users/change-password",
+            "priority": 0,
+            "cid": 6,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/czechlight-system:authentication/users/add-authorized-key",
+        "rpc-sub": [
+          {
+            "xpath": "/czechlight-system:authentication/users/add-authorized-key",
+            "priority": 0,
+            "cid": 6,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/czechlight-system:authentication/users/authorized-keys/remove",
+        "rpc-sub": [
+          {
+            "xpath": "/czechlight-system:authentication/users/authorized-keys/remove",
+            "priority": 0,
+            "cid": 6,
+            "suspended": false
+          }
+        ]
+      },
+      {
+        "path": "/czechlight-system:leds/uid",
+        "rpc-sub": [
+          {
+            "xpath": "/czechlight-system:leds/uid",
+            "priority": 0,
+            "cid": 6,
+            "suspended": false
+          }
+        ]
+      }
+    ],
+    "connection": [
+      {
+        "cid": 10,
+        "pid": 691
+      },
+      {
+        "cid": 8,
+        "pid": 663
+      },
+      {
+        "cid": 7,
+        "pid": 628
+      },
+      {
+        "cid": 6,
+        "pid": 630
+      },
+      {
+        "cid": 5,
+        "pid": 631,
+        "nacm-stats": {
+          "denied-operations": 0,
+          "denied-data-writes": 0,
+          "denied-notifications": 0
+        }
+      },
+      {
+        "cid": 4,
+        "pid": 629
+      },
+      {
+        "cid": 3,
+        "pid": 626
+      }
+    ]
+  }
+}
