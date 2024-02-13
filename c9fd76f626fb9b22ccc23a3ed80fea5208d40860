@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae8cc187_ae632e2e",
+        "filename": ".eslintrc.cjs",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2024-02-13T16:41:49Z",
+      "side": 1,
+      "message": "This file is mixing spaces and tabs for indentation. Please consider reformatting the file so that it uses 2 spaces only.",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 2
+      },
+      "revId": "c9fd76f626fb9b22ccc23a3ed80fea5208d40860",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae0deea2_5a928f82",
+        "filename": ".eslintrc.cjs",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2024-02-13T16:41:49Z",
+      "side": 1,
+      "message": "I *think* that react ecosystem usually uses 2 (or 4) spaces indentation. Is this okay?",
+      "range": {
+        "startLine": 17,
+        "startChar": 2,
+        "endLine": 18,
+        "endChar": 18
+      },
+      "revId": "c9fd76f626fb9b22ccc23a3ed80fea5208d40860",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80b1c2a9_dada2412",
+        "filename": ".gitignore",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2024-02-13T16:41:49Z",
+      "side": 1,
+      "message": "I am not sure about this. We do not ignore these generic editor configs anywhere AFAIK, however, we of course do not commit them. Instead we handle this locally. Also, for instance, my editor config is not ignored by this.",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 5
+      },
+      "revId": "c9fd76f626fb9b22ccc23a3ed80fea5208d40860",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a09a0b23_d112f663",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2024-02-13T16:41:49Z",
+      "side": 1,
+      "message": "Jan asked me to go through this, so I am sending some specific comments but I think we should focus on some general parts first.\n\nFirst, thank you for the first patch! 🎉\n\nHowever, I don\u0027t think that this is an app boilerplate. There are many parts that are not boilerplates but pretty specific (channel plan view, hardware overview, etc.). We usually break commits into smaller parts. In this patch I think it might be a good idea to split it like this:\n\n - first commit will consist of of deleting the old app and setting up the JS app only (e.g. the supporting eslint and npm files, app with only the empty dashboard and nothing else)\n - next commit might add the yang fetches\n - then start adding screens one by one together with utils that are needed.\nAlso, please add new files only when needed, not \"in advance\", like the empty CSS file I see in this patch.\n\nAlso, I have several questions:\n\n* Is there any specific reason why you do not use typescript?\n* The indendation is not a big issue IMHO, but we should agree together on one specific formatting throughout whole project. I usually hate the 2 spaces indent that I see everywhere (I am a fan of 4 spaces) but isn\u0027t that a kind of \"standard\" in such apps?\n* Are you going to fetch the yang data from the external sources manually or are you planning to you react-query or something else?\n* What should the CI do? I presume eslint checks, try to build the app, run tests (when there are some) and also maybe publish the app somewhere.\n* Should we arrange a call to discuss all this?",
+      "revId": "c9fd76f626fb9b22ccc23a3ed80fea5208d40860",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e11b8b38_63393adf",
+        "filename": "vite.config.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2024-02-13T16:41:49Z",
+      "side": 1,
+      "message": "I think this comment can be removed :)",
+      "range": {
+        "startLine": 14,
+        "startChar": 41,
+        "endLine": 14,
+        "endChar": 58
+      },
+      "revId": "c9fd76f626fb9b22ccc23a3ed80fea5208d40860",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f8028ac_f2c92655",
+        "filename": "nghttpd@.service",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2024-02-13T16:41:49Z",
+      "side": 0,
+      "message": "I think we do not want to delete this file. This is supposed to be a config for the HTTP server serving this project.\n\nHowever, the project now uses react-router and I think we have to figure out if nghttpd has a configuration similar to try_files in nginx. Without that I don\u0027t think that accessing addresses like localhost/\u003cspecific-dashboard\u003e will work.",
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de600f20_3bc25df8",
+        "filename": "src/index.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2024-02-13T16:41:49Z",
+      "side": 0,
+      "message": "Do we need an empty css file? Let\u0027s add it later if we need it.",
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ed213e6_69fff546",
+        "filename": "src/utils/indentification.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2024-02-13T16:41:49Z",
+      "side": 0,
+      "message": "Let\u0027s add this when needed.",
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    }
+  ]
+}
