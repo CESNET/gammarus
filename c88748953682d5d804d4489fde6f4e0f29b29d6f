@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "acb450b8_30aa6256",
+        "filename": "ci/build.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2024-02-19T11:28:28Z",
+      "side": 0,
+      "message": "Thinking about this, I think we can just run npm ci \u0026\u0026 npm build into the WEBROOT directory here, can\u0027t we? That will provide us a working CI even in this commit.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 23
+      },
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1f8028ac_f2c92655",
         "filename": "nghttpd@.service",
         "patchSetId": 1
@@ -14,6 +37,23 @@
       "writtenOn": "2024-02-13T16:41:49Z",
       "side": 0,
       "message": "I think we do not want to delete this file. This is supposed to be a config for the HTTP server serving this project.\n\nHowever, the project now uses react-router and I think we have to figure out if nghttpd has a configuration similar to try_files in nginx. Without that I don\u0027t think that accessing addresses like localhost/\u003cspecific-dashboard\u003e will work.",
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf49bf7f_d1df09b4",
+        "filename": "nghttpd@.service",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2024-02-19T11:28:28Z",
+      "side": 0,
+      "message": "let\u0027s not touch this line in this commit. It might not be pretty but it is already there",
       "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     },

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9527ff9a_50dfa748",
+        "filename": "jsconfig.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2024-02-19T11:28:28Z",
+      "side": 1,
+      "message": "nit: whitespace errors here",
+      "revId": "8a61b59e96e90fb1d3c57fbb8264ce0d8297c711",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    }
+  ]
+}
