@@ -3,6 +3,86 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b73de38e_e0c2c984",
+        "filename": ".gitignore",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-20T16:21:03Z",
+      "side": 1,
+      "message": "This is a platform-specific file which belongs to your global git config.",
+      "revId": "8a61b59e96e90fb1d3c57fbb8264ce0d8297c711",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98ed6064_75c20151",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-20T16:21:03Z",
+      "side": 1,
+      "message": "nit: this is three levels of headlines for something which is, IMHO, better explained like [1] or [2].\n\n[1] https://github.com/CESNET/velia\n[2] https://github.com/CESNET/rousette",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 45
+      },
+      "revId": "8a61b59e96e90fb1d3c57fbb8264ce0d8297c711",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0fabd6b6_1e479740",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-20T16:21:03Z",
+      "side": 1,
+      "message": "nit: in markdown, please write one sentence per line so that the diffs are easier to read",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 380
+      },
+      "revId": "8a61b59e96e90fb1d3c57fbb8264ce0d8297c711",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79756d85_57f4b0fa",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-20T16:21:03Z",
+      "side": 1,
+      "message": "link to our instance, not to the upstream project",
+      "revId": "8a61b59e96e90fb1d3c57fbb8264ce0d8297c711",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9527ff9a_50dfa748",
         "filename": "jsconfig.json",
         "patchSetId": 2
@@ -14,6 +94,23 @@
       "writtenOn": "2024-02-19T11:28:28Z",
       "side": 1,
       "message": "nit: whitespace errors here",
+      "revId": "8a61b59e96e90fb1d3c57fbb8264ce0d8297c711",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf207cd4_fe02d796",
+        "filename": "package-lock.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-20T16:21:03Z",
+      "side": 1,
+      "message": "Since I\u0027m not a web developer, I\u0027m curious whenever I see a file with \u003e 8\u0027000 lines of stuff which was apparently machine-generated, and which looks like something that nobody is going to review, ever. What\u0027s the benefit of managing this in git? Feel free to point me to some docs.",
       "revId": "8a61b59e96e90fb1d3c57fbb8264ce0d8297c711",
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     }

@@ -126,6 +126,41 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a335dec4_cbf06835",
+        "filename": "nghttpd@.service",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-20T16:21:03Z",
+      "side": 0,
+      "message": "Also, this change appears to remove the trailing newline. Please don\u0027t do that; by default, text editors tend to scream if the last line doesn\u0027t end with a \\n.",
+      "parentUuid": "cf49bf7f_d1df09b4",
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab869610_a746b2f6",
+        "filename": "nghttpx.service",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-20T16:21:03Z",
+      "side": 0,
+      "message": "(same here -- don\u0027t touch unrelated files)",
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "de600f20_3bc25df8",
         "filename": "src/index.css",
         "patchSetId": 1
