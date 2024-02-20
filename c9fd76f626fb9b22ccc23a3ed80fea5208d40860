@@ -24,6 +24,30 @@
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5ab8039_9db90cbb",
+        "filename": ".eslintrc.cjs",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-20T15:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae8cc187_ae632e2e",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 2
+      },
+      "revId": "c9fd76f626fb9b22ccc23a3ed80fea5208d40860",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ae0deea2_5a928f82",
@@ -47,6 +71,30 @@
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce10fca2_4fa25177",
+        "filename": ".eslintrc.cjs",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-20T15:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae0deea2_5a928f82",
+      "range": {
+        "startLine": 17,
+        "startChar": 2,
+        "endLine": 18,
+        "endChar": 18
+      },
+      "revId": "c9fd76f626fb9b22ccc23a3ed80fea5208d40860",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "80b1c2a9_dada2412",
@@ -60,6 +108,30 @@
       "writtenOn": "2024-02-13T16:41:49Z",
       "side": 1,
       "message": "I am not sure about this. We do not ignore these generic editor configs anywhere AFAIK, however, we of course do not commit them. Instead we handle this locally. Also, for instance, my editor config is not ignored by this.",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 5
+      },
+      "revId": "c9fd76f626fb9b22ccc23a3ed80fea5208d40860",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa570b9f_f9d6e934",
+        "filename": ".gitignore",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-20T15:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "80b1c2a9_dada2412",
       "range": {
         "startLine": 15,
         "startChar": 0,
@@ -117,6 +189,30 @@
       "writtenOn": "2024-02-13T16:41:49Z",
       "side": 1,
       "message": "I think this comment can be removed :)",
+      "range": {
+        "startLine": 14,
+        "startChar": 41,
+        "endLine": 14,
+        "endChar": 58
+      },
+      "revId": "c9fd76f626fb9b22ccc23a3ed80fea5208d40860",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "edfa04b2_de6a959f",
+        "filename": "vite.config.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-20T15:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e11b8b38_63393adf",
       "range": {
         "startLine": 14,
         "startChar": 41,

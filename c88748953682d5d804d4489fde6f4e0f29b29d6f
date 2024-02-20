@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1ed14a5e_15eacd3f",
+        "filename": "ci/build.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-20T15:41:47Z",
+      "side": 0,
+      "message": "I am just not sure how zuul-ci works. I suppose with `build.sh` we also need to keep `zuul.yaml`. Can parent job `run-ci-build-sh-f38` handle nodejs and npm scripts? Is there any way I can verify this?",
+      "parentUuid": "acb450b8_30aa6256",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 23
+      },
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1f8028ac_f2c92655",
         "filename": "nghttpd@.service",
         "patchSetId": 1
@@ -37,6 +61,24 @@
       "writtenOn": "2024-02-13T16:41:49Z",
       "side": 0,
       "message": "I think we do not want to delete this file. This is supposed to be a config for the HTTP server serving this project.\n\nHowever, the project now uses react-router and I think we have to figure out if nghttpd has a configuration similar to try_files in nginx. Without that I don\u0027t think that accessing addresses like localhost/\u003cspecific-dashboard\u003e will work.",
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15394728_154b8758",
+        "filename": "nghttpd@.service",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-20T15:41:47Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "1f8028ac_f2c92655",
       "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     },
@@ -75,6 +117,24 @@
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9cd68386_6f650c8a",
+        "filename": "src/index.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-20T15:41:47Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "de600f20_3bc25df8",
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ed213e6_69fff546",
@@ -88,6 +148,24 @@
       "writtenOn": "2024-02-13T16:41:49Z",
       "side": 0,
       "message": "Let\u0027s add this when needed.",
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6480cc5_3523f1d1",
+        "filename": "src/utils/indentification.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-20T15:41:47Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "0ed213e6_69fff546",
       "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     }
