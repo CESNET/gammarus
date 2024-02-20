@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ad51cd7a_d1c3ce39",
+        "filename": "ci/build.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-20T15:51:02Z",
+      "side": 0,
+      "message": "Yes, the .zuul.yaml is required. The install script for the VM image is available here [1], but when in doubt, just give it a try. If there\u0027s a need to install some additional packages, it can be done via a simple Ansible playbook like this one [2] (which requires an appropriate `pre-run` statement similar to how it\u0027s done in [3]).\n\n[1] https://gerrit.cesnet.cz/plugins/gitiles/ci/ansible-cesnet/+/refs/heads/master/files/nodepool/install-f38.sh\n[2] https://github.com/CESNET/rousette/blob/master/ci/pre.yaml\n[3] https://github.com/CESNET/rousette/blob/master/.zuul.yaml",
+      "parentUuid": "1ed14a5e_15eacd3f",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 23
+      },
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1f8028ac_f2c92655",
         "filename": "nghttpd@.service",
         "patchSetId": 1
