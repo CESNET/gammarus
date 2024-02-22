@@ -74,6 +74,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ef09affa_e1959eb0",
+        "filename": "ci/build.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-22T10:32:41Z",
+      "side": 0,
+      "message": "I checked that the image has npm. So I think what Tomas suggests should work. I would like to try it. But I\u0027m not sure when CI runs. I\u0027m assuming after the merge to master. Is there any way to test it before merge?",
+      "parentUuid": "ad51cd7a_d1c3ce39",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 23
+      },
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1f8028ac_f2c92655",
         "filename": "nghttpd@.service",
         "patchSetId": 1

@@ -113,6 +113,24 @@
       "message": "Since I\u0027m not a web developer, I\u0027m curious whenever I see a file with \u003e 8\u0027000 lines of stuff which was apparently machine-generated, and which looks like something that nobody is going to review, ever. What\u0027s the benefit of managing this in git? Feel free to point me to some docs.",
       "revId": "8a61b59e96e90fb1d3c57fbb8264ce0d8297c711",
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "62e2fdcb_ec8d2310",
+        "filename": "package-lock.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-22T10:32:41Z",
+      "side": 1,
+      "message": "https://docs.npmjs.com/cli/v10/configuring-npm/package-lock-json",
+      "parentUuid": "bf207cd4_fe02d796",
+      "revId": "8a61b59e96e90fb1d3c57fbb8264ce0d8297c711",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     }
   ]
 }
