@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b6d7598_585186c7",
+        "filename": ".gitignore",
+        "patchSetId": 8
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-23T16:28:59Z",
+      "side": 1,
+      "message": "In case some of these logs are useful (are they?), they should be made available through the CI. It should be enough to simply copy them to ~/zuul-output/logs/ . Just let me know which of these are needed, where they are located, and I\u0027ll be happy to push an update which performs this copying.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 16
+      },
+      "revId": "0f4c298e9f9fb5b8e93ccad8256aff4523787496",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b71a1006_ee36e4e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-23T16:28:59Z",
+      "side": 1,
+      "message": "From the CI log snippet (https://object-store.cloud.muni.cz/swift/v1/ci-logs-public/30/6930/8/check/czechlight-gammarus-dashboard/34c9396/job-output.txt):\n\n2024-02-22 12:55:31.329309 | w | 1 high severity vulnerability\n2024-02-22 12:55:31.329314 | w |\n2024-02-22 12:55:31.329318 | w | To address all issues, run:\n2024-02-22 12:55:31.329321 | w |   npm audit fix\n\nThat brings a few questions:\n\n1) How did this happen?\n2) How serious it is?\n3) How come that the build still passes if it\u0027s indeed a serious error?\n\n(In the real life, nobody reads the logs unless the CI says \"boo boo\".)",
+      "revId": "0f4c298e9f9fb5b8e93ccad8256aff4523787496",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e3d08ea_60cd264b",
+        "filename": "index.html",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-23T16:28:59Z",
+      "side": 1,
+      "message": "the type says it\u0027s a SVG, but it\u0027s a PNG in fact",
+      "range": {
+        "startLine": 5,
+        "startChar": 21,
+        "endLine": 5,
+        "endChar": 61
+      },
+      "revId": "0f4c298e9f9fb5b8e93ccad8256aff4523787496",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    }
+  ]
+}

@@ -120,6 +120,30 @@
       "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e04ec62f_fb3779db",
+        "filename": "ci/build.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-23T16:28:59Z",
+      "side": 0,
+      "message": "congrats for your successful CI run :)",
+      "parentUuid": "f867d612_b4c08e74",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 23
+      },
+      "revId": "c88748953682d5d804d4489fde6f4e0f29b29d6f",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1f8028ac_f2c92655",
