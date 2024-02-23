@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "df8fb499_5c430c4b",
+        "filename": ".gitignore",
+        "patchSetId": 8
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-23T19:37:30Z",
+      "side": 1,
+      "message": "I think, there is no need to copy them. If there is a problem, we should see it in the `job-output.txt` file as in the case of a vulnerability.",
+      "parentUuid": "5b6d7598_585186c7",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 16
+      },
+      "revId": "0f4c298e9f9fb5b8e93ccad8256aff4523787496",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b71a1006_ee36e4e9",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 8
@@ -43,6 +67,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c1434ff9_b4c8c41f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-23T19:37:30Z",
+      "side": 1,
+      "message": "1) The problem was caused by the Vite package(build tool). When I first installed it on my device the error was not known yet. I haven\u0027t run npm install again since then. So I didn\u0027t see the problem\n2) Yeah, thats the main question. Many vulnerabilities reported by npm audit are not practically exploitable in certain project contexts. Vulnerabilities are often flagged in development dependencies or in scenarios where the vulnerability\u0027s exploit conditions are unlikely to be met, such as a package used in a way where the vulnerable part is not executed. So, this is often a false positive warning. The best way is to check vulnerability manually and evaluate risk.\n3) The npm install command doesn\u0027t stop running when it encounters vulnerabilities because its primary purpose is to install the specified packages along with their dependencies as defined in the package.json and package-lock.json file.\n\nFor auditing packages there is a tool npm audit. Usually, running `npm audit fix` do the job. Like in this case. The best way is to check for vulnerabilities manually and evaluate what needs to be patched and what doesn\u0027t. Automatic patching is not always reliable. It may install an incompatible dependency.",
+      "parentUuid": "b71a1006_ee36e4e9",
+      "revId": "0f4c298e9f9fb5b8e93ccad8256aff4523787496",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5e3d08ea_60cd264b",
         "filename": "index.html",
         "patchSetId": 8
@@ -54,6 +96,30 @@
       "writtenOn": "2024-02-23T16:28:59Z",
       "side": 1,
       "message": "the type says it\u0027s a SVG, but it\u0027s a PNG in fact",
+      "range": {
+        "startLine": 5,
+        "startChar": 21,
+        "endLine": 5,
+        "endChar": 61
+      },
+      "revId": "0f4c298e9f9fb5b8e93ccad8256aff4523787496",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03faab92_d5414173",
+        "filename": "index.html",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-02-23T19:37:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e3d08ea_60cd264b",
       "range": {
         "startLine": 5,
         "startChar": 21,
