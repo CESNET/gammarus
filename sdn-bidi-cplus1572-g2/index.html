@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3"></script>
+        <title>Bidi Amplifier</title>
+        <style>
+            .error-message {
+                display: block;
+                transform: translate(-50%, -50%);
+                position: absolute;
+                top: 35%;
+                left: 50%;
+                text-align: center;
+                color: red;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bidi Amplifier</h1>
+        <div style="position: relative; width: 55%; height: 95%;">
+            <span class="error-message" id="error"></span>
+            <canvas id="canvasPowerCBand"></canvas>
+            <canvas id="canvasPower1572"></canvas>
+        </div>
+        <script src="graphs.js"></script>
+    </body>
+</html>
