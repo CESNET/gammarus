@@ -1,0 +1,23 @@
+{
+  "czechlight-bidi-amp:c-band": {
+    "pump": "70.0",
+    "east-to-west": {
+      "input-power": "-37.35",
+      "output-power": "-31.8"
+    },
+    "west-to-east": {
+      "input-power": "-27.03",
+      "output-power": "-28.32"
+    }
+  },
+  "czechlight-bidi-amp:narrow-1572": {
+    "east-to-west": {
+      "input-power": "-47.97",
+      "output-power": "-34.43"
+    },
+    "west-to-east": {
+      "input-power": "-55.69",
+      "output-power": "-35.79"
+    }
+  }
+}
