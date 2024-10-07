@@ -10,7 +10,7 @@ install-services: $(wildcard *.service)
 	cp $^ $(DESTDIR)$(PREFIX)/lib/systemd/system/
 	$(foreach unit,$(call not-containing,@,$^),ln -sf ../$(unit) $(DESTDIR)$(PREFIX)/lib/systemd/system/multi-user.target.wants/;)
 
-install-static-files: sdn-roadm-line sdn-roadm-add-drop sdn-roadm-hires-add-drop sdn-roadm-coherent-a-d sdn-inline sdn-roadm-line-g2 sdn-roadm-add-drop-g2 sdn-roadm-hires-add-drop-g2 sdn-roadm-coherent-a-d sdn-inline-g2 sdn-bidi-cplus1572-g2 sdn-bidi-cplus1572-ocm-g2
+install-static-files: sdn-roadm-line-g2 sdn-roadm-add-drop-g2 sdn-roadm-hires-add-drop-g2 sdn-roadm-coherent-a-d sdn-inline-g2 sdn-bidi-cplus1572-g2 sdn-bidi-cplus1572-ocm-g2
 	mkdir -p $(DESTDIR)$(PREFIX)/share/gammarus/static/
 	mkdir -p $(DESTDIR)$(PREFIX)/lib/systemd/system/multi-user.target.wants/
 	$(foreach device,$^,cp -a $(device) $(DESTDIR)$(PREFIX)/share/gammarus/static/;)
