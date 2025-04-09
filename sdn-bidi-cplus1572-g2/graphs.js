@@ -51,9 +51,12 @@ const updateBarGraph = (chart, canvas, band, data) => {
         const westToEast = data["czechlight-bidi-amp:" + band]["west-to-east"];
 
         chart.data.datasets[0].data[0][1] = westToEast["input-power"];
-        chart.data.datasets[0].data[1][1] = eastToWest["input-power"];
+        chart.data.datasets[0].data[2][1] = eastToWest["input-power"];
         chart.data.datasets[1].data[0][1] = eastToWest["output-power"];
-        chart.data.datasets[1].data[1][1] = westToEast["output-power"];
+        chart.data.datasets[1].data[2][1] = westToEast["output-power"];
+
+        chart.data.datasets[2].data[1][1] = data["czechlight-bidi-amp:" + band]["pump"];
+        chart.data.datasets[3].data[1][1] = data["czechlight-bidi-amp:" + band]["real-pump-current"];
 
         chart.update();
         canvas.style.backgroundColor = "rgba(255,0,0,0)";
@@ -113,8 +116,44 @@ const main = async () => {
                     },
                     stacked: false,
                 },
+                {
+                    id: 'pump-current',
+                    position: 'right',
+                    type: 'logarithmic',
+                    scaleLabel: {
+                        display: true,
+                        labelString: "Current",
+                    },
+                    gridLines: {
+                        display: false,
+                    },
+                    ticks: {
+                        maxRotation: 0,
+                        min: 0,
+                        max: 1000,
+                        beginAtZero: true,
+                        callback: function (value, index, values) {
+                            switch (value) {
+                                case 1:
+                                case 2:
+                                case 5:
+                                case 10:
+                                case 20:
+                                case 50:
+                                case 100:
+                                case 200:
+                                case 500:
+                                    return value + " mA";
+                                case 1000:
+                                    return "1 A";
+                            }
+                            return null;
+                        },
+                    },
+                }
             ],
         },
+        skipNull: true, // FIXME: this doesn't work in Charts.js 2.9.x
     }
 
     const chartPowerCBand = new Chart(canvasPowerCBand, {
@@ -122,20 +161,32 @@ const main = async () => {
         data: {
             labels: [
                 "West",
+                "Pump",
                 "East",
             ],
             datasets: [
                 {
                     label: "Input @ C-band",
                     backgroundColor: "SteelBlue",
-                    data: [[LOW, LOW], [LOW, LOW], ],
+                    data: [[LOW, LOW], [], [LOW, LOW], ],
                 },
                 {
                     label: "Output @ C-band",
                     backgroundColor: "DarkOliveGreen",
-                    data: [[LOW, LOW], [LOW, LOW], ],
+                    data: [[LOW, LOW], [], [LOW, LOW], ],
                 },
-
+                {
+                    label: "Configured Current",
+                    backgroundColor: "LightCoral",
+                    data: [[], [0, 0], []],
+                    yAxisID: 'pump-current',
+                },
+                {
+                    label: "Actual Current",
+                    backgroundColor: "FireBrick",
+                    data: [[], [0, 0], []],
+                    yAxisID: 'pump-current',
+                },
             ],
         },
         options: graphOptions
@@ -145,20 +196,32 @@ const main = async () => {
         data: {
             labels: [
                 "West",
+                "Pump",
                 "East",
             ],
             datasets: [
                 {
                     label: "Input @ 1572nm",
                     backgroundColor: "DodgerBlue",
-                    data: [[LOW, LOW], [LOW, LOW], ],
+                    data: [[LOW, LOW], [], [LOW, LOW], ],
                 },
                 {
                     label: "Output @ 1572nm",
                     backgroundColor: "OliveDrab",
-                    data: [[LOW, LOW], [LOW, LOW], ],
+                    data: [[LOW, LOW], [], [LOW, LOW], ],
                 },
-
+                {
+                    label: "Configured Current",
+                    backgroundColor: "LightCoral",
+                    data: [[], [0, 0], [], ],
+                    yAxisID: 'pump-current',
+                },
+                {
+                    label: "Actual Current",
+                    backgroundColor: "FireBrick",
+                    data: [[], [0, 0], [], ],
+                    yAxisID: 'pump-current',
+                },
             ],
         },
         options: graphOptions
