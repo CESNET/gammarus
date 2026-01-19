@@ -1,154 +1,156 @@
 {
-  "czechlight-coherent-add-drop:client-ports": [
-    {
-      "port": 1,
-      "add": {
-        "critical-low": {
-          "level": "-30.0"
-        },
-        "warning-low": {
-          "level": "-15.0"
-        },
-        "warning-high": {
-          "level": "3.0"
-        },
-        "critical-high": {
-          "level": "5.0"
-        }
-      },
-      "description": "Cassini",
-      "input-power": "-1.63"
-    },
-    {
-      "port": 2,
-      "add": {
-        "critical-low": {
-          "level": "-30.0"
-        },
-        "warning-low": {
-          "level": "-15.0"
-        },
-        "warning-high": {
-          "level": "3.0"
-        },
-        "critical-high": {
-          "level": "5.0"
-        }
-      },
-      "input-power": "-55.0"
-    },
-    {
-      "port": 3,
-      "add": {
-        "critical-low": {
-          "level": "-30.0"
-        },
-        "warning-low": {
-          "level": "-15.0"
-        },
-        "warning-high": {
-          "level": "3.0"
-        },
-        "critical-high": {
-          "level": "5.0"
-        }
-      },
-      "input-power": "-55.0"
-    },
-    {
-      "port": 4,
-      "add": {
-        "critical-low": {
-          "level": "-30.0"
-        },
-        "warning-low": {
-          "level": "-15.0"
-        },
-        "warning-high": {
-          "level": "3.0"
-        },
-        "critical-high": {
-          "level": "5.0"
-        }
-      },
-      "input-power": "-55.0"
-    },
-    {
-      "port": 5,
-      "add": {
-        "critical-low": {
-          "level": "-30.0"
-        },
-        "warning-low": {
-          "level": "-15.0"
-        },
-        "warning-high": {
-          "level": "3.0"
-        },
-        "critical-high": {
-          "level": "5.0"
-        }
-      },
-      "input-power": "-55.0"
-    },
-    {
-      "port": 6,
-      "add": {
-        "critical-low": {
-          "level": "-30.0"
-        },
-        "warning-low": {
-          "level": "-15.0"
-        },
-        "warning-high": {
-          "level": "3.0"
-        },
-        "critical-high": {
-          "level": "5.0"
-        }
-      },
-      "input-power": "-55.0"
-    },
-    {
-      "port": 7,
-      "add": {
-        "critical-low": {
-          "level": "-30.0"
-        },
-        "warning-low": {
-          "level": "-15.0"
-        },
-        "warning-high": {
-          "level": "3.0"
-        },
-        "critical-high": {
-          "level": "5.0"
-        }
-      },
-      "input-power": "-55.0"
-    },
-    {
-      "port": 8,
-      "add": {
-        "critical-low": {
-          "level": "-30.0"
-        },
-        "warning-low": {
-          "level": "-15.0"
-        },
-        "warning-high": {
-          "level": "3.0"
-        },
-        "critical-high": {
-          "level": "5.0"
-        }
-      },
-      "input-power": "-55.0"
-    }
-  ],
   "czechlight-coherent-add-drop:aggregate-power": {
-    "drop": "-4.62",
     "express-in": "-10.44",
-    "express-out": "-1.41"
+    "express-out": "-1.41",
+    "drop": "-4.62"
+  },
+  "czechlight-coherent-add-drop:client-ports": {
+    "port": [
+      {
+        "port": 1,
+        "add": {
+          "critical-low": {
+            "level": "-30.0"
+          },
+          "warning-low": {
+            "level": "-15.0"
+          },
+          "warning-high": {
+            "level": "3.0"
+          },
+          "critical-high": {
+            "level": "5.0"
+          }
+        },
+	"description": "Cassini",
+        "input-power": "-1.63"
+      },
+      {
+        "port": 2,
+        "add": {
+          "critical-low": {
+            "level": "-30.0"
+          },
+          "warning-low": {
+            "level": "-15.0"
+          },
+          "warning-high": {
+            "level": "3.0"
+          },
+          "critical-high": {
+            "level": "5.0"
+          }
+        },
+        "input-power": "-55.0"
+      },
+      {
+        "port": 3,
+        "add": {
+          "critical-low": {
+            "level": "-30.0"
+          },
+          "warning-low": {
+            "level": "-15.0"
+          },
+          "warning-high": {
+            "level": "3.0"
+          },
+          "critical-high": {
+            "level": "5.0"
+          }
+        },
+        "input-power": "-55.0"
+      },
+      {
+        "port": 4,
+        "add": {
+          "critical-low": {
+            "level": "-30.0"
+          },
+          "warning-low": {
+            "level": "-15.0"
+          },
+          "warning-high": {
+            "level": "3.0"
+          },
+          "critical-high": {
+            "level": "5.0"
+          }
+        },
+        "input-power": "-55.0"
+      },
+      {
+        "port": 5,
+        "add": {
+          "critical-low": {
+            "level": "-30.0"
+          },
+          "warning-low": {
+            "level": "-15.0"
+          },
+          "warning-high": {
+            "level": "3.0"
+          },
+          "critical-high": {
+            "level": "5.0"
+          }
+        },
+        "input-power": "-55.0"
+      },
+      {
+        "port": 6,
+        "add": {
+          "critical-low": {
+            "level": "-30.0"
+          },
+          "warning-low": {
+            "level": "-15.0"
+          },
+          "warning-high": {
+            "level": "3.0"
+          },
+          "critical-high": {
+            "level": "5.0"
+          }
+        },
+        "input-power": "-55.0"
+      },
+      {
+        "port": 7,
+        "add": {
+          "critical-low": {
+            "level": "-30.0"
+          },
+          "warning-low": {
+            "level": "-15.0"
+          },
+          "warning-high": {
+            "level": "3.0"
+          },
+          "critical-high": {
+            "level": "5.0"
+          }
+        },
+        "input-power": "-55.0"
+      },
+      {
+        "port": 8,
+        "add": {
+          "critical-low": {
+            "level": "-30.0"
+          },
+          "warning-low": {
+            "level": "-15.0"
+          },
+          "warning-high": {
+            "level": "3.0"
+          },
+          "critical-high": {
+            "level": "5.0"
+          }
+        },
+        "input-power": "-55.0"
+      }
+    ]
   }
 }
