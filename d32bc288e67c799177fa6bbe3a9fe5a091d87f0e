@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "669a2ba6_c360e3c4",
+        "filename": "dummy/sdn-roadm-coherent-a-d/dummy-data-czechlight-coherent-add-drop.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000070
+      },
+      "writtenOn": "2026-01-19T15:00:22Z",
+      "side": 1,
+      "message": "nit: ws error",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 1
+      },
+      "revId": "d32bc288e67c799177fa6bbe3a9fe5a091d87f0e",
+      "serverId": "e32f8df8-3db0-4f76-a6c6-fe9d6e69dd68"
+    }
+  ]
+}
