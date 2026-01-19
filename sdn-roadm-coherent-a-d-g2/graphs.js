@@ -46,7 +46,7 @@ const showError = (message) => {
 const updateGraph = (chart, data) => {
     try {
         const aggData = data["czechlight-coherent-add-drop:aggregate-power"];
-        const leafData = data["czechlight-coherent-add-drop:client-ports"];
+        const leafData = data["czechlight-coherent-add-drop:client-ports"]["port"];
 
         chart.data.datasets[0].data[0][1] = aggData["express-out"];
         chart.data.datasets[1].data[0][1] = aggData["express-in"];
