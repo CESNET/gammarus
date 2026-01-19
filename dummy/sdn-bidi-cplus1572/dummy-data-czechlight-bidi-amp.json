@@ -1,7 +1,9 @@
 {
   "czechlight-bidi-amp:c-band": {
-    "pump": "70.0",
-    "real-pump-current": "69.9",
+    "pump": {
+      "manual-current": "30.0",
+      "measured-current": "29.9"
+    },
     "east-to-west": {
       "input-power": "-37.35",
       "output-power": "-31.8"
@@ -12,8 +14,10 @@
     }
   },
   "czechlight-bidi-amp:narrow-1572": {
-    "pump": "disabled",
-    "real-pump-current": "0.0",
+    "pump": {
+      "manual-current": "84.0",
+      "measured-current": "83.9"
+    },
     "east-to-west": {
       "input-power": "-52.26",
       "output-power": "-30.65"

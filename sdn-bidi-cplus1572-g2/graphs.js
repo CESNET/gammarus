@@ -55,8 +55,8 @@ const updateBarGraph = (chart, canvas, band, data) => {
         chart.data.datasets[1].data[0][1] = eastToWest["output-power"];
         chart.data.datasets[1].data[2][1] = westToEast["output-power"];
 
-        chart.data.datasets[2].data[1][1] = data["czechlight-bidi-amp:" + band]["pump"];
-        chart.data.datasets[3].data[1][1] = data["czechlight-bidi-amp:" + band]["real-pump-current"];
+        chart.data.datasets[2].data[1][1] = data["czechlight-bidi-amp:" + band]["pump"]["manual-current"];
+        chart.data.datasets[3].data[1][1] = data["czechlight-bidi-amp:" + band]["pump"]["measured-current"];
 
         chart.update();
         canvas.style.backgroundColor = "rgba(255,0,0,0)";

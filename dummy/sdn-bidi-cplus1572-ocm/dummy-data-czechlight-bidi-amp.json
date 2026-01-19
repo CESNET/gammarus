@@ -1,6 +1,9 @@
 {
   "czechlight-bidi-amp:c-band": {
-    "pump": "70.0",
+    "pump": {
+      "manual-current": "30.0",
+      "measured-current": "29.9"
+    },
     "east-to-west": {
       "input-power": "-36.52",
       "output-power": "-0.28",
